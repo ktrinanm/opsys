@@ -512,4 +512,104 @@ cat [38;5;81m$1[m [93m>>[m [38;5;81m$2[m
 [94m~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll"text2htmlv2" 7L, 119C[1;1HP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12l[?25h[?25l[24;63H2,0-1[2;1H[?12l[?25h[?25l[24;63H3,1  [3;1H[?12l[?25h[?25l[24;65H2[3;2H[?12l[?25h[?25l[24;65H3[3;3H[?12l[?25h[?25l[24;65H4[3;4H[?12l[?25h[?25l[24;65H5[3;5H[?12l[?25h[?25l[24;65H6[3;6H[?12l[?25h[?25l[24;65H7[3;7H[?12l[?25h[?25l[24;65H8[3;8H[?12l[?25h[?25l[24;65H9[3;9H[?12l[?25h[?25l[24;65H10[3;10H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H3,10[10CAll[3;10H[?12l[?25h[?25l[96mltext2html input.txt output.html[m[24;66H1[3;11H[?12l[?25h[?25l[96mstext2html input.txt output.html[m[24;66H2[3;12H[?12l[?25h[?25l[96m text2html input.txt output.html[m[24;66H3[3;13H[?12l[?25h[?25l[96m-text2html input.txt output.html[m[24;66H4[3;14H[?12l[?25h[?25l[96matext2html input.txt output.html[m[24;66H5[3;15H[?12l[?25h[?25l[96mltext2html input.txt output.html[m[24;66H6[3;16H[?12l[?25h[?25l[96m text2html input.txt output.html[m[24;66H7[3;17H[?12l[?25h[?25l[96m}text2html input.txt output.html[m[24;66H8[3;18H[?12l[?25h[?25l[96mtext2html input.txt output.html[m[3;48H[K[24;66H7[3;17H[?12l[?25h[?25l[96m|text2html input.txt output.html[m[24;66H8[3;18H[?12l[?25h[?25l[96m text2html input.txt output.html[m[24;66H9[3;19H[?12l[?25h[24;1H[K[3;18H[?25l[24;63H3,18[10CAll[3;18H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;63H[K[24;63H3,50[10CAll[3;50H[?12l[?25h[?25l[3;49H[K[24;65H49[3;49H[?12l[?25h[?25l[3;48H[K[24;66H8[3;48H[?12l[?25h[?25l[3;47H[K[24;66H7[3;47H[?12l[?25h[?25l[3;46H[K[24;66H6[3;46H[?12l[?25h[?25l[3;45H[K[24;66H5[3;45H[?12l[?25h[?25l[3;44H[K[24;66H4[3;44H[?12l[?25h[?25l[3;43H[K[24;66H3[3;43H[?12l[?25h[?25l[3;42H[K[24;66H2[3;42H[?12l[?25h[?25l[3;41H[K[24;66H1[3;41H[?12l[?25h[?25l[3;40H[K[24;66H0[3;40H[?12l[?25h[?25l[3;39H[K[24;65H39[3;39H[?12l[?25h[?25l[3;38H[K[24;66H8[3;38H[?12l[?25h[?25l[3;37H[K[24;66H7[3;37H[?12l[?25h[?25l[3;36H[K[24;66H6[3;36H[?12l[?25h[?25l[3;35H[K[24;66H5[3;35H[?12l[?25h[?25l[3;34H[K[24;66H4[3;34H[?12l[?25h[?25l[3;33H[K[24;66H3[3;33H[?12l[?25h[?25l[3;32H[K[24;66H2[3;32H[?12l[?25h[?25l[3;31H[K[24;66H1[3;31H[?12l[?25h[?25l[3;30H[K[24;66H0[3;30H[?12l[?25h[?25l[3;29H[K[24;65H29[3;29H[?12l[?25h[?25l[3;28H[K[24;66H8[3;28H[?12l[?25h[?25l[96mv[m[24;66H9[3;29H[?12l[?25h[?25l[96m2[m[24;65H30[3;30H[?12l[?25h[24;1H[K[3;29H[?25l[24;63H3,29[10CAll[3;29H[?12l[?25h[?25l[24;63H4,0-1[4;1H[?12l[?25h[?25l[24;63H5,23 [5;23H[?12l[?25h[?25l[24;66H2[5;22H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;63H[K[24;63H5,24[10CAll[5;24H[?12l[?25h[?25l$[5;23H[K[24;66H3[5;23H[?12l[?25h[?25l[5;22H[K[24;66H2[5;22H[?12l[?25h[?25lo[24;66H3[5;23H[?12l[?25h[?25lu[24;66H4[5;24H[?12l[?25h[?25lt[24;66H5[5;25H[?12l[?25h[?25l.[24;66H6[5;26H[?12l[?25h[?25lt[24;66H7[5;27H[?12l[?25h[?25l[5;26H[K[24;66H6[5;26H[?12l[?25h[?25lh[24;66H7[5;27H[?12l[?25h[?25lt[24;66H8[5;28H[?12l[?25h[?25lm[24;66H9[5;29H[?12l[?25h[?25ll[24;65H30[5;30H[?12l[?25h[24;1H[K[5;29H[?25l[24;63H5,29[10CAll[5;29H[?12l[?25h[?25l[24;63H6,12[6;12H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;63H[K[24;63H6,13[10CAll[6;13H[?12l[?25h[?25l$[6;12H[K[24;66H2[6;12H[?12l[?25h[?25l[6;11H[K[24;66H1[6;11H[?12l[?25h[?25lo[24;66H2[6;12H[?12l[?25h[?25lu[24;66H3[6;13H[?12l[?25h[?25lt[24;66H4[6;14H[?12l[?25h[?25l.[24;66H5[6;15H[?12l[?25h[?25lh[24;66H6[6;16H[?12l[?25h[?25lt[24;66H7[6;17H[?12l[?25h[?25lm[24;66H8[6;18H[?12l[?25h[?25ll[24;66H9[6;19H[?12l[?25h[24;1H[K[6;18H[?25l[24;63H6,18[10CAll[6;18H[?12l[?25h[?25l[24;66H7[6;17H[?12l[?25h[?25l[24;66H6[6;16H[?12l[?25h[?25l[24;66H5[6;15H[?12l[?25h[?25l[24;63H5[5;15H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;63H[K[24;63H5,30[10CAll[5;30H[?12l[?25h[?25l[6;23r[6;1H[L[1;24r[24;63H[K[24;63H6,1[11CAll[6;1H[?12l[?25h[?25l[93mr[m[24;65H2[6;2H[?12l[?25h[?25lre[24;65H3[6;3H[?12l[?25h[?25la[24;65H4[6;4H[?12l[?25h[?25l[93mread[m[24;65H5[6;5H[?12l[?25h[?25lrea[6;4H[K[24;65H4[6;4H[?12l[?25h[?25l[6;3H[K[24;65H3[6;3H[?12l[?25h[?25l[93mr[m[6;2H[K[24;65H2[6;2H[?12l[?25h[?25l[6;1H[K[24;65H1[6;1H[?12l[?25h[?25lw[24;65H2[6;2H[?12l[?25h[?25lh[24;65H3[6;3H[?12l[?25h[?25li[24;65H4[6;4H[?12l[?25h[?25ll[24;65H5[6;5H[?12l[?25h[?25l[93mwhile
 cat [2C >> out.html[8;24H [m[24;65H6[6;6H[?12l[?25h[?25l[93m [m[24;65H7[6;7H[?12l[?25h[?25l[93mr[m[24;65H8[6;8H[?12l[?25h[?25l[93me[m[24;65H9[6;9H[?12l[?25h[?25l[93ma[m[24;65H10[6;10H[?12l[?25h[?25l[93md[m[24;66H1[6;11H[?12l[?25h[?25l[93m [m[24;66H2[6;12H[?12l[?25h[?25l[93mL[m[24;66H3[6;13H[?12l[?25h[?25l[93mI[m[24;66H4[6;14H[?12l[?25h[?25l[93mN[m[24;66H5[6;15H[?12l[?25h[?25l[93mE[m[24;66H6[6;16H[?12l[?25h[?25l[93m;[m[24;66H7[6;17H[?12l[?25h[?25l[93m [m[24;66H8[6;18H[?12l[?25h[?25l[93md[m[24;66H9[6;19H[?12l[?25h[?25l[93mo[m
 cat [2C [2C out.html[8;24H [24;65H20[6;20H[?12l[?25h[?25l[24;66H1[6;21H[?12l[?25h[?25l[7;23r[7;1H[L[1;24r[24;63H[K[24;63H7,1[11CAll[7;1H[?12l[?25h[?25l[24;65H2-9[7;9H[?12l[?25h[?25le[24;65H3-10[7;10H[?12l[?25h[?25lc[24;65H4-11[7;11H[?12l[?25h[?25lh[24;65H5-12[7;12H[?12l[?25h[?25l[93mecho[m[24;65H6-13[7;13H[?12l[?25h[?25l[95m [m[24;65H7-14[7;14H[?12l[?25h[?25l[95m$[m[24;65H8-15[7;15H[?12l[?25h[?25l[38;5;81m$L[m[24;65H9-16[7;16H[?12l[?25h[?25l[38;5;81mI[m[24;65H10-17[7;17H[?12l[?25h[?25l[38;5;81mN[m[24;66H1-18[7;18H[?12l[?25h[?25l[38;5;81mE[m[24;66H2-19[7;19H[?12l[?25h[?25l[95m [m[24;66H3-20[7;20H[?12l[?25h[?25l[93m>[m[24;66H4-21[7;21H[?12l[?25h[?25l[93m>[m[24;66H5-22[7;22H[?12l[?25h[?25l[24;66H6-23[7;23H[?12l[?25h[?25lo[24;66H7-24[7;24H[?12l[?25h[?25lu[24;66H8-25[7;25H[?12l[?25h[?25lt[24;66H9-26[7;26H[?12l[?25h[?25l.[24;65H20-27[7;27H[?12l[?25h[?25lh[24;66H1-28[7;28H[?12l[?25h[?25lt[24;66H2-29[7;29H[?12l[?25h[?25lm[24;66H3-30[7;30H[?12l[?25h[?25ll[24;66H4-31[7;31H[?12l[?25h[?25l[8;23r[8;1H[L[1;24r[24;63H[K[24;63H8,1[11CAll[8;1H[?12l[?25h[?25ld[24;65H2[8;2H[?12l[?25h[?25l[93mdo[m[24;65H3[8;3H[?12l[?25h[?25ldon[24;65H4[8;4H[?12l[?25h[?25l[93mdone[m[24;65H5[8;5H[?12l[?25h[24;1H[K[8;4H[?25l[24;63H8,4[11CAll[8;4H[?12l[?25h[?25l[24;63H9[9;4H[?12l[?25h[?25l[9;23r[23;1H
-[1;24r[23;1H[94m~                                                                               [m[24;63H[K[24;63H9,1[11CAll[9;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --
+[1;24r[23;1H[94m~                                                                               [m[24;63H[K[24;63H9,1[11CAll[9;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;63H[K[24;63H9,27[10CAll[9;27H[?12l[?25h[?25l$[9;26H[K[24;66H6[9;26H[?12l[?25h[?25l[9;25H[K[24;66H5[9;25H[?12l[?25h[?25lo[24;66H6[9;26H[?12l[?25h[?25lu[24;66H7[9;27H[?12l[?25h[?25lt[24;66H8[9;28H[?12l[?25h[?25l.[24;66H9[9;29H[?12l[?25h[?25lh[24;65H30[9;30H[?12l[?25h[?25lt[24;66H1[9;31H[?12l[?25h[?25lm[24;66H2[9;32H[?12l[?25h[?25ll[24;66H3[9;33H[?12l[?25h[24;1H[K[9;32H[?25l[24;63H9,32[10CAll[9;32H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"text2htmlv2" 9L, 157C written
+[?1l>[?12l[?25h[?1049l]0;ktrinanm@sharona ~/Workspace/opsys/wk13[01;32mktrinanm@sharona[00m [01;34m~/Workspace/opsys/wk13 $[00m . text2htmlw
+bash: text2htmlw: No such file or directory
+]0;ktrinanm@sharona ~/Workspace/opsys/wk13[01;32mktrinanm@sharona[00m [01;34m~/Workspace/opsys/wk13 $[00m . text2htmlw[Kv2 
+^X^C
+]0;ktrinanm@sharona ~/Workspace/opsys/wk13[01;32mktrinanm@sharona[00m [01;34m~/Workspace/opsys/wk13 $[00m s -al | tes[Kxt2htmlv2
+s: command not found
+text2htmlv2: command not found
+]0;ktrinanm@sharona ~/Workspace/opsys/wk13[01;32mktrinanm@sharona[00m [01;34m~/Workspace/opsys/wk13 $[00m s -al | text2htmlv2.text2htmlv2 text2htmlv2
+s: command not found
+]0;ktrinanm@sharona ~/Workspace/opsys/wk13[01;32mktrinanm@sharona[00m [01;34m~/Workspace/opsys/wk13 $[00m s -al | . text2htmlv2[1@l
+]0;ktrinanm@sharona ~/Workspace/opsys/wk13[01;32mktrinanm@sharona[00m [01;34m~/Workspace/opsys/wk13 $[00m cd ../
+]0;ktrinanm@sharona ~/Workspace/opsys[01;32mktrinanm@sharona[00m [01;34m~/Workspace/opsys $[00m git init
+Initialized empty Git repository in /home/ktrinanm/Workspace/opsys/.git/
+]0;ktrinanm@sharona ~/Workspace/opsys[01;32mktrinanm@sharona[00m [01;34m~/Workspace/opsys $[00m git add .
+]0;ktrinanm@sharona ~/Workspace/opsys[01;32mktrinanm@sharona[00m [01;34m~/Workspace/opsys $[00m git commit[K[K[K[K[K[Kcommit -m "All[K[K[Kadded opsys"[K[K[K[K[K[K[K[K[K[K[K[Kin[K[Kfirst commit"
+[master (root-commit) 80928c7] first commit
+ 20 files changed, 1452 insertions(+)
+ create mode 100644 wk12/3-22notes.txt
+ create mode 100644 wk12/3-22script.txt
+ create mode 100644 wk12/CSIS 3600 notes 3-20.txt
+ create mode 100644 wk12/awk01
+ create mode 100644 wk12/awmt.txt
+ create mode 100644 wk12/heredocs
+ create mode 100644 wk12/hwscript
+ create mode 100644 wk12/mycal
+ create mode 100644 wk12/user-data
+ create mode 100644 wk12/userinput
+ create mode 100644 wk13/3-27script.txt
+ create mode 100644 wk13/conditionals.txt
+ create mode 100644 wk13/out.html
+ create mode 100644 wk13/output.html
+ create mode 100644 wk13/script01
+ create mode 100644 wk13/script02
+ create mode 100644 wk13/script03
+ create mode 100644 wk13/script04
+ create mode 100644 wk13/text2html
+ create mode 100644 wk13/text2htmlv2
+]0;ktrinanm@sharona ~/Workspace/opsys[01;32mktrinanm@sharona[00m [01;34m~/Workspace/opsys $[00m git push [K[K[K[K[Kadd origin https://github.com/ktrinanm/ opsys
+fatal: pathspec 'origin' did not match any files
+]0;ktrinanm@sharona ~/Workspace/opsys[01;32mktrinanm@sharona[00m [01;34m~/Workspace/opsys $[00m git add origin https://github.com/ktrinanm/oopsys.git
+fatal: pathspec 'origin' did not match any files
+]0;ktrinanm@sharona ~/Workspace/opsys[01;32mktrinanm@sharona[00m [01;34m~/Workspace/opsys $[00m git add origin https://github.com/ktrinanm/oopsys.git[A]0;ktrinanm@sharona ~/Workspace/opsys[01;32mktrinanm@sharona[00m [01;34m~/Workspace/opsys $[00m [C[C t add origin https://github.com/ktrinanm/opsys.git[A]0;ktrinanm@sharona ~/Workspace/opsys[01;32mktrinanm@sharona[00m [01;34m~/Workspace/opsys $[00m [C[C[Ct add origin https://github.com/ktrinanm/o[1Ppsys.git[A]0;ktrinanm@sharona ~/Workspace/opsys[01;32mktrinanm@sharona[00m [01;34m~/Workspace/opsys $[00m [C[C[C[C add origin https://github.com/ktrinanm/opsys.git[A]0;ktrinanm@sharona ~/Workspace/opsys[01;32mktrinanm@sharona[00m [01;34m~/Workspace/opsys $[00m [C[C[C[Cr add origin https://github.com/ktrinanm/opsys.git[A]0;ktrinanm@sharona ~/Workspace/opsys[01;32mktrinanm@sharona[00m [01;34m~/Workspace/opsys $[00m [C[C[C[C[Ce add origin https://github.com/ktrinanm/opsys.git[A]0;ktrinanm@sharona ~/Workspace/opsys[01;32mktrinanm@sharona[00m [01;34m~/Workspace/opsys $[00m [C[C[C[C[C[Cm add origin https://github.com/ktrinanm/opsys.git[A]0;ktrinanm@sharona ~/Workspace/opsys[01;32mktrinanm@sharona[00m [01;34m~/Workspace/opsys $[00m [C[C[C[C[C[C[Co add origin https://github.com/ktrinanm/opsys.git[A]0;ktrinanm@sharona ~/Workspace/opsys[01;32mktrinanm@sharona[00m [01;34m~/Workspace/opsys $[00m [C[C[C[C[C[C[C[Ct add origin https://github.com/ktrinanm/opsys.git[A]0;ktrinanm@sharona ~/Workspace/opsys[01;32mktrinanm@sharona[00m [01;34m~/Workspace/opsys $[00m [C[C[C[C[C[C[C[C[Ce add origin https://github.com/ktrinanm/opsys.git[A]0;ktrinanm@sharona ~/Workspace/opsys[01;32mktrinanm@sharona[00m [01;34m~/Workspace/opsys $[00m [C[C[C[C[C[C[C[C[C[C
+
+]0;ktrinanm@sharona ~/Workspace/opsys[01;32mktrinanm@sharona[00m [01;34m~/Workspace/opsys $[00m git push 
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+]0;ktrinanm@sharona ~/Workspace/opsys[01;32mktrinanm@sharona[00m [01;34m~/Workspace/opsys $[00m git push origin master
+Username for 'https://github.com': ktrinanm
+Password for 'https://ktrinanm@github.com': 
+Counting objects: 24, done.
+Delta compression using up to 4 threads.
+Compressing objects:   4% (1/24)   Compressing objects:   8% (2/24)   Compressing objects:  12% (3/24)   Compressing objects:  16% (4/24)   Compressing objects:  20% (5/24)   Compressing objects:  25% (6/24)   Compressing objects:  29% (7/24)   Compressing objects:  33% (8/24)   Compressing objects:  37% (9/24)   Compressing objects:  41% (10/24)   Compressing objects:  45% (11/24)   Compressing objects:  50% (12/24)   Compressing objects:  54% (13/24)   Compressing objects:  58% (14/24)   Compressing objects:  62% (15/24)   Compressing objects:  66% (16/24)   Compressing objects:  70% (17/24)   Compressing objects:  75% (18/24)   Compressing objects:  79% (19/24)   Compressing objects:  83% (20/24)   Compressing objects:  87% (21/24)   Compressing objects:  91% (22/24)   Compressing objects:  95% (23/24)   Compressing objects: 100% (24/24)   Compressing objects: 100% (24/24), done.
+Writing objects:   4% (1/24)   Writing objects:   8% (2/24)   Writing objects:  12% (3/24)   Writing objects:  16% (4/24)   Writing objects:  25% (6/24)   Writing objects:  29% (7/24)   Writing objects:  33% (8/24)   Writing objects:  37% (9/24)   Writing objects:  41% (10/24)   Writing objects:  45% (11/24)   Writing objects:  50% (12/24)   Writing objects:  54% (13/24)   Writing objects:  58% (14/24)   Writing objects:  62% (15/24)   Writing objects:  66% (16/24)   Writing objects:  70% (17/24)   Writing objects:  75% (18/24)   Writing objects:  79% (19/24)   Writing objects:  83% (20/24)   Writing objects:  87% (21/24)   Writing objects:  91% (22/24)   Writing objects:  95% (23/24)   Writing objects: 100% (24/24)   Writing objects: 100% (24/24), 51.08 KiB | 0 bytes/s, done.
+Total 24 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/3)   [Kremote: Resolving deltas: 100% (3/3)   [Kremote: Resolving deltas: 100% (3/3), done.[K
+To https://github.com/ktrinanm/opsys.git
+ * [new branch]      master -> master
+]0;ktrinanm@sharona ~/Workspace/opsys[01;32mktrinanm@sharona[00m [01;34m~/Workspace/opsys $[00m cd ../
+]0;ktrinanm@sharona ~/Workspace[01;32mktrinanm@sharona[00m [01;34m~/Workspace $[00m cd Algorithms/
+]0;ktrinanm@sharona ~/Workspace/Algorithms[01;32mktrinanm@sharona[00m [01;34m~/Workspace/Algorithms $[00m git commit .
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+]0;ktrinanm@sharona ~/Workspace/Algorithms[01;32mktrinanm@sharona[00m [01;34m~/Workspace/Algorithms $[00m git [K[K[K[Ktgi[K[K[Kgit add .
+]0;ktrinanm@sharona ~/Workspace/Algorithms[01;32mktrinanm@sharona[00m [01;34m~/Workspace/Algorithms $[00m git commit -m "committing all"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+]0;ktrinanm@sharona ~/Workspace/Algorithms[01;32mktrinanm@sharona[00m [01;34m~/Workspace/Algorithms $[00m git [K[K[K[Kps
+  PID TTY          TIME CMD
+ 4503 pts/1    00:00:00 bash
+ 5632 pts/1    00:00:00 ps
+]0;ktrinanm@sharona ~/Workspace/Algorithms[01;32mktrinanm@sharona[00m [01;34m~/Workspace/Algorithms $[00m exit
+exit
+
+Script done on Mon 27 Mar 2017 03:46:11 PM MDT
