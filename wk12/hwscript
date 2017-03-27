@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cat /etc/hosts     	 #Prints contents of the hosts file
+printf "\n"
+ls /usr/share/doc 	#Displays a list of subdirectories of /usr/share/doc
+printf "\n"
+cat /etc/fstab		#Prints of contents of /etc/fstab
+printf "\n"
+cat /etc/passwd		#Prints the info in the /etc/passwd file

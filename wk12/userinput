@@ -1,0 +1,14 @@
+#!/bin/bash
+
+printf "Please input your name:"
+read name
+echo $name > user-data
+printf "Please input your address:"
+read addr
+echo $addr >> user-data
+printf "Please input your phone number:"
+read phone
+echo $phone >> user-data
+printf "Please input your email:"
+read email
+echo $email >> user-data

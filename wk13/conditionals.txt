@@ -1,0 +1,19 @@
+Unix returns a status variable:
+0 for OK
+1 for not OK
+
+In unix shell:
+0 translates to true
+1 translates to false
+
+we use the test command (explicitly or implicitly)
+
+[] are alternate syntax for testing
+
+Special parameters:
+	$1, $2, etc are the parameters typed after the command
+	$# the total number of parameters
+
+We've seen command substitution with this: `command`
+
+We can also do it this way: $(command)

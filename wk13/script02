@@ -1,0 +1,11 @@
+#!/bin/bash
+
+first=$1
+second=$2
+third=$3
+total=$#
+
+echo $first
+echo $second
+echo $third
+echo $total

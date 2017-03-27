@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "The home directory is $HOME"
+echo "The working directory is $PWD"
+echo "Here is a listing of the present working directory: "
+ls -al

@@ -1,0 +1,13 @@
+We will write our own version of cal so it does this:
+
+cal by itself should return the calendar for the entire present year
+
+cal 1980 should give the entire year's calendar
+
+cal Mar 1980 should give the calendar for March 1980
+
+****
+
+$# gives the numbers of arguments
+
+In general, when you type any command, the parameters go into variables $1, $2 ...., $n

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+DATE=`date`
+cat <<EOF
+date: $DATE
+
+Now is the time for
+all good programmers.
+
+EOF

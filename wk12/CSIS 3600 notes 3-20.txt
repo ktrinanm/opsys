@@ -1,0 +1,8 @@
+Filters: grep, sort, wc
+
+programmable filters: awk
+
+gawk 'program' names of files
+
+Program consists of 
+pattern {action}
