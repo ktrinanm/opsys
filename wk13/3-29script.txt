@@ -1,0 +1,498 @@
+Script started on Wed 29 Mar 2017 03:06:51 PM MDT
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m ls /[K~/Do2[Kwnloads/
+[0m[01;34mandroid-studio[0m                            datafile01  Elements.csv
+[01;31mandroid-studio-ide-162.3764568-linux.zip[0m  datafile02
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m ls ~/Downloads/[4P. studio.sh[4@sudo [C[C[C[C[C[C[C[C[C[C. studio.sh[10Pcd bin[4Plscd android-studio/ls[Kcd android-studio/ls[Kcd binsudo . studio.sh[1P studio.sh[4P.[C[C[C[C[C[C[C[C[C[Cls ~/Downloads/[Kmv ~/Downloads//[Kdatafile01 ./
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m mv ~/Downloads/datafile01 ./[1P ./2 ./
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m mv[K[Kmv ~/Downloads/datafile02 ./[K[K[K[K[K[K[K[K[K[K[K[K[K[K/e[KElements.csv ./
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m cat datafile01
+antelope	555-5553	1200/300			B
+bear		555-3412	2400/1200/300		A
+camelot		555-0542	300					C
+cat			555-7685	1200/300			A
+core		555-2912	1200/300			C
+eagle		555-1675	2400/1200/300		A
+elephant	555-6699	1200/300			B
+gazelle		555-1234	2400/1200/300		B
+owl			555-6480	1200/300			A
+stationx	555-3430	2400/1200/300		A
+treetop		555-2127	1200/300			C]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m cat datafile02
+Jan  13  25  15 115
+Feb  15  32  24 226
+Mar  15  24  34 228
+Apr  31  52  63 420
+May  16  34  29 208
+Jun  31  42  75 492
+Jul  24  34  67 436
+Aug  15  34  47 316
+Sep  13  55  37 277
+Oct  29  54  68 525
+Nov  20  87  82 577
+Dec  17  35  61 401
+
+Jan  21  36  64 620
+Feb  26  58  80 652
+Mar  24  75  70 495
+Apr  21  70  74 514]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m gawk '/core/ {print $0}' datafile01
+core		555-2912	1200/300			C
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m ls -al
+total 292
+drwxr-xr-x 2 ktrinanm ktrinanm   4096 Mar 29 15:07 [0m[01;34m.[0m
+drwxr-xr-x 5 ktrinanm ktrinanm   4096 Mar 29 15:03 [01;34m..[0m
+-rw-r--r-- 1 ktrinanm ktrinanm 177948 Mar 29 15:03 3-27script.txt
+-rw-r--r-- 1 ktrinanm ktrinanm      0 Mar 29 15:06 3-29script.txt
+-rw-r--r-- 1 ktrinanm ktrinanm    408 Mar 29 15:03 conditionals.txt
+-rw-r--r-- 1 ktrinanm ktrinanm    339 Mar 29 15:05 datafile01
+-rw-r--r-- 1 ktrinanm ktrinanm    320 Mar 29 15:05 datafile02
+-rw-r--r-- 1 ktrinanm ktrinanm   7338 Mar 29 15:05 Elements.csv
+-rw-r--r-- 1 ktrinanm ktrinanm    732 Mar 29 15:03 out.html
+-rw-r--r-- 1 ktrinanm ktrinanm  47847 Mar 29 15:03 output.html
+-rw-r--r-- 1 ktrinanm ktrinanm    152 Mar 29 15:03 script01
+-rw-r--r-- 1 ktrinanm ktrinanm    100 Mar 29 15:03 script02
+-rw-r--r-- 1 ktrinanm ktrinanm     58 Mar 29 15:03 script03
+-rw-r--r-- 1 ktrinanm ktrinanm     73 Mar 29 15:03 script04
+-rw-r--r-- 1 ktrinanm ktrinanm    119 Mar 29 15:03 text2html
+-rw-r--r-- 1 ktrinanm ktrinanm    157 Mar 29 15:03 text2htmlv2
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m ls -al | gawk '$5>100'[K {print $8}'
+15:07
+15:03
+15:03
+15:03
+15:05
+15:05
+15:05
+15:03
+15:03
+15:03
+15:03
+15:03
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m ls -al | gawk '$5>100 {print $8}'[1P}'
+gawk: cmd. line:1: $5>100 {print $}
+gawk: cmd. line:1:                ^ syntax error
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m ls -al | gawk '$5>100 {print $}'9}'
+.
+..
+3-27script.txt
+3-29script.txt
+conditionals.txt
+datafile01
+datafile02
+Elements.csv
+out.html
+output.html
+script01
+text2html
+text2htmlv2
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m j[Kgawk '$1 ~ /camalot/ {print $0}' datafi lej[K
+gawk: fatal: cannot open file `datafile' for reading (No such file or directory)
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m gawk '$1 ~ /camalot/ {print $0}' datafille[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clot/ {print $0}' datafile[K[A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Celot/ {print $0}' datafile[A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+gawk: fatal: cannot open file `datafile' for reading (No such file or directory)
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m gawk '$1 ~ /camelot/ {print $0}' datafille01
+camelot		555-0542	300					C
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m gawk '$1 ~ /camelot/ {print $0}' datafille01[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ~ /camelot/ {print $0}' datafile[1P01[A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C3 ~ /camelot/ {print $0}' datafile01[A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C!~ /camelot/ {print $0}' datafile01[A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C[C[C[C[C[C[Ccamelot/ {print $0}' datafil[1Pe01[A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C[C[C[C[C[Camelot/ {print $0}' datafile[1P01[A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C[C[C[C[C[Cmelot/ {print $0}' datafile0[1P1[A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C[C[C[C[C[Celot/ {print $0}' datafile01[K[A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C[C[C[C[C[Clot/ {print $0}' datafile01 [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[C[1@/[1@12/ {print $0}' datafile01 [A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0/ {print $0}' datafile011[A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0/ {print $0}' datafile01[A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C}' datafile01[K[A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1}' datafile01[A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+camelot
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m # ~ is compare[K[K[K[K[K[K[K'compares'
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m gawk '{print NR} [K' datfile-[K01
+gawk: fatal: cannot open file `datfile01' for reading (No such file or directory)
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m gawk '{print NR}' datfile01[K[K[K[K[K[Kafile01
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m gawk '{print NR}' datafile01[1P[1@f[1P[1@F
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m dos2unix datafile01
+The program 'dos2unix' is currently not installed. You can install it by typing:
+sudo apt install dos2unix
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m sudo apt install dos2unix 
+[sudo] password for ktrinanm: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following NEW packages will be installed:
+  dos2unix
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 68.7 kB of archives.
+After this operation, 306 kB of additional disk space will be used.
+[33m0% [Working][0m            Get:1 http://archive.ubuntu.com/ubuntu xenial/universe amd64 dos2unix amd64 6.0.4-1 [68.7 kB]
+[33m1% [1 dos2unix 1,006 B/68.7 kB 1%][0m[33m                                  100% [Working][0m              Fetched 68.7 kB in 0s (105 kB/s)
+
+7[0;23r8[1ASelecting previously unselected package dos2unix.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 202082 files and directories currently installed.)
+Preparing to unpack .../dos2unix_6.0.4-1_amd64.deb ...
+7[24;0f[42m[30mProgress: [  0%][49m[39m [..........................................................] 87[24;0f[42m[30mProgress: [ 16%][49m[39m [##########................................................] 8Unpacking dos2unix (6.0.4-1) ...
+7[24;0f[42m[30mProgress: [ 33%][49m[39m [####################......................................] 87[24;0f[42m[30mProgress: [ 50%][49m[39m [#############################.............................] 8Processing triggers for man-db (2.7.5-1) ...
+Setting up dos2unix (6.0.4-1) ...
+7[24;0f[42m[30mProgress: [ 66%][49m[39m [#######################################...................] 87[24;0f[42m[30mProgress: [ 83%][49m[39m [#################################################.........] 8
+7[0;24r8[1A[J]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m sudo apt install dos2unix [7Pdos2unix datafile01
+dos2unix: converting file datafile01 to Unix format ...
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m dos2unix datafile01sudo apt install dos2unix [7Pdos2unix datafile01[9@gawk '{print NF}'[C[C[C[C[C[C[C[C[C[C[C
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m  gaw[K[K[K[Kgawk '/eagel[K[Kle/ P[K{ [Ksystem("ls -al")}' datafiile01
+total 300
+drwxr-xr-x 2 ktrinanm ktrinanm   4096 Mar 29 15:15 .
+drwxr-xr-x 5 ktrinanm ktrinanm   4096 Mar 29 15:03 ..
+-rw-r--r-- 1 ktrinanm ktrinanm 177948 Mar 29 15:03 3-27script.txt
+-rw-r--r-- 1 ktrinanm ktrinanm  12288 Mar 29 15:15 3-29script.txt
+-rw-r--r-- 1 ktrinanm ktrinanm    408 Mar 29 15:03 conditionals.txt
+-rw-r--r-- 1 ktrinanm ktrinanm    339 Mar 29 15:15 datafile01
+-rw-r--r-- 1 ktrinanm ktrinanm    320 Mar 29 15:05 datafile02
+-rw-r--r-- 1 ktrinanm ktrinanm   7338 Mar 29 15:05 Elements.csv
+-rw-r--r-- 1 ktrinanm ktrinanm    732 Mar 29 15:03 out.html
+-rw-r--r-- 1 ktrinanm ktrinanm  47847 Mar 29 15:03 output.html
+-rw-r--r-- 1 ktrinanm ktrinanm    152 Mar 29 15:03 script01
+-rw-r--r-- 1 ktrinanm ktrinanm    100 Mar 29 15:03 script02
+-rw-r--r-- 1 ktrinanm ktrinanm     58 Mar 29 15:03 script03
+-rw-r--r-- 1 ktrinanm ktrinanm     73 Mar 29 15:03 script04
+-rw-r--r-- 1 ktrinanm ktrinanm    119 Mar 29 15:03 text2html
+-rw-r--r-- 1 ktrinanm ktrinanm    157 Mar 29 15:03 text2htmlv2
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m gawk '/eagle/ {system("ls -al")}' datafiile01[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C)}' datafil[1Pe01[A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C)}' datafile[1P01[A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C)}' datafile0[1P1[A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C)}' datafile01[K[A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C)}' datafile01 [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1@n[1@ot)}' datafile01 [A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce)}' datafile011[A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp)}' datafile01[A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca)}' datafile01[A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd)}' datafile01[A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m gawk '/eagle/ {system(notepad)}' datafille01[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"d)}' datafile01[A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd)}' datafil[1Pe01[A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C")}' datafile01[A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"notepad")}' datafile01[A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+sh: 1: notepad: not found
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m gawk '/eagle/ {system("notepad")}' dataffile01[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C")}' datafi[1Ple01[A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C")}' datafil[1Pe01[A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C")}' datafile[1P01[A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C")}' datafile0[1P1[A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C")}' datafile01[K[A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C")}' datafile01 [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cg")}' datafile01 [A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce")}' datafile011[A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd")}' datafile01[A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci")}' datafile01[A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct")}' datafile01[A]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+sh: 1: gedit: not found
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m ps
+  PID TTY          TIME CMD
+ 9640 pts/1    00:00:00 bash
+10248 pts/1    00:00:00 ps
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m ls
+3-27script.txt    datafile01    out.html     script02  text2html
+3-29script.txt    datafile02    output.html  script03  text2htmlv2
+conditionals.txt  Elements.csv  script01     script04
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m tn ',' ' ' < Elements.csv > elementsv2[C[C[1P[1@r
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m tr -d '\"' ""[K[K'' < Elements.csv [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K<Elements.scv [K[K[K[Kcsv > elementsv3
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m vim &
+[1] 10874
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m The program 'vim' can be found in the following packages:
+ * vim
+ * vim-gnome
+ * vim-tiny
+ * vim-athena
+ * vim-athena-py2
+ * vim-gnome-py2
+ * vim-gtk
+ * vim-gtk-py2
+ * vim-gtk3
+ * vim-gtk3-py2
+ * vim-nox
+ * vim-nox-py2
+Try: sudo apt install <selected package>
+sudo apt insall[K[K[Ktall vim
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  vim-runtime
+Suggested packages:
+  ctags vim-doc vim-scripts vim-gnome-py2 | vim-gtk-py2 | vim-gtk3-py2
+  | vim-athena-py2 | vim-nox-py2
+The following NEW packages will be installed:
+  vim vim-runtime
+0 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
+Need to get 6,199 kB of archives.
+After this operation, 30.0 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+[33m0% [Working][0m            Get:1 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 vim-runtime all 2:7.4.1689-3ubuntu1.2 [5,164 kB]
+[33m0% [1 vim-runtime 3,579 B/5,164 kB 0%][0m[33m                                      2% [1 vim-runtime 193 kB/5,164 kB 4%][0m[33m13% [1 vim-runtime 990 kB/5,164 kB 19%][0m[33m23% [1 vim-runtime 1,802 kB/5,164 kB 35%][0m[33m33% [1 vim-runtime 2,522 kB/5,164 kB 49%][0m[33m43% [1 vim-runtime 3,370 kB/5,164 kB 65%][0m[33m54% [1 vim-runtime 4,154 kB/5,164 kB 80%][0m[33m64% [1 vim-runtime 4,987 kB/5,164 kB 97%][0m[33m                                         77% [Working][0m             Get:2 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 vim amd64 2:7.4.1689-3ubuntu1.2 [1,036 kB]
+[33m77% [2 vim 1,004 B/1,036 kB 0%][0m[33m85% [2 vim 667 kB/1,036 kB 64%][0m[33m                               100% [Working][0m              Fetched 6,199 kB in 4s (1,249 kB/s)
+
+7[0;23r8[1ASelecting previously unselected package vim-runtime.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 202158 files and directories currently installed.)
+Preparing to unpack .../vim-runtime_2%3a7.4.1689-3ubuntu1.2_all.deb ...
+7[24;0f[42m[30mProgress: [  0%][49m[39m [..........................................................] 87[24;0f[42m[30mProgress: [  9%][49m[39m [######....................................................] 8Adding 'diversion of /usr/share/vim/vim74/doc/help.txt to /usr/share/vim/vim74/doc/help.txt.vim-tiny by vim-runtime'
+Adding 'diversion of /usr/share/vim/vim74/doc/tags to /usr/share/vim/vim74/doc/tags.vim-tiny by vim-runtime'
+Unpacking vim-runtime (2:7.4.1689-3ubuntu1.2) ...
+7[24;0f[42m[30mProgress: [ 18%][49m[39m [###########...............................................] 87[24;0f[42m[30mProgress: [ 27%][49m[39m [################..........................................] 8Selecting previously unselected package vim.
+Preparing to unpack .../vim_2%3a7.4.1689-3ubuntu1.2_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 36%][49m[39m [######################....................................] 8Unpacking vim (2:7.4.1689-3ubuntu1.2) ...
+7[24;0f[42m[30mProgress: [ 45%][49m[39m [###########################...............................] 87[24;0f[42m[30mProgress: [ 54%][49m[39m [################################..........................] 8Processing triggers for man-db (2.7.5-1) ...
+Setting up vim-runtime (2:7.4.1689-3ubuntu1.2) ...
+7[24;0f[42m[30mProgress: [ 63%][49m[39m [#####################################.....................] 87[24;0f[42m[30mProgress: [ 72%][49m[39m [###########################################...............] 8Setting up vim (2:7.4.1689-3ubuntu1.2) ...
+7[24;0f[42m[30mProgress: [ 81%][49m[39m [################################################..........] 8update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vim (vim) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vimdiff (vimdiff) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rvim (rvim) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rview (rview) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vi (vi) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/view (view) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/ex (ex) in auto mode
+7[24;0f[42m[30mProgress: [ 90%][49m[39m [#####################################################.....] 8
+7[0;24r8[1A[J[1]+  Exit 127                vim
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m sudo apt install vimvim &[K
+[1] 11443
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m ps
+  PID TTY          TIME CMD
+ 9640 pts/1    00:00:00 bash
+11443 pts/1    00:00:00 vim
+11444 pts/1    00:00:00 ps
+
+[1]+  Stopped                 vim
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m taskkill //PID 11443
+taskkill: command not found
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m end
+No command 'end' found, did you mean:
+ Command 'env' from package 'coreutils' (main)
+ Command 'snd' from package 'snd-gtk-pulse' (universe)
+ Command 'snd' from package 'snd-gtk-jack' (universe)
+ Command 'snd' from package 'snd-nox' (universe)
+ Command 'esd' from package 'pulseaudio-esound-compat' (universe)
+ Command 'eid' from package 'id-utils' (universe)
+ Command 'ed' from package 'ed' (main)
+ Command 'bnd' from package 'bnd' (universe)
+ Command 'send' from package 'mailutils-mh' (universe)
+ Command 'send' from package 'nmh' (universe)
+ Command 'ent' from package 'ent' (universe)
+ Command 'and' from package 'and' (universe)
+ Command 'nd' from package 'nd' (universe)
+end: command not found
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m help
+GNU bash, version 4.3.46(1)-release (x86_64-pc-linux-gnu)
+These shell commands are defined internally.  Type `help' to see this list.
+Type `help name' to find out more about the function `name'.
+Use `info bash' to find out more about the shell in general.
+Use `man -k' or `info' to find out more about commands not in this list.
+
+A star (*) next to a name means that the command is disabled.
+
+ job_spec [&]                            history [-c] [-d offset] [n] or hist>
+ (( expression ))                        if COMMANDS; then COMMANDS; [ elif C>
+ . filename [arguments]                  jobs [-lnprs] [jobspec ...] or jobs >
+ :                                       kill [-s sigspec | -n signum | -sigs>
+ [ arg... ]                              let arg [arg ...]
+ [[ expression ]]                        local [option] name[=value] ...
+ alias [-p] [name[=value] ... ]          logout [n]
+ bg [job_spec ...]                       mapfile [-n count] [-O origin] [-s c>
+ bind [-lpsvPSVX] [-m keymap] [-f file>  popd [-n] [+N | -N]
+ break [n]                               printf [-v var] format [arguments]
+ builtin [shell-builtin [arg ...]]       pushd [-n] [+N | -N | dir]
+ caller [expr]                           pwd [-LP]
+ case WORD in [PATTERN [| PATTERN]...)>  read [-ers] [-a array] [-d delim] [->
+ cd [-L|[-P [-e]] [-@]] [dir]            readarray [-n count] [-O origin] [-s>
+ command [-pVv] command [arg ...]        readonly [-aAf] [name[=value] ...] o>
+ compgen [-abcdefgjksuv] [-o option]  >  return [n]
+ complete [-abcdefgjksuv] [-pr] [-DE] >  select NAME [in WORDS ... ;] do COMM>
+ compopt [-o|+o option] [-DE] [name ..>  set [-abefhkmnptuvxBCHP] [-o option->
+ continue [n]                            shift [n]
+ coproc [NAME] command [redirections]    shopt [-pqsu] [-o] [optname ...]
+ declare [-aAfFgilnrtux] [-p] [name[=v>  source filename [arguments]
+ dirs [-clpv] [+N] [-N]                  suspend [-f]
+ disown [-h] [-ar] [jobspec ...]         test [expr]
+ echo [-neE] [arg ...]                   time [-p] pipeline
+ enable [-a] [-dnps] [-f filename] [na>  times
+ eval [arg ...]                          trap [-lp] [[arg] signal_spec ...]
+ exec [-cl] [-a name] [command [argume>  true
+ exit [n]                                type [-afptP] name [name ...]
+ export [-fn] [name[=value] ...] or ex>  typeset [-aAfFgilrtux] [-p] name[=va>
+ false                                   ulimit [-SHabcdefilmnpqrstuvxT] [lim>
+ fc [-e ename] [-lnr] [first] [last] o>  umask [-p] [-S] [mode]
+ fg [job_spec]                           unalias [-a] name [name ...]
+ for NAME [in WORDS ... ] ; do COMMAND>  unset [-f] [-v] [-n] [name ...]
+ for (( exp1; exp2; exp3 )); do COMMAN>  until COMMANDS; do COMMANDS; done
+ function name { COMMANDS ; } or name >  variables - Names and meanings of so>
+ getopts optstring name [arg]            wait [-n] [id ...]
+ hash [-lr] [-p pathname] [-dt] [name >  while COMMANDS; do COMMANDS; done
+ help [-dms] [pattern ...]               { COMMANDS ; }
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m kill /PID 11443
+bash: kill: /PID: arguments must be process or job IDs
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m kill /PID 11443[C[1P 11443[1P 11443[1P 11443[1P 11443
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m l[Kps
+  PID TTY          TIME CMD
+ 9640 pts/1    00:00:00 bash
+11443 pts/1    00:00:00 vim
+11475 pts/1    00:00:00 ps
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m ps
+  PID TTY          TIME CMD
+ 9640 pts/1    00:00:00 bash
+11443 pts/1    00:00:00 vim
+11476 pts/1    00:00:00 ps
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m kill --help
+bash: kill: -help: invalid signal specification
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m kill --help[K[K[K[K[Khelp
+bash: kill: help: invalid signal specification
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m man kill
+[?1049h[?1h=KILL(1)                          User Commands                         KILL(1)[m
+[m
+[1mNAME[0m[m
+       kill - send a signal to a process[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mkill[0m [options] <pid> [...][m
+[m
+[1mDESCRIPTION[0m[m
+       The  default  signal  for kill is TERM.  Use [1m-l[0m or [1m-L[0m to list available[m
+       signals.  Particularly useful signals include  HUP,  INT,  KILL,  STOP,[m
+       CONT,  and  0.   Alternate  signals may be specified in three ways: [1m-9[0m,[m
+       [1m-SIGKILL[0m or [1m-KILL[0m.  Negative PID values may be  used  to  choose  whole[m
+       process  groups; see the PGID column in ps command output.  A PID of [1m-1[0m[m
+       is special; it indicates all processes except the kill  process  itself[m
+       and init.[m
+[m
+[1mOPTIONS[0m[m
+       [1m<pid>[0m [1m[...][0m[m
+              Send signal to every <pid> listed.[m
+[m
+       [1m-<signal>[0m[m
+       [1m-s[0m [1m<signal>[0m[m
+[7m Manual page kill(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--signal[0m [1m<signal>[0m[m
+[7m Manual page kill(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Specify  the  [1msignal[0m to be sent.  The signal can be specified by[m
+[7m Manual page kill(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              using name or number.  The behavior of signals is  explained  in[m
+[7m Manual page kill(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1msignal[0m(7) manual page.[m
+[7m Manual page kill(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page kill(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-l[0m, [1m--list[0m [[4msignal[24m][m
+[7m Manual page kill(1) line 7 (press h for help or q to quit)[27m[K[K              List  signal  names.   This  option has optional argument, which[m
+[7m Manual page kill(1) line 8 (press h for help or q to quit)[27m[K[K              will convert signal number to signal name, or other way round.[m
+[7m Manual page kill(1) line 9 (press h for help or q to quit)[27m[K[K[m
+[7m Manual page kill(1) line 10 (press h for help or q to quit)[27m[K[K       [1m-L[0m, [1m--table[0m[m
+[7m Manual page kill(1) line 11 (press h for help or q to quit)[27m[K[K              List signal names in a nice table.[m
+[7m Manual page kill(1) line 12 (press h for help or q to quit)[27m[K[K[m
+[7m Manual page kill(1) line 13 (press h for help or q to quit)[27m[K[K       [1mNOTES[0m  Your shell (command line interpreter) may have a  built-in  kill[m
+[7m Manual page kill(1) line 14 (press h for help or q to quit)[27m[K[K              command.   You  may  need  to  run the command described here as[m
+[7m Manual page kill(1) line 15 (press h for help or q to quit)[27m[K[K              /bin/kill to solve the conflict.[m
+[7m Manual page kill(1) line 16 (press h for help or q to quit)[27m[K[K[m
+[7m Manual page kill(1) line 17 (press h for help or q to quit)[27m[K[K[1mEXAMPLES[0m[m
+[7m Manual page kill(1) line 18 (press h for help or q to quit)[27m[K[K       [1mkill[0m [1m-9[0m [1m-1[0m[m
+[7m Manual page kill(1) line 19 (press h for help or q to quit)[27m[K[K              Kill all processes you can kill.[m
+[7m Manual page kill(1) line 20 (press h for help or q to quit)[27m[K[K[m
+[7m Manual page kill(1) line 21 (press h for help or q to quit)[27m[K[K       [1mkill[0m [1m-l[0m [1m11[0m[m
+[7m Manual page kill(1) line 22 (press h for help or q to quit)[27m[K[K              Translate number 11 into a signal name.[m
+[7m Manual page kill(1) line 23 (press h for help or q to quit)[27m[K[K[m
+[7m Manual page kill(1) line 24 (press h for help or q to quit)[27m[K[K       [1mkill[0m [1m-L[0m[m
+[7m Manual page kill(1) line 25 (press h for help or q to quit)[27m[K[K              List the available signal choices in a nice table.[m
+[7m Manual page kill(1) line 26 (press h for help or q to quit)[27m[K[K[m
+[7m Manual page kill(1) line 27 (press h for help or q to quit)[27m[K[K       [1mkill[0m [1m123[0m [1m543[0m [1m2341[0m [1m3453[0m[m
+[7m Manual page kill(1) line 28 (press h for help or q to quit)[27m[K[K              Send the default signal, SIGTERM, to all those processes.[m
+[7m Manual page kill(1) line 29 (press h for help or q to quit)[27m[K[K[m
+[7m Manual page kill(1) line 30 (press h for help or q to quit)[27m[K[K[1mSEE[0m [1mALSO[0m[m
+[7m Manual page kill(1) line 31 (press h for help or q to quit)[27m[K[K       [1mkill[0m(2), [1mkillall[0m(1), [1mnice[0m(1), [1mpkill[0m(1), [1mrenice[0m(1), [1msignal[0m(7), [1mskill[0m(1)[m
+[7m Manual page kill(1) line 32 (press h for help or q to quit)[27m[K[K[m
+[7m Manual page kill(1) line 33 (press h for help or q to quit)[27m[K[K[1mSTANDARDS[0m[m
+[7m Manual page kill(1) line 34 (press h for help or q to quit)[27m[K[K       This command meets appropriate standards. The  [1m-L[0m  flag  is  Linux-spe‐[m
+[7m Manual page kill(1) line 35 (press h for help or q to quit)[27m[K[K       cific.[m
+[7m Manual page kill(1) line 36 (press h for help or q to quit)[27m[K[K[m
+[7m Manual page kill(1) line 37 (press h for help or q to quit)[27m[K[K[1mAUTHOR[0m[m
+[7m Manual page kill(1) line 38 (press h for help or q to quit)[27m[K[K       Albert  Cahalan  ⟨albert@users.sf.net⟩  wrote kill in 1999 to replace a[m
+[7m Manual page kill(1) line 39 (press h for help or q to quit)[27m[K[K       bsdutils one that was not  standards  compliant.   The  util-linux  one[m
+[7m Manual page kill(1) line 40 (press h for help or q to quit)[27m[K[K       might also work correctly.[m
+[7m Manual page kill(1) line 41 (press h for help or q to quit)[27m[K[K[m
+[7m Manual page kill(1) line 42 (press h for help or q to quit)[27m[K[K[1mREPORTING[0m [1mBUGS[0m[m
+[7m Manual page kill(1) line 43 (press h for help or q to quit)[27m[K[K       Please send bug reports to ⟨procps@freelists.org⟩[m
+[7m Manual page kill(1) line 44 (press h for help or q to quit)[27m[K[K[m
+[7m Manual page kill(1) line 45 (press h for help or q to quit)[27m[K[Kprocps-ng                        October 2011                          KILL(1)[m
+[7m Manual page kill(1) line 46 (press h for help or q to quit)[27m[K[K[K[7m Manual page kill(1) line 46/68 (END) (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m ps
+  PID TTY          TIME CMD
+ 9640 pts/1    00:00:00 bash
+11443 pts/1    00:00:00 vim
+11504 pts/1    00:00:00 ps
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m kill 11443
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m ls
+3-27script.txt    datafile01    elementsv2  output.html  script03   text2htmlv2
+3-29script.txt    datafile02    elementsv3  script01     script04
+conditionals.txt  Elements.csv  out.html    script02     text2html
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m ps
+  PID TTY          TIME CMD
+ 9640 pts/1    00:00:00 bash
+11443 pts/1    00:00:00 vim
+11506 pts/1    00:00:00 ps
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m sigterm 11443
+sigterm: command not found
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m SIGTERM 11443
+SIGTERM: command not found
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m 11443
+11443: command not found
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m vim
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;24r[?12;25h[?12l[?25h[27m[23m[m[H[2J[>c[?25l[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[6;32HVIM - Vi IMproved[8;33Hversion 7.4.1689[9;29Hby Bram Moolenaar et al.[10;13HModified by pkg-vim-maintainers@lists.alioth.debian.org[11;19HVim is open source and freely distributable[13;26HHelp poor children in Uganda![14;18Htype  :help iccf[34m<Enter>[m       for information [16;18Htype  :q[34m<Enter>[m               to exit         [17;18Htype  :help[34m<Enter>[m  or  [34m<F1>[m  for on-line help[18;18Htype  :help version7[34m<Enter>[m   for version info[1;1H[?12l[?25h[27m[23m[m[H[2J[?25l[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[6;32HVIM - Vi IMproved[8;33Hversion 7.4.1689[9;29Hby Bram Moolenaar et al.[10;13HModified by pkg-vim-maintainers@lists.alioth.debian.org[11;19HVim is open source and freely distributable[13;26HHelp poor children in Uganda![14;18Htype  :help iccf[38;5;81m<Enter>[m       for information [16;18Htype  :q[38;5;81m<Enter>[m               to exit         [17;18Htype  :help[38;5;81m<Enter>[m  or  [38;5;81m<F1>[m  for on-line help[18;18Htype  :help version7[38;5;81m<Enter>[m   for version info[1;1HP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m ps
+  PID TTY          TIME CMD
+ 9640 pts/1    00:00:00 bash
+11443 pts/1    00:00:00 vim
+11514 pts/1    00:00:00 ps
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m pa[Ks [K[K[Khelp
+GNU bash, version 4.3.46(1)-release (x86_64-pc-linux-gnu)
+These shell commands are defined internally.  Type `help' to see this list.
+Type `help name' to find out more about the function `name'.
+Use `info bash' to find out more about the shell in general.
+Use `man -k' or `info' to find out more about commands not in this list.
+
+A star (*) next to a name means that the command is disabled.
+
+ job_spec [&]                            history [-c] [-d offset] [n] or hist>
+ (( expression ))                        if COMMANDS; then COMMANDS; [ elif C>
+ . filename [arguments]                  jobs [-lnprs] [jobspec ...] or jobs >
+ :                                       kill [-s sigspec | -n signum | -sigs>
+ [ arg... ]                              let arg [arg ...]
+ [[ expression ]]                        local [option] name[=value] ...
+ alias [-p] [name[=value] ... ]          logout [n]
+ bg [job_spec ...]                       mapfile [-n count] [-O origin] [-s c>
+ bind [-lpsvPSVX] [-m keymap] [-f file>  popd [-n] [+N | -N]
+ break [n]                               printf [-v var] format [arguments]
+ builtin [shell-builtin [arg ...]]       pushd [-n] [+N | -N | dir]
+ caller [expr]                           pwd [-LP]
+ case WORD in [PATTERN [| PATTERN]...)>  read [-ers] [-a array] [-d delim] [->
+ cd [-L|[-P [-e]] [-@]] [dir]            readarray [-n count] [-O origin] [-s>
+ command [-pVv] command [arg ...]        readonly [-aAf] [name[=value] ...] o>
+ compgen [-abcdefgjksuv] [-o option]  >  return [n]
+ complete [-abcdefgjksuv] [-pr] [-DE] >  select NAME [in WORDS ... ;] do COMM>
+ compopt [-o|+o option] [-DE] [name ..>  set [-abefhkmnptuvxBCHP] [-o option->
+ continue [n]                            shift [n]
+ coproc [NAME] command [redirections]    shopt [-pqsu] [-o] [optname ...]
+ declare [-aAfFgilnrtux] [-p] [name[=v>  source filename [arguments]
+ dirs [-clpv] [+N] [-N]                  suspend [-f]
+ disown [-h] [-ar] [jobspec ...]         test [expr]
+ echo [-neE] [arg ...]                   time [-p] pipeline
+ enable [-a] [-dnps] [-f filename] [na>  times
+ eval [arg ...]                          trap [-lp] [[arg] signal_spec ...]
+ exec [-cl] [-a name] [command [argume>  true
+ exit [n]                                type [-afptP] name [name ...]
+ export [-fn] [name[=value] ...] or ex>  typeset [-aAfFgilrtux] [-p] name[=va>
+ false                                   ulimit [-SHabcdefilmnpqrstuvxT] [lim>
+ fc [-e ename] [-lnr] [first] [last] o>  umask [-p] [-S] [mode]
+ fg [job_spec]                           unalias [-a] name [name ...]
+ for NAME [in WORDS ... ] ; do COMMAND>  unset [-f] [-v] [-n] [name ...]
+ for (( exp1; exp2; exp3 )); do COMMAN>  until COMMANDS; do COMMANDS; done
+ function name { COMMANDS ; } or name >  variables - Names and meanings of so>
+ getopts optstring name [arg]            wait [-n] [id ...]
+ hash [-lr] [-p pathname] [-dt] [name >  while COMMANDS; do COMMANDS; done
+ help [-dms] [pattern ...]               { COMMANDS ; }
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m jobs
+[1]+  Stopped                 vim
+]0;ktrinanm@serena ~/Workspace/opsys/wk13[01;32mktrinanm@serena[00m [01;34m~/Workspace/opsys/wk13 $[00m exit vim
+exit
+bash: exit: vim: numeric argument required
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;24r[?12;25h[?12l[?25h[27m[23m[m[H[2J[>c[?25l[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[6;32HVIM - Vi IMproved[8;33Hversion 7.4.1689[9;29Hby Bram Moolenaar et al.[10;13HModified by pkg-vim-maintainers@lists.alioth.debian.org[11;19HVim is open source and freely distributable[13;26HHelp poor children in Uganda![14;18Htype  :help iccf[34m<Enter>[m       for information [16;18Htype  :q[34m<Enter>[m               to exit         [17;18Htype  :help[34m<Enter>[m  or  [34m<F1>[m  for on-line help[18;18Htype  :help version7[34m<Enter>[m   for version info[1;1H[?12l[?25h[24;1H[?1l>[?1049lVim: Caught deadly signal HUP
+Vim: Finished.
+[24;1H
+Script done on Wed 29 Mar 2017 03:26:40 PM MDT

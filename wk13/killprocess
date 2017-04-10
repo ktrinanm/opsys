@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Usage: killprocess pattern
+
+pattern=$1
+
+ps -A | gawk -v pat="$pattern" 'pat ~ $4 {print $1}' | xargs kill

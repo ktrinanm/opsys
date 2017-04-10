@@ -2,8 +2,9 @@
 
 # Usage: ls -al | text2htmlv2
 
-echo "<html><pre>" > out.html
+echo "<html><pre>" > $1.html
 while read LINE; do 
-	echo $LINE >> out.html
+	echo $LINE >> $1.html
 done
-echo "</pre></html>" >> out.html
+echo "</pre></html>" >> $1.html
+google-chrome $1.html

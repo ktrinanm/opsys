@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Usage killthis [pattern]
+
+pattern=$1
+
+while true;
+do
+	if [ $((SECONDS%10)) -eq 0 ]
+		then
+		ps -A | gawk -v pattern="$pattern" 'pattern ~ $4 {print $1}' | xargs kill
+	fi
+done
