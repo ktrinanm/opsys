@@ -1,0 +1,12 @@
+  352  ./ configure && make && make install && sudo ldconfig
+  353  ./configure && make && make install && sudo ldconfig
+  357  ./configure && make && make install && sudo ldconfig
+  407  ./configure
+  425  `./configure && make && make install`
+  426  ./configure
+  430  `./configure && make && make install`
+  432  vim configure
+  434  `./configure && make && make install`
+  435  sudo `./configure && make && make install`
+  436  ./configure 
+  598  history | grep "configure" > file

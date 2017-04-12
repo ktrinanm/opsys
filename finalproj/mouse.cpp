@@ -53,51 +53,29 @@ void printdev(libusb_device *dev)
 		return;
 	}
 
+	unsigned char *manuf;
+	libusb_device_handle *handle = NULL;
+
+	if(dev == NULL)
+	{
+		cout << "Device is NULL." << endl;
+		return;
+	}
+
+	libusb_open(dev, &handle);
+
 	cout << "Number of possible configurations: "
 		<< (int) desc.bNumConfigurations << endl;
 	cout << "Device Class: " << (int)desc.bDeviceClass << endl;
 	cout << "VendorID: " << desc.idVendor << endl;
 	cout << "ProductID: " << desc.idProduct << endl;
-	
+
+	libusb_get_string_descriptor_ascii(handle, desc.iManufacturer, manuf, 200);
+
+	cout << "Manufacturer: " << manuf << endl;
+
 	libusb_config_descriptor *config;
 	libusb_get_config_descriptor(dev, 0, &config);
-
-	cout << "Interfaces: " << (int)config->bNumInterfaces << " ||| ";
-
-	const libusb_interface *inter;
-	const libusb_interface_descriptor *interdesc;
-	const libusb_endpoint_descriptor *epdesc;
-
-	for(int i = 0; i < (int)config->bNumInterfaces; i++)
-	{
-		inter = &config->interface[i];
-
-		cout << "Number of alternate settings: "
-			<< inter->num_altsetting << " | ";
-
-		for(int j = 0; j < inter->num_altsetting; j++)
-		{
-			interdesc = &inter->altsetting[j];
-			cout << "Interface Number: "
-				<< (int)interdesc->bInterfaceNumber
-				<< " | ";
-			cout << "Number of endpoints: "
-				<< (int)interdesc->bNumEndpoints
-				<< " | ";
-			
-			for(int k = 0; k < (int)interdesc->bNumEndpoints;
-					k++)
-			{
-				epdesc = &interdesc->endpoint[k];
-				cout << "Descriptor Type: "
-					<< (int)epdesc->bDescriptorType 
-					<< " | ";
-				cout << "EP Address: "
-					<< (int)epdesc->bEndpointAddress 
-					<< " | ";
-			}
-		}
-	}
 
 	cout << endl << endl << endl;
 	libusb_free_config_descriptor(config);
