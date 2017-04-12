@@ -4,6 +4,7 @@
 using namespace std;
 
 void printdev(libusb_device *dev);
+int castToInt(uint8_t);
 
 int main()
 {
@@ -57,11 +58,26 @@ int main()
 		return 0;
 	}
 
-	returnval = libusb_attach_kernel_driver(handle, 0);
+	libusb_config_descriptor *config;
+	libusb_get_config_descriptor(mouse, 0, &config);
+
+	cout << "Detaching Kernel Drivers and claiming Interface." << endl;
+
+	int interfaceNum = castToInt(&(&(&config->interface[0])->altsetting[0])->bInterfaceNumber);
+	returnval = libusb_detach_kernel_driver(handle,interfaceNum);
 
 	if(returnval < 0)
 	{
-		cout << "Couldn't attach drivers." << endl;
+		cout << "Couldn't detach drivers." << endl;
+		return 1;
+	}
+
+	returnval = libusb_claim_interface(handle, interfaceNum);
+
+	if(returnval < 0)
+	{
+		cout << "Couldn't claim interface" << endl;
+		return 1;
 	}
 
 	//while(true)
@@ -111,4 +127,18 @@ void printdev(libusb_device *dev)
 	libusb_free_config_descriptor(config);
 
 	libusb_close(handle);
+}
+
+int castToInt(uint8_t toCast)
+{
+	if(toCast <= INT_MAX)
+	{
+		return static_cast<int>(toCast);
+	}
+	if(toCast >= INT_MIN)
+	{
+		return static_cast<int>(toCast-INT_MIN)+INT_MIN;
+	}
+
+	throw "Can't Cast.";
 }
