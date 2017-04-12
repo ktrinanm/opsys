@@ -33,8 +33,41 @@ int main()
 
 	for(ssize_t i = 0; i < numDevs; i++)
 	{
+		cout << i << ". " << endl;
 		printdev(devs[i]); // prints device specs
 	}
+
+	int choice;
+	cout << "Please Choose a device number from above: " ;
+	cin >> choice;
+
+	libusb_device *mouse = devs[choice];
+
+	cout << "You have chosen:" << endl;
+	printdev(mouse);
+	
+	libusb_device_handle *handle = NULL;
+
+
+	returnval = libusb_open(mouse, &handle);
+
+	if(returnval < 0)
+	{
+		cout << "Couldn't open device" << endl;
+		return 0;
+	}
+
+	returnval = libusb_attach_kernel_driver(handle, 0);
+
+	if(returnval < 0)
+	{
+		cout << "Couldn't attach drivers." << endl;
+	}
+
+	//while(true)
+	//{
+		
+
 
 	libusb_free_device_list(devs, 1);
 	libusb_exit(context);
@@ -47,15 +80,16 @@ void printdev(libusb_device *dev)
 	libusb_device_descriptor desc;
 	int r = libusb_get_device_descriptor(dev, &desc);
 
+	unsigned char manuf[200];
+	unsigned char prod[200];
+
+	libusb_device_handle *handle = NULL;
+
 	if(r < 0)
 	{
 		cout << "Failed to get the device descriptor!";
 		return;
 	}
-
-	unsigned char *manuf;
-	libusb_device_handle *handle = NULL;
-
 	if(dev == NULL)
 	{
 		cout << "Device is NULL." << endl;
@@ -64,19 +98,17 @@ void printdev(libusb_device *dev)
 
 	libusb_open(dev, &handle);
 
-	cout << "Number of possible configurations: "
-		<< (int) desc.bNumConfigurations << endl;
-	cout << "Device Class: " << (int)desc.bDeviceClass << endl;
-	cout << "VendorID: " << desc.idVendor << endl;
-	cout << "ProductID: " << desc.idProduct << endl;
-
 	libusb_get_string_descriptor_ascii(handle, desc.iManufacturer, manuf, 200);
+	libusb_get_string_descriptor_ascii(handle, desc.iProduct, prod,200);
 
 	cout << "Manufacturer: " << manuf << endl;
+	cout << "Product Name: " << prod << endl;
 
 	libusb_config_descriptor *config;
 	libusb_get_config_descriptor(dev, 0, &config);
 
-	cout << endl << endl << endl;
+	cout << endl << endl;
 	libusb_free_config_descriptor(config);
+
+	libusb_close(handle);
 }
