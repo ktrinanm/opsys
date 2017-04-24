@@ -1,0 +1,82 @@
+Managing the File System:
+
+1. It must keep track of where every file is stored in secondary storage.
+2. Allocate a file only to those authorized to use it.
+3. It needs to be able to implement the following commands:
+	open
+	close
+	create
+	delete
+	read
+	write
+	rename
+	copy
+
+Df. The file manager allocates a file by activation the appropriate secondary storage device, loading the file into RAM and updating its time stamp.
+
+Df. It deallocates a file by updating the file tables and rewriting the file secondary storage.
+
+Df. A data file is a group of related records that contain information to be used by specific application programs.
+
+Df. Program files contain executable programs.
+
+Df. Directories are special files with listings of filenames and attributes
+
+File managers present an easy to navigate "Virtual File System". In reality there are a lot of things going on behind the scenes.
+
+Ex. A simple "read" instruction:
+	A. File manager has to check the file table for the physical location of the file.
+	B. Working with the appropriate device manager, the read/write heads are moved to
+		the cylinder and track where the file starts.
+	C. The read/write heads are activated and the record is transferred
+	D. Flags are set to indicate that the device is ready to satisfy any additional
+		requests.
+	
+Without a file manager, every program would have to be able to execute low level instructions for operating with device storage.
+
+Df. Every file storage unit, removable or not, is called a volume.
+
+Every volume has a small data structure at the beginning called the "volume descriptor" that contains this info:
+	volume creation date
+	name
+	pointer to the directory area
+	pointer to the file area
+
+Immediately after the volume descriptor is the Master File Directory. This data structure stores the information necessary for the File Manager to physically locate any file. 
+It contains for each file:
+	File name 
+	type (program file, directory file, data file, device file, etc)
+	size of the file
+	location (first physical block where the file is stored.)
+	date and time of creation
+	owner
+	access restrictions
+
+Data structures used by hard drive controllers:
+	- block status table: is a block free or not?
+	- file-block table: lists all the blocks allocated for a given file.
+
+The file manager continually interacts with other subsystems of the OS. For example, what happens when the file manager allocates a file to a single user?
+	A. The file manager resolves the physical address of the file and passes it to the
+		device manager.
+	B. The device manager turns on the appropriate device driver for the storage device
+		containing the file
+	C. The device driver activates the reading of a portion of the file into an IO 
+		buffer.
+	D. Device manager then alerts the memory manager that the IO buffer is ready to be
+		loaded into RAM.
+	E. The memory manager allocates memory for the data sitting in he IO buffer and 
+		communicates when it is finished to the File Manager.
+
+Blocks on the HD: 1K to 8K. Say it's 1K on your system.
+A frame is exactly the same size.
+Therefore, the IO buffer should be the same size: 1K.
+
+Block devices: are very efficient at transferring blocks: (1-8K) ex. HD, Display
+Character devices: transfer 1 character at a time. ex. Keyboard, mouse
+
+Say you had a block device that was 4Kx4K: 16 million pixels. How many bites per pixel? For true color, you have 4 bytes/pixel. How much memory do we absolutely need for the memory: 64M bytes. Graphics card have 2-4G?
+
+These things are limited only by your bus speed.
+
+For homework: anything that needs to be secure needs to have fewer levels because it'll be a lot easier to implement it correctly. 

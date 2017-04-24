@@ -1,0 +1,31 @@
+Data files, program files, directories, devices, named pipes, sockets and links are all named files in unix and are treated in a similar way
+
+2 types of links:
+	Hard links - can only be used on files. It's a way of giving multiple names
+		to the same physical file. If we change the permissions on any of the
+		files, it changes on all of them
+	Symbolic links - more robust because they accurately reflect the current status.
+		Programmers almost always use symbolic links.
+
+The inode is a 64 bit pointer to the files inode data structure in the file descriptor table. (Same as the Master File Table). It contains: permissions, timestamps, number of blocks and locations.
+
+Permissions:
+	Typical Access List: -rwxrwxrwx
+		'-' means normal file
+		number
+		name of owner of the file
+		group that the owner is associated with.
+		1st block - owner
+		2nd block - group
+		3rd block - everyone else
+
+The 7 file types and their notation in unix:
+	-regular files: -
+	-directories:    d
+	-character device: c
+	-block devices:  b
+	-links: l
+	-sockerts: 
+	-named pipes:
+
+For wk 6 #4, use the campus computers,

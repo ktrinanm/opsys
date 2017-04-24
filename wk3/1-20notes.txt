@@ -1,0 +1,27 @@
+Special Characters:
+
+~	home directory
+# 	Comment
+$	variable expression
+*	wild card
+|	pipe
+;	shell command separator
+> 	redirected output
+>>	appends
+'	strong quotes
+"	weak quotes
+
+Useful control keys:
+
+CNTL+C	stops the current command
+CNTL+D	indicates the end of the output
+CNTL-S	halts the output to the screen	//in standard linux works like less, not in
+					// cygwin though
+CNTL-Z	suspending current command
+CNTL-Q	resumes last suspended command (not in cygwin)
+
+Sets up home dir if doesn't exist. /etc/profile - First thing cygwin looks at
+
+Looks at .bashprofile				- Second thing
+
+Looks at .bashrc				- Third thing

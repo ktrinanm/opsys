@@ -1,0 +1,11 @@
+tar switches:
+
+	c: create
+	v: verbose
+	f: use the file following the switches
+	z: compress
+	x: extract
+	t: list contents
+	r: append
+
+Hyphens are not required if it would not be interpreted as a parameter like with grep

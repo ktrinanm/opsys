@@ -1,0 +1,86 @@
+Memory Management
+
+Memory allocation schemes:
+	Single user systems
+	Fixed partitions
+	Dynamic Partitions
+	Relocatable dynamic partitions
+
+Assumptions of early systems:
+	1.	If we have a program, it must fit in main memory entirely.
+	2.	It needs to be stored contiguously. 
+	3.	It needs to stay in memory until the job is completed.
+
+What do you do if your program is too big for main memory?
+	
+The kernel is the most important part of an OS. It consists of all the data structures
+and algorithms required to run the OS. It must be loaded entirely in RAM. (About 12 MB for
+current Linux kernels.)
+
+Early DOS is an example of the single user systems. It was very primitive. The want to 
+run multiple users at once lead to fixed partitions.
+
+Fixed partition scheme: You decide the size of the partitions at startup. Each partition
+can hold at most one program. (Internal Fragmentation)
+EX:	embedded system that uses a fixed partition. Suppose we've got:
+		Partition 1: 100 MB
+		Partition 2: 25 MB
+		Partition 3: 25 MB
+		Partition 4: 50 MB
+	Suppose we start with a Job list that the scheduler takes care of as they come in:
+		Job 1: 30 MB
+		Job 2: 50 MB
+		Job 3: 30 MB
+		Job 4: 25 MB
+	When a job comes in, look for the first available place to put it.
+		Job 1 -> Partition 1
+		Job 2 -> Partition 4
+		Job 3 -> has to wait until Partition 1 or 2 is available. (HOLD STATE)
+		Job 4 -> Partition 2 
+
+An improvement on this: dynamic partitions.
+
+Dynamic partitions have partitions of undefined size to start.
+EX:	Jobs:
+		Job 1: 10 M
+		Job 2: 15 M
+		Job 3: 20 M
+		Job 4: 50 M
+		Job 5: 15 M
+		Job 6: 2  M
+	Placement:
+		Job 1 -> Partition 1 (10 M)
+		Job 2 -> Partition 2 (11-25 M)
+		Job 3 -> Partition 3 (26-45 M)
+		Job 4 -> Partition 4 (46-65 M)
+
+		Job 1 ends, but Job 5 can't fit in that space. When Job 2 ends, Job 5
+		can fit in that space, so can Job 6, but Job 7 can't fit in the space left
+		so it goes to the next big enough spot. (Memory is contiguous)
+
+Initially dynamic partitions work well, but over time, there are thin slices of unused space
+all over the place.
+
+Relocatable dynamic partitions: every once in a while, defragmentation is required.
+
+What the memory manager has to do:
+	1.	Halt the running program and save its state.
+	2.	Move the filled partitions up into the fragmented space.
+	3.	Restart the program that was halted.	// bc of the queue, only have to stop 1
+
+It's good to start thinking about memory management in general. Modern techniques are much
+more efficient with paging.
+
+Key terms:
+	Best Fit memory allocation: look at all free blocks and choose the one which wastes 
+		the least.
+	Base register: stores the starting memory address for a program
+	Bounds register: stores the address of the highest location accessible to a program
+	compaction: collect fragments
+	external fragmentation: in dynamic allocation, it's the unusable blocks between 
+		other blocks. (Unusable means too small for any programs to run.)
+	main memory: RAM
+	relocation register: register that stores the shift in a program's base address. This
+		is used to verify where the PC is at all times.
+
+	We like registers to use because they are so fast.

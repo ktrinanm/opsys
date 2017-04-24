@@ -1,0 +1,6 @@
+#!/usr/bin/bash
+
+# Usage: nlines filename
+# $1 is the first thing you typed in after the command (parameter)
+
+echo "There are " `cat $1 | wc -l` " lines in your file"

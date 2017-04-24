@@ -1,0 +1,605 @@
+Script started on Wed Feb  1 15:06:22 2017
+]0;/etc
+
+[32mKatrina@AphroditesTears [33m/etc[0m
+
+# cd e[Kdev[K[K[K/dev
+]0;/dev
+
+[32mKatrina@AphroditesTears [33m/dev[0m
+
+# ls -al
+total 8
+drwxrwx---+ 1 Katrina ????????    0 2017-01-05 15:49 .
+drwxrwx---+ 1 Katrina ???????? 4096 2017-01-11 15:09 ..
+-rwxrwx---+ 1 Katrina ????????   40 2013-12-18 18:48 fd
+drwxrwx---+ 1 Katrina ????????    0 2013-12-18 18:45 mqueue
+drwxrwx---+ 1 Katrina ????????    0 2013-12-18 18:45 shm
+-rwxrwx---+ 1 Katrina ????????   44 2013-12-18 18:47 stderr
+-rwxrwx---+ 1 Katrina ????????   44 2013-12-18 18:47 stdin
+-rwxrwx---+ 1 Katrina ????????   44 2013-12-18 18:47 stdout
+]0;/dev
+
+[32mKatrina@AphroditesTears [33m/dev[0m
+
+# cd /etc
+]0;/etc
+
+[32mKatrina@AphroditesTears [33m/etc[0m
+
+# ls -al
+total 364
+drwxrwx---+ 1 Katrina ????????   8192 2017-01-05 15:50 .
+drwxrwx---+ 1 Katrina ????????   4096 2017-01-11 15:09 ..
+-rwxrwx---+ 1 Katrina ????????   4899 2013-12-18 18:47 DIR_COLORS
+drwxrwx---+ 1 Katrina ????????      0 2017-01-05 15:49 alternatives
+-rwxrwx---+ 1 Katrina ????????    301 2013-12-18 18:48 bash.bashrc
+-rwxrwx---+ 1 Katrina ????????  57063 2010-06-30 11:18 bash_completion
+drwxrwx---+ 1 Katrina ????????  40960 2017-01-05 15:49 bash_completion.d
+drwxrwx---+ 1 Katrina ????????      0 2017-01-05 15:49 defaults
+-rwxrwx---+ 1 Katrina ????????    194 2013-12-18 18:45 fstab
+drwxrwx---+ 1 Katrina ????????      0 2013-12-18 18:45 fstab.d
+-rwxrwx---+ 1 Katrina ????????     14 2013-12-18 18:48 ftpusers
+-rwxrwx---+ 1 Katrina ????????     40 2013-12-18 18:48 ftpwelcome
+-rwxrwx---+ 1 Katrina ????????    427 2013-12-18 18:45 group
+-rwxrwx---+ 1 Katrina ????????     88 2013-12-18 18:48 hosts
+-rwxrwx---+ 1 Katrina ????????   2479 2013-12-18 18:48 inetd.conf
+drwxrwx---+ 1 Katrina ????????      0 2017-01-05 15:49 inetd.d
+-rwxrwx---+ 1 Katrina ????????   4691 2013-12-18 18:48 man.conf
+-rwxrwx---+ 1 Katrina ???????? 125811 2010-09-03 02:44 moduli
+-rwxrwx---+ 1 Katrina ????????   1680 2013-12-18 18:48 motd
+-rwxrwx---+ 1 Katrina ????????     38 2013-12-18 18:45 mtab
+-rwxrwx---+ 1 Katrina ????????     94 2013-12-18 18:48 networks
+-rwxrwx---+ 1 Katrina ????????    902 2013-12-18 18:45 passwd
+drwxrwx---+ 1 Katrina ????????   4096 2017-01-05 15:49 postinstall
+drwxrwx---+ 1 Katrina ????????   4096 2017-01-05 15:49 preremove
+-rwxrwx---+ 1 Katrina ????????   7392 2013-12-18 18:48 profile
+drwxrwx---+ 1 Katrina ????????      0 2017-01-05 15:49 profile.d
+-rwxrwx---+ 1 Katrina ????????     94 2013-12-18 18:48 protocols
+drwxrwx---+ 1 Katrina ????????      0 2017-01-05 15:49 rc.d
+-rwxrwx---+ 1 Katrina ????????   7326 2013-12-18 18:52 rsnapshot.conf
+-rwxrwx---+ 1 Katrina ????????     94 2013-12-18 18:48 services
+drwxrwx---+ 1 Katrina ????????  65536 2017-01-05 15:50 setup
+-rwxrwx---+ 1 Katrina ????????    186 2013-12-18 18:48 shells
+drwxrwx---+ 1 Katrina ????????      0 2017-01-05 15:50 skel
+-rwxrwx---+ 1 Katrina ????????    368 2013-12-18 18:48 syslog.conf
+drwxrwx---+ 1 Katrina ????????   4096 2017-01-05 15:50 xinetd.d
+]0;/etc
+
+[32mKatrina@AphroditesTears [33m/etc[0m
+
+# cd /lib
+]0;/lib
+
+[32mKatrina@AphroditesTears [33m/lib[0m
+
+# ls
+automode.o     groff		  libevtlog.dll.a   liblzma.la	       libz.a
+awk	       libasprintf.a	  libevtlog.la	    liblzo2.a	       libz.dll.a
+backup.sh      libasprintf.dll.a  libg.a	    liblzo2.dll.a      p7zip
+bigram.exe     libasprintf.la	  libgmon.a	    liblzo2.la	       perl5
+binmode.o      libautomode.a	  libhdf5.dll.a     libm.a	       pkgconfig
+charset.alias  libbinmode.a	  libhdf5.la	    libmagic.a	       pl-5.6.36
+code.exe       libc.a		  libhdf5.settings  libmagic.dll.a     rmt.exe
+crt0.o	       libcrypt.a	  libhdf5_hl.dll.a  libmagic.la        terminfo
+csih	       libcrypt.dll.a	  libhdf5_hl.la     libpthread.a       textmode.o
+dump-remind    libcygicons.dll.a  libintl.a	    libresolv.a        textreadmode.o
+frcode.exe     libcygicons.la	  libintl.dll.a     librt.a
+gamin	       libcygwin.a	  libintl.la	    libtextmode.a
+gcrt0.o        libdl.a		  liblzma.a	    libtextreadmode.a
+gio	       libevtlog.a	  liblzma.dll.a     libutil.a
+]0;/lib
+
+[32mKatrina@AphroditesTears [33m/lib[0m
+
+# ls -[K[K[K[Kcd /proc
+]0;/proc
+
+[32mKatrina@AphroditesTears [33m/proc[0m
+
+# ls -al
+total 4
+dr-xr-xr-x  11 Katrina root        0 2017-02-01 15:10 .
+drwxrwx---+  1 Katrina ???????? 4096 2017-01-11 15:09 ..
+dr-xr-xr-x   3 Katrina root        0 2017-02-01 15:10 2012
+dr-xr-xr-x   3 Katrina root        0 2017-02-01 15:06 3124
+dr-xr-xr-x   3 Katrina root        0 2017-02-01 15:06 4764
+dr-xr-xr-x   3 Katrina root        0 2017-02-01 15:06 5500
+dr-xr-xr-x   3 Katrina root        0 2017-02-01 15:04 7032
+-r--r--r--   1 Katrina root        0 2017-02-01 15:10 cpuinfo
+-r--r--r--   1 Katrina root        0 2017-02-01 15:10 filesystems
+-r--r--r--   1 Katrina root        0 2017-02-01 15:10 loadavg
+-r--r--r--   1 Katrina root        0 2017-02-01 15:10 meminfo
+lrwxrwxrwx   1 Katrina root        0 2017-02-01 15:10 mounts -> self/mounts
+dr-xr-xr-x   2 Katrina root        0 2017-02-01 15:10 net
+-r--r--r--   1 Katrina root        0 2017-02-01 15:10 partitions
+dr-xr-xr-x   8 Katrina root        0 2017-02-01 15:10 registry
+dr-xr-xr-x   8 Katrina root        0 2017-02-01 15:10 registry32
+dr-xr-xr-x   8 Katrina root        0 2017-02-01 15:10 registry64
+lrwxrwxrwx   1 Katrina root        0 2017-02-01 15:10 self -> 2012
+-r--r--r--   1 Katrina root        0 2017-02-01 15:10 stat
+-r--r--r--   1 Katrina root        0 2017-02-01 15:10 uptime
+-r--r--r--   1 Katrina root        0 2017-02-01 15:10 version
+]0;/proc
+
+[32mKatrina@AphroditesTears [33m/proc[0m
+
+# cd /usr
+]0;/usr
+
+[32mKatrina@AphroditesTears [33m/usr[0m
+
+# ls -al
+total 224
+drwxrwx---+ 1 Katrina ????????      0 2017-01-06 15:03 .
+drwxrwx---+ 1 Katrina ????????   4096 2017-01-11 15:09 ..
+drwxrwx---+ 1 Katrina ???????? 163840 2017-01-13 15:17 bin
+drwxrwx---+ 1 Katrina ????????  32768 2017-01-06 14:04 include
+drwxrwx---+ 1 Katrina ????????  16384 2017-01-06 14:03 lib
+drwxrwx---+ 1 Katrina ????????      0 2017-01-06 14:04 local
+drwxrwx---+ 1 Katrina ????????   8192 2017-01-06 14:04 sbin
+drwxrwx---+ 1 Katrina ????????   4096 2017-01-06 14:12 share
+drwxrwx---+ 1 Katrina ????????      0 2013-12-18 18:43 src
+drwxrwx---+ 1 Katrina ????????      0 2013-12-18 18:43 tmp
+]0;/usr
+
+[32mKatrina@AphroditesTears [33m/usr[0m
+
+# cd /[Ksbin
+]0;/usr/sbin
+
+[32mKatrina@AphroditesTears [33m/usr/sbin[0m
+
+# ls
+agetty.exe	  findfs.exe	   mkfs.cramfs.exe  ssh-keysign.exe	   tzselect
+alternatives.exe  fsck.cramfs.exe  mkfs.exe	    ssh-pkcs11-helper.exe  update-alternatives
+backup		  fsck.exe	   mkfs.minix.exe   sshd.exe		   uucpd.exe
+blkid.exe	  fsck.minix.exe   mkswap.exe	    syslog-ng.exe	   uuidd.exe
+cfdisk.exe	  ftpd.exe	   restore	    syslogd.exe		   wipefs.exe
+cron.exe	  inetd.exe	   sendmail	    talkd.exe		   zdump.exe
+cygserver.exe	  makewhatis	   sfdisk.exe	    telnetd.exe		   zic.exe
+fdisk.exe	  mkfs.bfs.exe	   sftp-server.exe  tftpd.exe
+]0;/usr/sbin
+
+[32mKatrina@AphroditesTears [33m/usr/sbin[0m
+
+# ls -al |less[K[K[K[K less
+7[?47h
+total 2170
+drwxrwx---+ 1 Katrina ????????   8192 2017-01-06 14:04 .
+drwxrwx---+ 1 Katrina ????????      0 2017-01-06 15:03 ..
+-rwxrwx---+ 1 Katrina ????????  17422 2010-06-24 14:20 agetty.exe
+-rwxrwx---+ 1 Katrina ????????  18944 2009-04-05 13:30 alternatives.exe
+-rwxrwx---+ 1 Katrina ????????   7276 2010-06-29 06:47 backup
+-rwxrwx---+ 1 Katrina ????????  20494 2010-06-24 14:20 blkid.exe
+-rwxrwx---+ 1 Katrina ????????  53262 2010-06-24 14:20 cfdisk.exe
+-rwxrwx---+ 1 Katrina ????????  40462 2010-03-11 13:29 cron.exe
+-rwxrwx---+ 1 Katrina ???????? 150542 2010-08-31 02:01 cygserver.exe
+-rwxrwx---+ 1 Katrina ????????  86542 2010-06-24 14:20 fdisk.exe
+-rwxrwx---+ 1 Katrina ????????   7694 2010-06-24 14:20 findfs.exe
+-rwxrwx---+ 1 Katrina ????????  12302 2010-06-24 14:20 fsck.cramfs.exe
+-rwxrwx---+ 1 Katrina ????????  25614 2010-06-24 14:20 fsck.exe
+-rwxrwx---+ 1 Katrina ????????  24078 2010-06-24 14:20 fsck.minix.exe
+-rwxrwx---+ 1 Katrina ????????  99854 2010-03-28 05:00 ftpd.exe
+-rwxrwx---+ 1 Katrina ????????  56846 2010-03-28 05:00 inetd.exe
+-rwxrwx---+ 1 Katrina ????????  14231 2010-05-17 13:50 makewhatis
+-rwxrwx---+ 1 Katrina ????????  11790 2010-06-24 14:20 mkfs.bfs.exe
+-rwxrwx---+ 1 Katrina ????????  19982 2010-06-24 14:20 mkfs.cramfs.exe
+-rwxrwx---+ 1 Katrina ????????   8718 2010-06-24 14:20 mkfs.exe
+-rwxrwx---+ 1 Katrina ????????  17934 2010-06-24 14:20 mkfs.minix.exe
+-rwxrwx---+ 1 Katrina ????????  15374 2010-06-24 14:20 mkswap.exe
+-rwxrwx---+ 1 Katrina ????????   6003 2010-06-29 06:47 restore
+-rwxrwx---+ 1 Katrina ????????     46 2013-12-18 18:48 sendmail
+-rwxrwx---+ 1 Katrina ????????  49678 2010-06-24 14:20 sfdisk.exe
+-rwxrwx---+ 1 Katrina ????????  50190 2010-09-03 02:44 sftp-server.exe
+-rwxrwx---+ 1 Katrina ???????? 194062 2010-09-03 02:44 ssh-keysign.exe
+:[K
+[K-rwxrwx---+ 1 Katrina ????????  79374 2010-09-03 02:44 ssh-pkcs11-helper.exe
+:[K
+[K-rwxrwx---+ 1 Katrina ???????? 388110 2010-09-03 02:44 sshd.exe
+:[K
+[K-rwxrwx---+ 1 Katrina ???????? 213504 2009-01-14 04:42 syslog-ng.exe
+:[K
+[K-rwxrwx---+ 1 Katrina ????????  58382 2010-03-28 05:00 syslogd.exe
+:[K
+[K-rwxrwx---+ 1 Katrina ???????? 102926 2010-03-28 05:00 talkd.exe
+:[K
+[K-rwxrwx---+ 1 Katrina ????????  71694 2010-03-28 05:00 telnetd.exe
+:[K
+[K-rwxrwx---+ 1 Katrina ????????  42510 2010-03-28 05:00 tftpd.exe
+:[K
+[K-rwxrwx---+ 1 Katrina ????????   7132 2010-05-18 03:18 tzselect
+:[K
+[K-rwxrwx---+ 1 Katrina ????????     27 2013-12-18 18:43 update-alternatives
+:[K
+[K-rwxrwx---+ 1 Katrina ????????  36878 2010-03-28 05:00 uucpd.exe
+:[K
+[K-rwxrwx---+ 1 Katrina ????????  14862 2010-06-24 14:20 uuidd.exe
+:[K
+[K-rwxrwx---+ 1 Katrina ????????  12814 2010-06-24 14:20 wipefs.exe
+:[K
+[K-rwxrwx---+ 1 Katrina ????????  30734 2010-05-18 03:18 zdump.exe
+:[K
+[K-rwxrwx---+ 1 Katrina ????????  58382 2010-05-18 03:18 zic.exe
+:[K
+[K
+[K[7m(END) [27m[K
+[K
+[K[7m(END) [27m[K
+[K
+[K[7m(END) [27m[K
+[K
+[K[7m(END) [27m[K
+[K
+[K[7m(END) [27m[K
+[K
+[K[7m(END) [27m[K
+[K[2J[?47l8]0;/usr/sbin
+
+[32mKatrina@AphroditesTears [33m/usr/sbin[0m
+
+# cd ../share
+]0;/usr/share
+
+[32mKatrina@AphroditesTears [33m/usr/share[0m
+
+# ls
+awk   doc     gettext  info    man  misc  tabset    texinfo  zoneinfo
+csih  getopt  groff    locale  mc   nano  terminfo  texmf
+]0;/usr/share
+
+[32mKatrina@AphroditesTears [33m/usr/share[0m
+
+# cd /var
+]0;/var
+
+[32mKatrina@AphroditesTears [33m/var[0m
+
+# ls -al
+total 4
+drwxrwx---+ 1 Katrina ????????    0 2017-01-06 15:03 .
+drwxrwx---+ 1 Katrina ???????? 4096 2017-01-11 15:09 ..
+drwxrwx---+ 1 Katrina ????????    0 2017-01-06 15:03 cache
+drwxrwx---+ 1 Katrina ????????    0 2017-01-06 15:03 cron
+drwxrwx---+ 1 Katrina ????????    0 2013-12-18 18:49 empty
+drwxrwx---+ 1 Katrina ????????    0 2017-01-06 15:03 lib
+drwxrwx---+ 1 Katrina ????????    0 2017-01-06 15:03 log
+drwxrwx---+ 1 Katrina ????????    0 2017-01-06 15:03 run
+drwxrwx---+ 1 Katrina ????????    0 2013-12-18 18:43 tmp
+]0;/var
+
+[32mKatrina@AphroditesTears [33m/var[0m
+
+# cd /cy[K[K[K[K[K[Ktaskmgr
+sh: /cygdrive/c/WINDOWS/system32/taskmgr: Permission denied
+]0;/var
+
+[32mKatrina@AphroditesTears [33m/var[0m
+
+# sudo taskmgr
+sh: sudo: command not found
+]0;/var
+
+[32mKatrina@AphroditesTears [33m/var[0m
+
+# taskmgr
+sh: /cygdrive/c/WINDOWS/system32/taskmgr: Permission denied
+]0;/var
+
+[32mKatrina@AphroditesTears [33m/var[0m
+
+# sudo su taskmgr
+sh: sudo: command not found
+]0;/var
+
+[32mKatrina@AphroditesTears [33m/var[0m
+
+# su [K[K[Kservicesi[K.msc
+/cygdrive/c/WINDOWS/system32/services.msc: line 1: ?xml: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 2: MMC_ConsoleFile: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 3: ConsoleFileID: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 4: FrameState: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 5: WindowPlacement: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 6: Point: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 7: Point: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 8: Rectangle: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 9: /WindowPlacement: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 10: /FrameState: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 11: Views: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 12: View: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 13: BookMark: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 14: BookMark: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 15: WindowPlacement: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 16: Point: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 17: Point: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 18: Rectangle: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 19: /WindowPlacement: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 20: ViewOptions: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 21: /View: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 22: /Views: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 23: VisualAttributes: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 24: String: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 25: Icon: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 26: Image: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 27: Image: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 28: /Icon: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 29: /VisualAttributes: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 30: Favorites: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 31: Favorite: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 32: String: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 33: Favorites/: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 34: /Favorite: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 35: /Favorites: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 36: ScopeTree: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 37: SnapinCache: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 38: Snapin: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 39: Snapin: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 40: Snapin: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 41: Snapin: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 42: Snapin: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 43: Snapin: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 44: /SnapinCache: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 45: Nodes: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 46: Node: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 47: Nodes: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 48: Node: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 49: Nodes/: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 50: String: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 51: Bitmaps: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 52: BinaryData: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 53: BinaryData: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 54: /Bitmaps: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 55: ComponentDatas: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 56: ComponentData: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 57: GUID: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 58: Stream: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 59: /ComponentData: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 60: /ComponentDatas: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 61: Components/: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 62: /Node: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 63: /Nodes: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 64: String: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 65: Bitmaps: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 66: BinaryData: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 67: BinaryData: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 68: /Bitmaps: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 69: ComponentDatas: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 70: ComponentData: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 71: GUID: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 72: Stream: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 73: /ComponentData: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 74: /ComponentDatas: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 75: Components/: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 76: /Node: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 77: /Nodes: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 78: /ScopeTree: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 79: ConsoleTaskpads/: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 80: ViewSettingsCache: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 81: TargetView: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 82: BookMark: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 83: /TargetView: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 84: ViewSettings: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 85: ResultView: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 86: /ViewSettings: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 87: TargetView: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 88: ViewSettings: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 89: GUID: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 90: /ViewSettings: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 91: /ViewSettingsCache: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 92: ColumnSettingsCache/: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 93: StringTables: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 94: IdentifierPool: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 95: StringTable: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 96: GUID: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 97: Strings: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 98: String: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 99: String: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 100: String: No such file or directory
+/cygdrive/c/WINDOWS/system32/services.msc: line 101: syntax error near unexpected token `('
+/cygdrive/c/WINDOWS/system32/services.msc: line 101: `        <String ID="5" Refs="1">Services (Local)</String>
+'
+]0;/var
+
+[32mKatrina@AphroditesTears [33m/var[0m
+
+# taskmgr.exe
+sh: /cygdrive/c/WINDOWS/system32/taskmgr.exe: Permission denied
+]0;/var
+
+[32mKatrina@AphroditesTears [33m/var[0m
+
+# taskmgr.msc
+sh: taskmgr.msc: command not found
+]0;/var
+
+[32mKatrina@AphroditesTears [33m/var[0m
+
+# eventvwr
+sh: /cygdrive/c/WINDOWS/system32/eventvwr: Permission denied
+]0;/var
+
+[32mKatrina@AphroditesTears [33m/var[0m
+
+# cd /
+]0;/
+
+[32mKatrina@AphroditesTears [33m/[0m
+
+# taskmgr
+sh: /cygdrive/c/WINDOWS/system32/taskmgr: Permission denied
+]0;/
+
+[32mKatrina@AphroditesTears [33m/[0m
+
+# cd /cygdrive/[K[K[K[K[K[K[K[K[K[K~
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# taskmgr
+sh: /cygdrive/c/WINDOWS/system32/taskmgr: Permission denied
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# taskschd.msc 
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 1: ?xml: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 2: MMC_ConsoleFile: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 3: ConsoleFileID: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 4: FrameState: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 5: WindowPlacement: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 6: Point: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 7: Point: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 8: Rectangle: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 9: /WindowPlacement: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 10: /FrameState: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 11: Views: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 12: View: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 13: BookMark: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 14: BookMark: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 15: WindowPlacement: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 16: Point: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 17: Point: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 18: Rectangle: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 19: /WindowPlacement: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 20: ViewOptions: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 21: /View: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 22: /Views: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 23: VisualAttributes: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 24: String: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 25: Icon: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 26: Image: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 27: Image: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 28: Image: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 29: /Icon: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 30: /VisualAttributes: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 31: Favorites: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 32: Favorite: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 33: String: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 34: Favorites/: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 35: /Favorite: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 36: /Favorites: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 37: ScopeTree: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 38: SnapinCache: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 39: Snapin: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 40: Extensions/: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 41: /Snapin: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 42: Snapin: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 43: /SnapinCache: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 44: Nodes: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 45: Node: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 46: Nodes: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 47: Node: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 48: Nodes/: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 49: String: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 50: Bitmaps: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 51: BinaryData: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 52: BinaryData: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 53: /Bitmaps: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 54: ComponentDatas: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 55: ComponentData: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 56: GUID: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 57: Stream: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 58: /ComponentData: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 59: /ComponentDatas: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 60: Components: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 61: Component: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 62: GUID: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 63: Stream: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 64: /Component: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 65: /Components: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 66: /Node: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 67: /Nodes: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 68: String: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 69: Bitmaps: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 70: BinaryData: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 71: BinaryData: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 72: /Bitmaps: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 73: ComponentDatas: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 74: ComponentData: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 75: GUID: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 76: Stream: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 77: /ComponentData: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 78: /ComponentDatas: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 79: Components/: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 80: /Node: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 81: /Nodes: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 82: /ScopeTree: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 83: ConsoleTaskpads/: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 84: ViewSettingsCache: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 85: TargetView: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 86: ViewSettings: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 87: GUID: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 88: /ViewSettings: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 89: /ViewSettingsCache: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 90: ColumnSettingsCache/: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 91: StringTables: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 92: IdentifierPool: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 93: StringTable: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 94: GUID: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 95: Strings: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 96: String: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 97: String: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 98: String: No such file or directory
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 99: syntax error near unexpected token `('
+/cygdrive/c/WINDOWS/system32/taskschd.msc: line 99: `        <String ID="5" Refs="1">Task Scheduler  (Local)</String>
+'
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# won't put that it[Kn out [Kr list[K[K[K[K[K[K[Kr list
+> 
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# nano ~/.bashrc
+7[?47h[0;10m[4l[39;49m[39;49m[H[J[0;10;7m  GNU nano 2.2.5                 File: /home/Katrina/.bashrc                                        [B[0;10m# base-files version 3.9-3
+[5d# To pick up the latest recommended .bashrc content,
+[B# look in /etc/defaults/etc/skel/.bashrc
+[8d# Modifying /etc/skel/.bashrc directly will prevent
+[B# setup from updating it.
+[11d# The copy in your home directory (~/.bashrc) is yours, please
+[B# feel free to customise it to create a shell
+[B# environment to your liking.  If you feel a change
+[B# would be benificial to all, please feel free to send
+[B# a patch to the cygwin mailing list.
+[17d# User dependent .bashrc file
+[19d# Environment Variables
+[B# #####################
+[22d# TMP and TEMP are defined in the Windows environment.  Leaving
+[B# them set to the default Windows temporary directory can have
+[B# unexpected consequences.
+[Bunset TMP
+[Bunset TEMP[27;42H[0;10;7m[ Read 144 lines ]
+[B^G[0;10m Get Help     [0;10;7m^O[0;10m WriteOut     [0;10;7m^R[0;10m Read File    [0;10;7m^Y[0;10m Prev Page    [0;10;7m^K[0;10m Cut Text     [0;10;7m^C[0;10m Cur Pos
+[B[0;10;7m^X[0;10m Exit[29;17H[0;10;7m^J[0;10m Justify[33G[0;10;7m^W[0;10m Where Is     [0;10;7m^V[0;10m Next Page    [0;10;7m^U[0;10m UnCut Text   [0;10;7m^T[0;10m To Spell
+[3d[27;41H[0;10;7m[ Unknown Command
+[3d[0;10m[28d[J[29;100H[29;1H[2J[?47l8
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# echo $PATH
+/usr/local/bin:/usr/bin:/bin:/cygdrive/c/ProgramData/Oracle/Java/javapath:/cygdrive/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/cygdrive/c/Program Files (x86)/Intel/iCLS Client/:/cygdrive/c/Program Files/Intel/iCLS Client/:/cygdrive/c/WINDOWS/system32:/cygdrive/c/WINDOWS:/cygdrive/c/WINDOWS/System32/Wbem:/cygdrive/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/cygdrive/c/Program Files (x86)/Windows Live/Shared:/cygdrive/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/cygdrive/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/cygdrive/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/cygdrive/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/cygdrive/c/Program Files (x86)/Intel/OpenCL SDK/3.0/bin/x86:/cygdrive/c/Program Files (x86)/Intel/OpenCL SDK/3.0/bin/x64:/cygdrive/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/cygdrive/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/cygdrive/c/WINDOWS/system32/config/systemprofile/.dnx/bin:/cygdrive/c/Program Files/Microsoft DNX/Dnvm/:/cygdrive/c/Program Files/nodejs/:/cygdrive/c/Users/Katrina/AppData/Local/Android/android-sdk/platform-tools:/cygdrive/c/Program Files/Novell/iPrint:/cygdrive/c/HashiCorp/Vagrant/bin:/cygdrive/c/Go/bin:/cygdrive/c/Program Files/Git/cmd:/cygdrive/c/Users/Katrina/AppData/Roaming/npm:/cygdrive/c/Program Files (x86)/Microsoft VS Code/bin:/cygdrive/c/Users/Katrina/AppData/Local/Microsoft/WindowsApps:/cygdrive/c/Program Files/Java/jdk1.8.0_112/bin:/cygdrive/c/Program Files (x86)/Mozilla Firefox/:/cygdrive/c/Program Files (x86)/Google/Chrome/Application/:/home/Katrina/bin
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# whic ls
+sh: whic: command not found
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# which ls
+/usr/bin/ls
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# exit
+exit
+
+Script done on Wed Feb  1 15:41:13 2017

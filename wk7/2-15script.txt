@@ -1,0 +1,840 @@
+Script started on Wed Feb 15 15:06:03 2017
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# ls
+2-15.txt  awmt.txt.gz  dir1  executables.txt  hello  newawmt.txt  newfilename  week03  week07
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# mk[K[Krm wkk[K[Keek07
+rm: cannot remove `week07': Is a directory
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# rmdir week07
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# mkdir week07
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# date
+Wed Feb 15 15:06:26 MST 2017
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# date;ls
+Wed Feb 15 15:06:28 MST 2017
+2-15.txt  awmt.txt.gz  dir1  executables.txt  hello  newawmt.txt  newfilename  week03  week07
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# ls |wc[K[K wc
+      9       9      86
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# date;ls|wc
+Wed Feb 15 15:06:37 MST 2017
+      9       9      86
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# dat[K[K[K(date;ls) | wc
+     10      15     115
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# (date;ls) | wc[K[Ktee out.txt | wc
+     11      16     123
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# ls
+2-15.txt     dir1	      hello	   newfilename	week03
+awmt.txt.gz  executables.txt  newawmt.txt  out.txt	week07
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# (sleep 5; date) &
+[1] 2380
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# Wed Feb 15 15:07:51 MST 2017
+
+[1]+  Done                    ( sleep 5; date )
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# ls
+2-15.txt     dir1	      hello	   newfilename	week03
+awmt.txt.gz  executables.txt  newawmt.txt  out.txt	week07
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# cd week07
+]0;~/week07
+
+[32mKatrina@AphroditesTears [33m~/week07[0m
+
+# ls
+]0;~/week07
+
+[32mKatrina@AphroditesTears [33m~/week07[0m
+
+# touch one
+]0;~/week07
+
+[32mKatrina@AphroditesTears [33m~/week07[0m
+
+# ls
+one
+]0;~/week07
+
+[32mKatrina@AphroditesTears [33m~/week07[0m
+
+# >two
+]0;~/week07
+
+[32mKatrina@AphroditesTears [33m~/week07[0m
+
+# ls
+one  two
+]0;~/week07
+
+[32mKatrina@AphroditesTears [33m~/week07[0m
+
+# echo "abc\
+> def\ghi"[K[K[K[K[K\
+> ghi"
+abcdefghi
+]0;~/week07
+
+[32mKatrina@AphroditesTears [33m~/week07[0m
+
+# cd ..
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# ls
+2-15.txt     dir1	      hello	   newfilename	week03
+awmt.txt.gz  executables.txt  newawmt.txt  out.txt	week07
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# echo 'ls | wc -l' > bin/nfiles
+sh: bin/nfiles: No such file or directory
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# which[K[K[K[K[Kmkdir bin
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# ls
+2-15.txt     bin   executables.txt  newawmt.txt  out.txt  week07
+awmt.txt.gz  dir1  hello	    newfilename  week03
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# lsmkdir bin
+[C[Cecho 'ls | wc -l' > bin/nfiles
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# which nfiles
+which: no nfiles in (/usr/local/bin:/usr/bin:/bin:/cygdrive/c/ProgramData/Oracle/Java/javapath:/cygdrive/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/cygdrive/c/Program Files (x86)/Intel/iCLS Client/:/cygdrive/c/Program Files/Intel/iCLS Client/:/cygdrive/c/WINDOWS/system32:/cygdrive/c/WINDOWS:/cygdrive/c/WINDOWS/System32/Wbem:/cygdrive/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/cygdrive/c/Program Files (x86)/Windows Live/Shared:/cygdrive/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/cygdrive/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/cygdrive/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/cygdrive/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/cygdrive/c/Program Files (x86)/Intel/OpenCL SDK/3.0/bin/x86:/cygdrive/c/Program Files (x86)/Intel/OpenCL SDK/3.0/bin/x64:/cygdrive/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/cygdrive/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/cygdrive/c/WINDOWS/system32/config/systemprofile/.dnx/bin:/cygdrive/c/Program Files/Microsoft DNX/Dnvm/:/cygdrive/c/Program Files/nodejs/:/cygdrive/c/Users/Katrina/AppData/Local/Android/android-sdk/platform-tools:/cygdrive/c/Program Files/Novell/iPrint:/cygdrive/c/HashiCorp/Vagrant/bin:/cygdrive/c/Go/bin:/cygdrive/c/Program Files/Git/cmd:/cygdrive/c/Users/Katrina/AppData/Roaming/npm:/cygdrive/c/Program Files (x86)/Microsoft VS Code/bin:/cygdrive/c/Users/Katrina/AppData/Local/Microsoft/WindowsApps:/cygdrive/c/Program Files/Java/jdk1.8.0_112/bin:/cygdrive/c/Program Files (x86)/Mozilla Firefox/:/cygdrive/c/Program Files (x86)/Google/Chrome/Application/:/home/Katrina/bin)
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# export bin[K[K[KPATH=./[K~[K[K~/bin/nfiles[K[K[K[K[K[K[K[K[K[K[K[K[K=$PATH: [K~/bin/[K
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# ls
+2-15.txt     bin   executables.txt  newawmt.txt  out.txt  week07
+awmt.txt.gz  dir1  hello	    newfilename  week03
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# which nfiles
+which: no nfiles in (/usr/local/bin:/usr/bin:/bin:/cygdrive/c/ProgramData/Oracle/Java/javapath:/cygdrive/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/cygdrive/c/Program Files (x86)/Intel/iCLS Client/:/cygdrive/c/Program Files/Intel/iCLS Client/:/cygdrive/c/WINDOWS/system32:/cygdrive/c/WINDOWS:/cygdrive/c/WINDOWS/System32/Wbem:/cygdrive/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/cygdrive/c/Program Files (x86)/Windows Live/Shared:/cygdrive/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/cygdrive/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/cygdrive/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/cygdrive/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/cygdrive/c/Program Files (x86)/Intel/OpenCL SDK/3.0/bin/x86:/cygdrive/c/Program Files (x86)/Intel/OpenCL SDK/3.0/bin/x64:/cygdrive/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/cygdrive/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/cygdrive/c/WINDOWS/system32/config/systemprofile/.dnx/bin:/cygdrive/c/Program Files/Microsoft DNX/Dnvm/:/cygdrive/c/Program Files/nodejs/:/cygdrive/c/Users/Katrina/AppData/Local/Android/android-sdk/platform-tools:/cygdrive/c/Program Files/Novell/iPrint:/cygdrive/c/HashiCorp/Vagrant/bin:/cygdrive/c/Go/bin:/cygdrive/c/Program Files/Git/cmd:/cygdrive/c/Users/Katrina/AppData/Roaming/npm:/cygdrive/c/Program Files (x86)/Microsoft VS Code/bin:/cygdrive/c/Users/Katrina/AppData/Local/Microsoft/WindowsApps:/cygdrive/c/Program Files/Java/jdk1.8.0_112/bin:/cygdrive/c/Program Files (x86)/Mozilla Firefox/:/cygdrive/c/Program Files (x86)/Google/Chrome/Application/:/home/Katrina/bin:/home/Katrina/bin)
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# echo $PATH
+/usr/local/bin:/usr/bin:/bin:/cygdrive/c/ProgramData/Oracle/Java/javapath:/cygdrive/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/cygdrive/c/Program Files (x86)/Intel/iCLS Client/:/cygdrive/c/Program Files/Intel/iCLS Client/:/cygdrive/c/WINDOWS/system32:/cygdrive/c/WINDOWS:/cygdrive/c/WINDOWS/System32/Wbem:/cygdrive/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/cygdrive/c/Program Files (x86)/Windows Live/Shared:/cygdrive/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/cygdrive/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/cygdrive/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/cygdrive/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/cygdrive/c/Program Files (x86)/Intel/OpenCL SDK/3.0/bin/x86:/cygdrive/c/Program Files (x86)/Intel/OpenCL SDK/3.0/bin/x64:/cygdrive/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/cygdrive/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/cygdrive/c/WINDOWS/system32/config/systemprofile/.dnx/bin:/cygdrive/c/Program Files/Microsoft DNX/Dnvm/:/cygdrive/c/Program Files/nodejs/:/cygdrive/c/Users/Katrina/AppData/Local/Android/android-sdk/platform-tools:/cygdrive/c/Program Files/Novell/iPrint:/cygdrive/c/HashiCorp/Vagrant/bin:/cygdrive/c/Go/bin:/cygdrive/c/Program Files/Git/cmd:/cygdrive/c/Users/Katrina/AppData/Roaming/npm:/cygdrive/c/Program Files (x86)/Microsoft VS Code/bin:/cygdrive/c/Users/Katrina/AppData/Local/Microsoft/WindowsApps:/cygdrive/c/Program Files/Java/jdk1.8.0_112/bin:/cygdrive/c/Program Files (x86)/Mozilla Firefox/:/cygdrive/c/Program Files (x86)/Google/Chrome/Application/:/home/Katrina/bin:/home/Katrina/bin
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# 11[K[Kecho $PATH
+[C[Cwhich nfiles[K[K[K[K[K[K[K[K[K[K[K[Kcd bin
+]0;~/bin
+
+[32mKatrina@AphroditesTears [33m~/bin[0m
+
+# ls
+nfiles
+]0;~/bin
+
+[32mKatrina@AphroditesTears [33m~/bin[0m
+
+# ls
+nfiles
+]0;~/bin
+
+[32mKatrina@AphroditesTears [33m~/bin[0m
+
+# ls -al
+total 5
+drwxr-xr-x+ 1 Katrina root    0 2017-02-15 15:12 .
+drwxr-xr-x+ 1 Katrina root 4096 2017-02-15 15:12 ..
+-rw-r--r--+ 1 Katrina root   11 2017-02-15 15:12 nfiles
+]0;~/bin
+
+[32mKatrina@AphroditesTears [33m~/bin[0m
+
+# chmod n[K766 nfiles
+]0;~/bin
+
+[32mKatrina@AphroditesTears [33m~/bin[0m
+
+# chmod 766 nfiles
+[C[C[10Pls -al[Kcd bin
+[C[Cecho $PATH
+[C[Cwhich nfiles
+[C[Cls[Kwhich nfiles
+/home/Katrina/bin/nfiles
+]0;~/bin
+
+[32mKatrina@AphroditesTears [33m~/bin[0m
+
+#  [Knfiles
+1
+]0;~/bin
+
+[32mKatrina@AphroditesTears [33m~/bin[0m
+
+# . [K[K. nfiles
+1
+]0;~/bin
+
+[32mKatrina@AphroditesTears [33m~/bin[0m
+
+# cat nfiles
+ls | wc -l
+]0;~/bin
+
+[32mKatrina@AphroditesTears [33m~/bin[0m
+
+# cd /usr/bin
+]0;/usr/bin
+
+[32mKatrina@AphroditesTears [33m/usr/bin[0m
+
+# nfiles
+571
+]0;/usr/bin
+
+[32mKatrina@AphroditesTears [33m/usr/bin[0m
+
+# echo 'tasklist | wc -l' > bin/nprocesses[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd 
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# c[Kc[Kecho 'tasklist |wc -[K[K[K[K wc -l [K' > bin/nprocesses
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# l[Kcd bin
+]0;~/bin
+
+[32mKatrina@AphroditesTears [33m~/bin[0m
+
+# ls
+nfiles	nprocesses
+]0;~/bin
+
+[32mKatrina@AphroditesTears [33m~/bin[0m
+
+# ls -al
+total 6
+drwxr-xr-x+ 1 Katrina root    0 2017-02-15 15:18 .
+drwxr-xr-x+ 1 Katrina root 4096 2017-02-15 15:12 ..
+-rwxrw-rw-+ 1 Katrina root   11 2017-02-15 15:12 nfiles
+-rw-r--r--+ 1 Katrina root   17 2017-02-15 15:18 nprocesses
+]0;~/bin
+
+[32mKatrina@AphroditesTears [33m~/bin[0m
+
+# nprocesses
+sh: /home/Katrina/bin/nprocesses: Permission denied
+]0;~/bin
+
+[32mKatrina@AphroditesTears [33m~/bin[0m
+
+# . nprocesses
+129
+]0;~/bin
+
+[32mKatrina@AphroditesTears [33m~/bin[0m
+
+# cd 
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# ls -al
+total 106
+drwxr-xr-x+ 1 Katrina root      4096 2017-02-15 15:12 .
+drwxrwx---+ 1 Katrina ????????     0 2017-01-06 15:07 ..
+-rw-------+ 1 Katrina root      3120 2017-02-01 15:41 .bash_history
+-rwxr-xr-x  1 Katrina root      1150 2013-12-18 18:48 .bash_profile
+-rwxrwxr-x+ 1 Katrina ????????  5877 2017-02-11 23:44 .bashrc
+-rwxrwxr-x+ 1 Katrina ????????  2196 2017-02-01 15:35 .bashrcfeb01
+-rwxr-xr-x  1 Katrina root      1461 2013-12-18 18:48 .inputrc
+-rw-r--r--+ 1 Katrina root         0 2017-02-15 15:06 2-15.txt
+-rwxr-x---+ 1 Katrina root     18134 2017-02-12 17:44 awmt.txt.gz
+drwxr-xr-x+ 1 Katrina root         0 2017-02-15 15:18 bin
+drwxr-xr-x+ 1 Katrina root         0 2017-01-25 15:32 dir1
+-rw-r--r--+ 1 Katrina root      4479 2017-01-25 15:26 executables.txt
+-rw-r--r--+ 1 Katrina root         0 2017-01-25 15:34 hello
+-rwxr-x---+ 1 Katrina root     47845 2017-01-25 15:39 newawmt.txt
+-rw-r--r--+ 1 Katrina root        16 2017-01-25 15:28 newfilename
+-rw-r--r--+ 1 Katrina root       123 2017-02-15 15:07 out.txt
+drwxr-xr-x+ 1 Katrina root         0 2017-01-20 15:06 week03
+drwxr-xr-x+ 1 Katrina root         0 2017-02-15 15:08 week07
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# nfiles
+11
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# files are non directories
+sh: files: command not found
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# cd /usr/bin
+]0;/usr/bin
+
+[32mKatrina@AphroditesTears [33m/usr/bin[0m
+
+# ls -al
+
+]0;/usr/bin
+
+[32mKatrina@AphroditesTears [33m/usr/bin[0m
+
+# cd ~
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# cd bin
+]0;~/bin
+
+[32mKatrina@AphroditesTears [33m~/bin[0m
+
+# ls -al
+total 6
+drwxr-xr-x+ 1 Katrina root    0 2017-02-15 15:18 .
+drwxr-xr-x+ 1 Katrina root 4096 2017-02-15 15:12 ..
+-rwxrw-rw-+ 1 Katrina root   11 2017-02-15 15:12 nfiles
+-rw-r--r--+ 1 Katrina root   17 2017-02-15 15:18 nprocesses
+]0;~/bin
+
+[32mKatrina@AphroditesTears [33m~/bin[0m
+
+# cd 
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# ls -al | grep ^d
+drwxr-xr-x+ 1 Katrina root      4096 2017-02-15 15:12 .
+drwxrwx---+ 1 Katrina ????????     0 2017-01-06 15:07 ..
+drwxr-xr-x+ 1 Katrina root         0 2017-02-15 15:18 bin
+drwxr-xr-x+ 1 Katrina root         0 2017-01-25 15:32 dir1
+drwxr-xr-x+ 1 Katrina root         0 2017-01-20 15:06 week03
+drwxr-xr-x+ 1 Katrina root         0 2017-02-15 15:08 week07
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# echo 'ls -al | grep  [K^d' > [K[K[K[K | wc -l' > bin/ndir
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# cd bin
+]0;~/bin
+
+[32mKatrina@AphroditesTears [33m~/bin[0m
+
+# ls
+ndir  nfiles  nprocesses
+]0;~/bin
+
+[32mKatrina@AphroditesTears [33m~/bin[0m
+
+# chmod ndir [K[K[K[K[K7666[K ndir
+]0;~/bin
+
+[32mKatrina@AphroditesTears [33m~/bin[0m
+
+# ndir
+2
+]0;~/bin
+
+[32mKatrina@AphroditesTears [33m~/bin[0m
+
+# ls -al
+total 7
+drwxr-xr-x+ 1 Katrina root    0 2017-02-15 15:22 .
+drwxr-xr-x+ 1 Katrina root 4096 2017-02-15 15:12 ..
+-rwxrw-rw-+ 1 Katrina root   25 2017-02-15 15:22 ndir
+-rwxrw-rw-+ 1 Katrina root   11 2017-02-15 15:12 nfiles
+-rw-r--r--+ 1 Katrina root   17 2017-02-15 15:18 nprocesses
+]0;~/bin
+
+[32mKatrina@AphroditesTears [33m~/bin[0m
+
+# cd ../
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# ndirs
+sh: ndirs: command not found
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# ndir
+6
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# jjj[K[K[Kls -al
+total 106
+drwxr-xr-x+ 1 Katrina root      4096 2017-02-15 15:12 .
+drwxrwx---+ 1 Katrina ????????     0 2017-01-06 15:07 ..
+-rw-------+ 1 Katrina root      3120 2017-02-01 15:41 .bash_history
+-rwxr-xr-x  1 Katrina root      1150 2013-12-18 18:48 .bash_profile
+-rwxrwxr-x+ 1 Katrina ????????  5877 2017-02-11 23:44 .bashrc
+-rwxrwxr-x+ 1 Katrina ????????  2196 2017-02-01 15:35 .bashrcfeb01
+-rwxr-xr-x  1 Katrina root      1461 2013-12-18 18:48 .inputrc
+-rw-r--r--+ 1 Katrina root         0 2017-02-15 15:06 2-15.txt
+-rwxr-x---+ 1 Katrina root     18134 2017-02-12 17:44 awmt.txt.gz
+drwxr-xr-x+ 1 Katrina root         0 2017-02-15 15:22 bin
+drwxr-xr-x+ 1 Katrina root         0 2017-01-25 15:32 dir1
+-rw-r--r--+ 1 Katrina root      4479 2017-01-25 15:26 executables.txt
+-rw-r--r--+ 1 Katrina root         0 2017-01-25 15:34 hello
+-rwxr-x---+ 1 Katrina root     47845 2017-01-25 15:39 newawmt.txt
+-rw-r--r--+ 1 Katrina root        16 2017-01-25 15:28 newfilename
+-rw-r--r--+ 1 Katrina root       123 2017-02-15 15:07 out.txt
+drwxr-xr-x+ 1 Katrina root         0 2017-01-20 15:06 week03
+drwxr-xr-x+ 1 Katrina root         0 2017-02-15 15:08 week07
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# eci[Kho "this program was executed on [K: "\[K `date`
+this program was executed on:  Wed Feb 15 15:26:32 MST 2017
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# ls
+2-15.txt     bin   executables.txt  newawmt.txt  out.txt  week07
+awmt.txt.gz  dir1  hello	    newfilename  week03
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# cd [K[K[Kcd `[K/
+]0;/
+
+[32mKatrina@AphroditesTears [33m/[0m
+
+# ls
+Cygwin.ico  bin  cygdrive  dev	etc  home  lib	proc  tmp  usr	var
+]0;/
+
+[32mKatrina@AphroditesTears [33m/[0m
+
+# cd 
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# cd dir1
+]0;~/dir1
+
+[32mKatrina@AphroditesTears [33m~/dir1[0m
+
+# ls
+awmt.txt
+]0;~/dir1
+
+[32mKatrina@AphroditesTears [33m~/dir1[0m
+
+# cd ../
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# cp ~/dir1/awmt.txt
+cp: missing destination file operand after `/home/Katrina/dir1/awmt.txt'
+Try `cp --help' for more information.
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# cp ~/dir1/awmt.txt ./
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# ls
+2-15.txt  awmt.txt.gz  dir1		hello	     newfilename  week03
+awmt.txt  bin	       executables.txt	newawmt.txt  out.txt	  week07
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+#  [Kecho "There are " `cat awmtxt[K[K[Kt.txt`[K | wc -l`" [K[K " lines in your file"
+There are  167  lines in your file
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# cp [K[K[Ksaved bash command for above in [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcp /cygdrive/c//[KUsers/Katrina/Workspace/CS3600/wk7/nlines ./B[Kbin/
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# ls
+2-15.txt  awmt.txt.gz  dir1		hello	     newfilename  week03
+awmt.txt  bin	       executables.txt	newawmt.txt  out.txt	  week07
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# ls -[Kbin
+ndir  nfiles  nlines  nprocesses
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# nlines
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# ls -al
+total 154
+drwxr-xr-x+ 1 Katrina root      4096 2017-02-15 15:27 .
+drwxrwx---+ 1 Katrina ????????     0 2017-01-06 15:07 ..
+-rw-------+ 1 Katrina root      3120 2017-02-01 15:41 .bash_history
+-rwxr-xr-x  1 Katrina root      1150 2013-12-18 18:48 .bash_profile
+-rwxrwxr-x+ 1 Katrina ????????  5877 2017-02-11 23:44 .bashrc
+-rwxrwxr-x+ 1 Katrina ????????  2196 2017-02-01 15:35 .bashrcfeb01
+-rwxr-xr-x  1 Katrina root      1461 2013-12-18 18:48 .inputrc
+-rw-r--r--+ 1 Katrina root         0 2017-02-15 15:06 2-15.txt
+-rwxr-x---+ 1 Katrina root     47821 2017-02-15 15:27 awmt.txt
+-rwxr-x---+ 1 Katrina root     18134 2017-02-12 17:44 awmt.txt.gz
+drwxr-xr-x+ 1 Katrina root         0 2017-02-15 15:34 bin
+drwxr-xr-x+ 1 Katrina root         0 2017-01-25 15:32 dir1
+-rw-r--r--+ 1 Katrina root      4479 2017-01-25 15:26 executables.txt
+-rw-r--r--+ 1 Katrina root         0 2017-01-25 15:34 hello
+-rwxr-x---+ 1 Katrina root     47845 2017-01-25 15:39 newawmt.txt
+-rw-r--r--+ 1 Katrina root        16 2017-01-25 15:28 newfilename
+-rw-r--r--+ 1 Katrina root       123 2017-02-15 15:07 out.txt
+drwxr-xr-x+ 1 Katrina root         0 2017-01-20 15:06 week03
+drwxr-xr-x+ 1 Katrina root         0 2017-02-15 15:08 week07
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# cd bin
+]0;~/bin
+
+[32mKatrina@AphroditesTears [33m~/bin[0m
+
+# ls
+ndir  nfiles  nlines  nprocesses
+]0;~/bin
+
+[32mKatrina@AphroditesTears [33m~/bin[0m
+
+# ls 0[K-al
+total 8
+drwxr-xr-x+ 1 Katrina root    0 2017-02-15 15:34 .
+drwxr-xr-x+ 1 Katrina root 4096 2017-02-15 15:27 ..
+-rwxrw-rw-+ 1 Katrina root   25 2017-02-15 15:22 ndir
+-rwxrw-rw-+ 1 Katrina root   11 2017-02-15 15:12 nfiles
+-rwxr-x---+ 1 Katrina root  166 2017-02-15 15:34 nlines
+-rw-r--r--+ 1 Katrina root   17 2017-02-15 15:18 nprocesses
+]0;~/bin
+
+[32mKatrina@AphroditesTears [33m~/bin[0m
+
+# nlines
+a
+b
+c
+.txt
+"
+]0;~/bin
+
+[32mKatrina@AphroditesTears [33m~/bin[0m
+
+# nliens [K[K[K[Knes ../awmt.txt
+Ther are  167  lines in your files
+]0;~/bin
+
+[32mKatrina@AphroditesTears [33m~/bin[0m
+
+# cd
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# nlines ./[K[K/[K./bin/gree[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcdnlines ../awmt.txt
+[C[C[C[C[C[C[C[C[K
+[C[Cls -al[Kcd bin
+[C[Cls -al
+[C[Cnlines
+[C[Cls bin[Kcp /cygdrive/c/Users/Katrina/Workspace/CS3600/wk7/nlines ./bin/
+[C[C[1Pecho "There are " `cat awmt.txt | wc -l` " lines in your file"
+[C[Cls[Kecho "There are " `cat awmt.txt | wc -l` " lines in your file"
+[C[Ccp /cygdrive/c/Users/Katrina/Workspace/CS3600/wk7/nlines ./bin/
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# ls -al bin
+total 8
+drwxr-xr-x+ 1 Katrina root    0 2017-02-15 15:34 .
+drwxr-xr-x+ 1 Katrina root 4096 2017-02-15 15:27 ..
+-rwxrw-rw-+ 1 Katrina root   25 2017-02-15 15:22 ndir
+-rwxrw-rw-+ 1 Katrina root   11 2017-02-15 15:12 nfiles
+-rwxr-x---+ 1 Katrina root  166 2017-02-15 15:36 nlines
+-rw-r--r--+ 1 Katrina root   17 2017-02-15 15:18 nprocesses
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# nlines awmt.txt
+There are  167  lines in your file
+]0;~
+
+[32mKatrina@AphroditesTears [33m~[0m
+
+# cd /bin
+]0;/bin
+
+[32mKatrina@AphroditesTears [33m/bin[0m
+
+# ls
+7z			  cygpanel-9.dll	     link.exe	       roff2text
+7za			  cygpanelw-10.dll	     lkbib.exe	       roff2x
+7zr			  cygpath.exe		     ln.exe	       rsnapshot
+[.exe			  cygpcre-0.dll		     locale.exe        rsnapshot-diff
+a2p.exe			  cygpcreposix-0.dll	     locate.exe        rsync.exe
+acat			  cygperl5_10.dll	     loggen.exe        run.exe
+addftinfo.exe		  cygpopt-0.dll		     logger.exe        runcon.exe
+adiff			  cygreadline6.dll	     login.exe	       s2p
+afio.exe		  cygreadline7.dll	     logname.exe       scandeps
+afmtodit		  cygrunsrv.exe		     look.exe	       scp.exe
+als			  cygserver-config	     lookbib.exe       script.exe
+apack			  cygsigsegv-2.dll	     lpr.exe	       scriptreplay.exe
+apropos			  cygssl-0.9.8.dll	     ls.exe	       sdiff.exe
+arc.exe			  cygssp-0.dll		     lwp-download      sed.exe
+arch.exe		  cygstart.exe		     lwp-dump	       semstat.exe
+arepack			  cygstdc++-6.dll	     lwp-mirror        semtool.exe
+ascii.exe		  cygtic-10.dll		     lwp-request       seq.exe
+ash.exe			  cygtic-9.dll		     lwp-rget	       setfacl.exe
+atool			  cygticw-10.dll	     lzcat	       setfattr.exe
+attr.exe		  cyguuid-1.dll		     lzcmp	       setmetamode.exe
+aunpack			  cygwin-console-helper.exe  lzdiff	       setsid.exe
+awk			  cygwin1.dll		     lzegrep	       sftp.exe
+banner.exe		  cygwrap-0.dll		     lzfgrep	       sh.exe
+base64.exe		  cygxml2-2.dll		     lzgrep	       sha1sum.exe
+basename.exe		  cygz.dll		     lzip.exe	       sha224sum.exe
+bash.exe		  d2u.exe		     lziprecover.exe   sha256sum.exe
+bashbug			  dash.exe		     lzless	       sha384sum.exe
+bc.exe			  date.exe		     lzma	       sha512sum.exe
+bsdcpio.exe		  dc.exe		     lzmadec.exe       shar.exe
+bsdtar.exe		  dd.exe		     lzmainfo.exe      shasum
+bunzip2.exe		  ddate.exe		     lzmore	       shmtool.exe
+bzcat.exe		  df.exe		     lzop.exe	       shred.exe
+bzcmp			  diff.exe		     mail-files        shuf.exe
+bzdiff			  diff3.exe		     mailshar	       shutdown.exe
+bzegrep			  dir.exe		     makeinfo.exe      sleep.exe
+bzfgrep			  dircolors.exe		     man.exe	       slogin
+bzgrep			  dirname.exe		     man2dvi	       soelim.exe
+bzip2.exe		  dos2unix.exe		     man2html.exe      sort.exe
+bzip2recover.exe	  dprofpp		     manlint	       splain
+bzless			  du.exe		     manpath	       split.exe
+bzmore			  dump.exe		     marc.exe	       ssh-add.exe
+c2ph			  dumper.exe		     mc.exe	       ssh-agent.exe
+cabextract.exe		  echo.exe		     mcedit.exe        ssh-copy-id
+cal.exe			  editrights.exe	     mcmfmt.exe        ssh-host-config
+cat.exe			  egrep.exe		     mcookie.exe       ssh-keygen.exe
+chcon.exe		  enc2xs		     mcview.exe        ssh-keyscan.exe
+chem			  env.exe		     md5sum.exe        ssh-user-config
+chgrp.exe		  envsubst.exe		     metabase-profile  ssh.exe
+chkdupexe		  eqn.exe		     mintty.exe        ssp.exe
+chmod.exe		  eqn2graph		     mkdir.exe	       stat.exe
+chown.exe		  expand.exe		     mkfifo.exe        strace.exe
+chroot.exe		  expr.exe		     mkgroup.exe       stty.exe
+cksum.exe		  factor.exe		     mknod.exe	       su.exe
+clear.exe		  false.exe		     mkpasswd.exe      sum.exe
+clearw.exe		  fgrep.exe		     mkshortcut.exe    suspend
+cmp.exe			  file.exe		     mktemp.exe        sync.exe
+col.exe			  find.exe		     mmroff	       syslog-ng-config
+colcrt.exe		  find2perl		     more.exe	       syslogd-config
+colrm.exe		  findrule		     mount.exe	       tac.exe
+column.exe		  fiz.exe		     msgtool.exe       tail.exe
+comm.exe		  flock.exe		     mv.exe	       tailf.exe
+compress		  fmt.exe		     namei.exe	       talk.exe
+compress-dummy		  fold.exe		     nano.exe	       tar.exe
+config_data		  free.exe		     neqn	       tbl.exe
+conv.exe		  ftp.exe		     ngettext.exe      tee.exe
+copy-user-registry-fstab  funzip.exe		     nice.exe	       telnet.exe
+corelist		  gawk-3.1.8.exe	     nl.exe	       test.exe
+cp.exe			  gawk.exe		     nohup.exe	       texi2dvi
+cpan			  gdiffmk		     nproc.exe	       texi2pdf
+cpan2dist		  getclip.exe		     nroff	       texindex.exe
+cpaninject		  getfacl.exe		     od.exe	       tfmtodit.exe
+cpanp			  getfattr.exe		     oldfind.exe       tftp.exe
+cpanp-run-perl		  getopt.exe		     p7zip	       timeout.exe
+cpansign		  gettext.exe		     passwd.exe        tnef.exe
+cpantest		  gettext.sh		     paste.exe	       top.exe
+crc32			  gif2h5.exe		     pathchk.exe       touch.exe
+cron-config		  gkill.exe		     pdfroff	       tr.exe
+cron_diagnose.sh	  grap2graph		     pdftexi2dvi       troff.exe
+cronbug			  greetings		     peflags.exe       true.exe
+cronevents.exe		  grep.exe		     peflagsall        truncate.exe
+cronlog			  grn.exe		     perl.exe	       tsort.exe
+crontab.exe		  grodvi.exe		     perl5.10.1.exe    tty.exe
+crypt.exe		  groff.exe		     perlbug	       u2d.exe
+csplit.exe		  groffer		     perldoc	       ul.exe
+cut.exe			  grog			     perlivp	       umount.exe
+cygarchive-2.dll	  grolbp.exe		     perlrebase        unace.exe
+cygattr-1.dll		  grolj4.exe		     perlthanks        unalz.exe
+cygblkid-1.dll		  grops.exe		     pfbtops.exe       uname.exe
+cygbz2-1.dll		  grotty.exe		     pg.exe	       uncompress
+cygcheck.exe		  groups.exe		     pgawk-3.1.8.exe   unexpand.exe
+cygcrypt-0.dll		  gunzip		     pgawk.exe	       uniq.exe
+cygcrypto-0.9.8.dll	  gzexe			     pic.exe	       unix2dos.exe
+cygdb-4.5.dll		  gzip.exe		     pic2graph	       unlink.exe
+cygdb_cxx-4.5.dll	  h2ph			     piconv	       unlzma
+cygdrop.exe		  h2xs			     ping.exe	       unshar.exe
+cygedit-0.dll		  h52gif.exe		     pinky.exe	       unxz
+cygevtlog-0.dll		  h5cc			     pl		       unzip.exe
+cygexpat-1.dll		  h5debug.exe		     pl2pm	       unzipsfx.exe
+cygfam-0.dll		  h5diff.exe		     plld	       updatedb
+cygform-10.dll		  h5dump.exe		     plrc	       users.exe
+cygform-8.dll		  h5import.exe		     pod2html	       uudecode.exe
+cygform-9.dll		  h5jam.exe		     pod2latex	       uuencode.exe
+cygformw-10.dll		  h5ls.exe		     pod2man	       uuidgen.exe
+cyggcc_s-1.dll		  h5perf.exe		     pod2text	       vdir.exe
+cyggdbm-4.dll		  h5redeploy		     pod2usage	       wc.exe
+cyggdbm_compat-4.dll	  h5repack.exe		     pod_cover	       whatis
+cyggio-2.0-0.dll	  h5repart.exe		     podchecker        whereis.exe
+cygglib-1-2-0.dll	  h5unjam.exe		     podselect	       which.exe
+cygglib-2.0-0.dll	  head.exe		     post-grohtml.exe  who.exe
+cyggmodule-1-2-0.dll	  hexdump.exe		     pr.exe	       whoami.exe
+cyggmodule-2.0-0.dll	  hexedit.exe		     pre-grohtml.exe   xargs.exe
+cyggmp-3.dll		  hibernate		     preconv.exe       xmlcatalog.exe
+cyggobject-2.0-0.dll	  hostid.exe		     printenv.exe      xmllint.exe
+cyggthread-1-2-0.dll	  hostname.exe		     printf.exe        xsubpp
+cyggthread-2.0-0.dll	  hpftodit.exe		     prove	       xz.exe
+cyghdf5-0.dll		  id.exe		     ps.exe	       xzcat
+cyghdf5_hl-0.dll	  igawk			     psed	       xzcmp
+cyghistory6.dll		  indxbib.exe		     pstruct	       xzdec.exe
+cyghistory7.dll		  info.exe		     ptar	       xzdiff
+cygicons-0.dll		  infokey.exe		     ptardiff	       xzegrep
+cygiconv-2.dll		  install-info.exe	     ptee	       xzfgrep
+cygintl-8.dll		  install-info.exe.manifest  ptx.exe	       xzgrep
+cyglsa-config		  install.exe		     putclip.exe       xzless
+cyglsa.dll		  install.exe.manifest	     pwd.exe	       xzmore
+cyglsa64.dll		  instmodsh		     readlink.exe      yes.exe
+cyglzma-1.dll		  ipck			     readshortcut.exe  zcat
+cyglzo2-2.dll		  ipcmk.exe		     realpath.exe      zcmp
+cygmagic-1.dll		  ipcount		     rebase.exe        zdiff
+cygmenu-10.dll		  ipcrm.exe		     rebaseall	       zegrep
+cygmenu-8.dll		  ipcs.exe		     reboot	       zfgrep
+cygmenu-9.dll		  iptab			     refer.exe	       zforce
+cygmenuw-10.dll		  isosize.exe		     regtool.exe       zgrep
+cygmp-3.dll		  iu-config		     remsync	       zip.exe
+cygncurses++-10.dll	  join.exe		     rename.exe        zipcloak.exe
+cygncurses++-8.dll	  json_xs		     renice.exe        zipgrep
+cygncurses++-9.dll	  kill.exe		     rev.exe	       zipinfo.exe
+cygncurses++w-10.dll	  ldd.exe		     rm.exe	       zipnote.exe
+cygncurses-10.dll	  ldh.exe		     rmdir.exe	       zipsplit.exe
+cygncurses-8.dll	  less.exe		     rnano	       zless
+cygncurses-9.dll	  lessecho.exe		     roff2dvi	       zmore
+cygncursesw-10.dll	  lesskey.exe		     roff2html	       znew
+cygpanel-10.dll		  libnetcfg		     roff2pdf	       zoo.exe
+cygpanel-8.dll		  line.exe		     roff2ps
+]0;/bin
+
+[32mKatrina@AphroditesTears [33m/bin[0m
+
+# cd[K[Kls[K[Kcd /dev
+]0;/dev
+
+[32mKatrina@AphroditesTears [33m/dev[0m
+
+# ls
+fd  mqueue  shm  stderr  stdin	stdout
+]0;/dev
+
+[32mKatrina@AphroditesTears [33m/dev[0m
+
+#  [Kexit
+exit
+
+Script done on Wed Feb 15 19:33:37 2017

@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+
+#Usage: ndir filename
+
+echo  "There are "`ls -al | grep ^d | wc -l`" directories in that files."

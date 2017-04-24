@@ -1,0 +1,4 @@
+absolute paths start from the root, like /usr/bin
+
+relative paths start with something like this: ./ or ../
+Navigation to the file from the pwd

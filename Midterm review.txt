@@ -1,0 +1,96 @@
+Midterm on Wednesday
+
+Terms:
+	-compaction: collecting fragments into a single section of unallocated space by moving the processes in memory
+	-external fragmentaton: in dynamic allocation, it's the unusable blocks between other blocks. 	
+	-internal fragmentaton: Wasted space at the end of a partition because the allocated process is too small for the fixed-size partition
+	-page frames: fixed-length, contiguous block of virtual memory
+	-demand paging: A type of swapping in which pages of program data are not copied from disk to RAM until they are needed.
+	-page fault: An exception that occurs when the required page is not found in memory and there are no free frames
+	-page fault handler: A handler that decides which page to replace with the new page being pulled in
+	-page map table: a table that shows, for each job, which page of the job is in which page frame.
+	-segment: a group of pages that are known to be needed at the same time.
+	-segmentation fault: An exception that occurs when the memory manager detects that there is not room to load a new segment.
+	-virtual memory: a memory management technique that involves only loading what is necessary at the moment using pages and segments
+	-process control block: a block of memory for each process that contains the process's process status, register contents, contents of all variables, pointers to all open files, and all IO resources in use.
+	-context switch: process of storing all items needed to reinstate the process in the Process Control Block, then pulling in the info needed by the next process to restart
+	-multiprogramming: a state that allows multiple processes to run.
+	-pre-emptive multitasking: a process that uses time quanta to allocate resources to individual processes for that given time quanta.
+	-process: an instance of a program in execution
+	-process scheduling algorithm: an algorithm used to decided in which order the processes will be scheduled
+	-round robin: a simple form of process management that uses a normal queue
+	-time quanta: The time given each process to run.
+	-deadlock: occurs when the resources for Job A to complete are held by Job B, which in turn is waiting for resources held by Job A before it can finish. Both jobs will be permanently in a hold state.
+	-volume: any file storage unit
+	-master file directory: stores names and characteristics of every file in the volume
+	-pipe: | a character used to redirect the output of the first command to the input of the second
+	-redirection: redirecting input or output of a command from or to a text file or string
+	-multilevel process queue: Specialized queues used for process management
+	-OS kernel: consists of all the data structures and algorithms required to run the OS
+	-register: a very fast, temporaray storage that holds information that is being worked on at the moment
+	-system bus: a pipeline that connects major components, this can send data, addresses, and commands
+	-bus controller: The device that decides to turn on and off access to the bus
+	-device controller: a component that handles low level details of requests from the CPU
+	-Direct Memory Access: The process of a device controller accessing the RAM and transferring data without any intervention from the CPU
+	-device driver: a program responsible for translating the abstractions of the OS into something the device controller can understand
+	-block device: a device that transfers data in blocks instead of one at a time
+	-character device: a device that sends one character at a time 
+	-socket: a device used by network devices and protocols
+	-inode number: a 64-bit pointer to the file's inode data structure in the file descriptor table
+	-.bashrc: a file used to create settings, functions, and aliases that will be available any time the shell is opened
+	-alias: a new name for a command or group of commands
+	-environment variable: named values that affect the behavior of running processes
+	-interrupt: hardware signal that suspends execution of a program.
+	-interrupt handler: a function that runs for a specific device when an interrupt is detected.
+	-program counter: a counter that keeps track of the relative address of the next instruction
+	
+	
+Concept questions
+	1. Breifly describe what each of the following commands does:
+		touch, cp, mv, rm, cat, less
+		cd, pwd, ls, mkdir, rmdir,
+		ln -s
+		clear, echo
+		man, help
+		history, hostname, whoami, wc, date, cal, which
+		|, >, >>, < &, *, $var, #, ~, ./
+		df - disk space usage
+		ps, kill CNTL-C 
+		env, set
+		alias - alternate name, export
+		source - execute commands from file, ls -al, ls -alR, ls -li, echo $PATH, script, cat /proc/meminfo
+		free - displays mem info, PS1='->', head, tail
+		dd if=/dev/random of=/tmp/myfile count=1
+	
+	2. What does the .bashrc file do?
+	3. Describe in detail what occurs during context switching.
+	4. What are the 4 conditions necessary for dead lock? How does the operating system detect it?
+	5. Describe the state of the victim in deadlock resolution?
+	6. Describe in detail how the file manager allocates a file to a single user.
+	7. Describe the 7 most common file types in unix.
+	8. Know the most common root directories and what they are used for.
+	9. Describe a multiprocess queue in detail.
+	10. What do these permissions do: 777, 755, 744, etc.
+	11. How would you add an alias to your .bashrc file that would allow you to run firefox or similar application.
+	12. How do you add an executable to the PATH?
+	13. How do you move a process into the background?
+	14. Give at least 6 data structures used by modern OSes.
+	15. How big is a typical time quanta? How many CPU instructions can be executed in that time?
+	16. What does the OS kernel do?
+	17. How big is a typical page frame?
+	18. What are the advantages of virtual memory?
+	19. Give a minimal set of commands the FileManager must be able to implement.
+	20. Describe how data is transferred from the CPU to a device and back. 
+	21. Give a command which overwrites a file called "sourcefile" with 10000 blocks of random data.
+	22. Describe the PCB(process control block) in detail. Give at least 2 items of process ID data, two times of processor state data and 6 items of process control data. (Wants a long detailed answer for this question).
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

@@ -1,0 +1,37 @@
+Synchronization
+
+Preemptive multitasking and multilevel queues.
+
+Deadlock:
+	Df. A problem occuring when the resources for job A to complete are held
+	by job B which in turn is waiting for resources held by job A before it can
+	finish. Both jobs will be permanently in the hold state.
+
+	Four conditions must be satisfied before deadlock occurs:
+		1. Mutual Exclusion: only one process is allowed to have access to
+			a resource.
+		2. Resource Holding: a process does not relinquish the resources 
+			it holds until its execution is completed, even if it's
+			not using them.
+		3. No Preemption: A process is allowed to hold onto resources
+			while waiting for other resources to become available.
+		4. Circular wait: A set of two or more processes each waiting for
+			a resource held by another.
+	Process Synchronization: The resolution of conflicts between processes in 
+		a multiprogramming environment.
+
+	Modern operating systems use diagraph to detect deadlock.
+
+	The OS models processes using process-resource diagraphs. If a cycle is 
+	detected, we have deadlock.
+
+	Recovery Algorithm: When the OS detects deadlock, it must resolve it. The 
+	method used to resolve deadlocks.
+
+	A common recovery algorithm:
+		Given the list of processes in a cycle, pick the one with lowest
+		priority and preempt it. Give away all the resources it holds to
+		those processes requesting them. (The process is the victim process).
+		Then in some reasonable period of time, resume the process.
+
+	Victim process: The process that gets preempted.

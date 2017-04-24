@@ -1,0 +1,34 @@
+Root subdirectories:
+
+dev: device files
+etc: core system configuration files (e.g. password files, boot related files, device 
+	and network configuration files)
+home:
+lib: (.a - archive, libutil used a lot) predominantly C libraries for system programs
+proc: holds dynamic system infor
+usr: contains bulk of Unix file system.
+	*include: contains the header files used in C programs
+	*local: where adins tend to install their software
+	*sbin: holds system executables useful in system management
+	*share: contains generally useful tools (awk, man, nano)
+var: contains runtime info like system logging and user tracking
+
+How hackers like to subvert your system:
+	Suppose they can already get to your HOME directory. If they can, they can look
+	at your directory system in your home folder and do things like:
+		- write a program called ls and put in the bin:
+			****
+			#!/usr/bin/bash
+
+			/usr/bin/ls
+
+			very bad stuff
+			*****
+	If they only had access to your home directory, but not the root directory, 
+	they can't run the ls from the bin directory under the root. The root one is 
+	used first. If it's first, it could use the bin in your bin, not owned by the 
+	root.
+
+Add portable apps to your operating system: portableapps.com/apps
+ 
+Make aliases for stuff. Our own hybrid operating system.

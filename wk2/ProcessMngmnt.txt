@@ -1,0 +1,55 @@
+Process Management:
+
+How can we utilize the CPU effectively?
+
+Df. The processor is the CPU
+
+Df. A program is a sequence of instructions. A job.
+
+Df. A process is an instance of a program in execution.
+
+Processes often need resources like registers, I/O etc. Tasks.
+
+We need to be able to run many tasks at the same time.
+We need to set up a "multi-tasking" environment.
+
+Pre-emptive multi-tasking: 
+	Load registers and file tables into the cpu for each process.
+	Each process is between 1 and 5 milliseconds (Time-quanta).
+
+	Time-quanta: 1-5ms. (Based on architecture, set time)
+
+	After each time-quanta, that process is sent to the back of the queue
+	and the next is pulled in.
+	We'd need to keep track of several facts to be able to "reinstate"
+	the process. This data will go into the PCB: program control block.
+
+	1.	All the data in the registers.
+	2.	Program Counter.
+	3.	File Tables.
+	4.	Variable values that are in scope when the process is stopped.
+
+	This process is called context switching: The process of storing all
+	the items needed to reinstate the process in the PCB then pulling in the
+	information needed by the next process to restart.
+
+	How many process can run in 1 second if the time-quanta is 5 ms? 200
+
+	How many instructions can be executed in 5 ms if our processor completes
+	1x10^9 instructions/sec? 10^9/(2x10^2)->5x10^6 instructions in 5ms.
+
+Process Control Block:
+	Each process has it's own. 
+	1.	Process Status: ready to begin, running, waiting (ex. if it's waiting
+		for I/O transfers)
+	2.	Register contents: most of the computing done is in the registers.
+		Especially value in Program Counter.
+	3.	Contents of all variables (whether in scope or not)
+	4. 	Pointers to all open files
+	5. 	All I/O resources in use
+
+Context switching is fast: overhead < 1%.
+
+Round Robin: a simple form of process management using a normal queue.
+
+In reality, we use "Multilevel queues" -->Look at OneNote Notes for reference

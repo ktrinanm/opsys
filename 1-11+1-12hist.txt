@@ -1,0 +1,2127 @@
+    1  cd ../CSIS3400/
+    2  cd wk5
+    3  ls
+    4  cd midpointAlg.java 
+    5  vim midpointAlg.java 
+    6  g++ heightmap.cpp 
+    7  g++ heightmap.cpp -o heightmap
+    8  ./heightmap
+    9  vim midpointAlg.java 
+   10  g++ heightmap.cpp -o heightmap
+   11  ./heightmap
+   12  vim midpointAlg.java 
+   13  g++ heightmap.cpp -o heightmap
+   14  ./heightmap
+   15  g++ heightmap.cpp -o heightmap
+   16  ./heightmap
+   17  cd CSIS3400/
+   18  cd wk5
+   19  g++ heightmap.cpp -o heightmap
+   20  ./heightmap
+   21  g++ heightmap.cpp -o heightmap
+   22  ./heightmap
+   23  g++ heightmap.cpp -o heightmap
+   24  ./heightmap
+   25  g++ heightmap.cpp -o heightmap
+   26  ./heightmap
+   27  g++ heightmap.cpp -o heightmap
+   28  ./heightmap
+   29  g++ heightmap.cpp -o heightmap
+   30  ./heightmap
+   31  cd CSIS3400/wk5
+   32  g++ heightmap.cpp -o heightmap
+   33  ./heightmap
+   34  g++ heightmap.cpp -o heightmap
+   35  ./heightmap
+   36  g++ heightmap.cpp -o heightmap
+   37  ./heightmap
+   38  g++ heightmap.cpp -o heightmap
+   39  ./heightmap
+   40  g++ heightmap.cpp -o heightmap
+   41  ./heightmap
+   42  g++ heightmap.cpp -o heightmap
+   43  ./heightmap
+   44  cd CSIS3400/wk5
+   45  g++ heightmap.cpp -o heightmap
+   46  ./heightmap
+   47  g++ heightmap.cpp -o heightmap
+   48  ./heightmap
+   49  g++ heightmap.cpp -o heightmap
+   50  ./heightmap
+   51  g++ heightmap.cpp -o heightmap
+   52  ./heightmap
+   53  g++ heightmap.cpp -o heightmap
+   54  ./heightmap
+   55  g++ heightmap.cpp -o heightmap
+   56  ./heightmap
+   57  g++ heightmap.cpp -o heightmap
+   58  ./heightmap
+   59  g++ heightmap.cpp -o heightmap
+   60  ./heightmap
+   61  g++ heightmap.cpp -o heightmap
+   62  ./heightmap
+   63  g++ heightmap.cpp -o heightmap
+   64  ./heightmap
+   65  g++ heightmap.cpp -o heightmap
+   66  ./heightmap
+   67  g++ heightmap.cpp -o heightmap
+   68  ./heightmap
+   69  cd CSIS3400/
+   70  cd wk5
+   71  g++ heightmap.cpp -o heightmap
+   72  ./heightmap
+   73  g++ heightmap.cpp -o heightmap
+   74  ./heightmap
+   75  g++ heightmap.cpp -o heightmap
+   76  ./heightmap
+   77  vim midpoint.ppm 
+   78  cd CSIS3400/wk5
+   79  g++ heightmap.cpp -o heightmap
+   80  ./heightmap
+   81  ls
+   82  vim heightmap.cpp 
+   83  g++ heightmap.cpp -o heightmap
+   84  vim heightmap.cpp 
+   85  ./heightmap
+   86  vim heightmap.cpp 
+   87  g++ heightmap.cpp -o heightmap
+   88  ./heightmap
+   89  ./a.out 
+   90  g++ heightmap.cpp 
+   91  ./a.out 
+   92  g++ heightmap.cpp 
+   93  ./a.out 
+   94  ls
+   95  cd CSIS3150/
+   96  ls
+   97  a.out
+   98  ./a.out 
+   99  cd ../CSIS3400/wk5
+  100  ls
+  101  cd CSIS3400/wk5
+  102  g++ heightmap.cpp -o heightmap
+  103  ./heightmap
+  104  cd CSIS3400/wk5
+  105  vim heightmap.cpp 
+  106  cd CSIS3400/wk5
+  107  git init
+  108  git add .
+  109  git commit -m "First Commit"
+  110  git config --global ktrinanl@gmail.com
+  111  git config --global Katrian
+  112  git config --global "ktrinanl@gmail.com"
+  113  git config --globaluser.email "ktrinanl@gmail.com"
+  114  git config --global user.email "ktrinanl@gmail.com"
+  115  git config --global user.name "ktrinanm"
+  116  git commit -m "First Commit"
+  117  git remote add origin https://github.com/ktrinanm/CSIS3400.git
+  118  git remote -v
+  119  git push origin master
+  120  git add midpoint.png
+  121  git commit -m "example"
+  122  cd CSIS3400/wk5
+  123  git push origin master
+  124  apt-get update
+  125  cd CSIS3400/hw5
+  126  cd CSIS3400/wk5
+  127  ls
+  128  vim heightmap.cpp 
+  129  g++ heightmap.cpp -o heightmap
+  130  ./heightmap
+  131  vim heightmap.cpp 
+  132  g++ heightmap.cpp -o heightmap
+  133  ./heightmap
+  134  vim heightmap.cpp 
+  135  g++ heightmap.cpp -o heightmap
+  136  ./heightmap
+  137  vim heightmap.cpp 
+  138  g++ heightmap.cpp -o heightmap
+  139  ./heightmap
+  140  vim midtermNotes.txt
+  141  vim heightmap.cpp 
+  142  g++ heightmap.cpp -o heightmap
+  143  ./heightmap
+  144  vim heightmap.cpp 
+  145  g++ heightmap.cpp -o heightmap
+  146  ./heightmap
+  147  vim heightmap.cpp 
+  148  cd CSIS3400/wk5
+  149  ls
+  150  cd CSIS3400/wk5
+  151  vim heightmap.cpp 
+  152  g++ heightmap.cpp -o heightmap
+  153  ./heightmap
+  154  vim heightmap.cpp 
+  155  ./heightmap
+  156  g++ heightmap.cpp -o heightmap
+  157  ./heightmap
+  158  g++ heightmap.cpp -o heightmap
+  159  ./heightmap
+  160  g++ heightmap.cpp -o heightmap
+  161  ./heightmap
+  162  cd CSIS3400/
+  163  cd wk5
+  164  ls
+  165  ./heightmap
+  166  vim heightmap.cpp 
+  167  g++ heightmap.cpp -o heightmap
+  168  ./heightmap
+  169  vim heightmap.cpp 
+  170  g++ heightmap.cpp -o heightmap
+  171  ./heightmap
+  172  cd CSIS3400/wk5
+  173  g++ heightmap.cpp -o heightmap
+  174  ./heightmap
+  175  ls
+  176  vim heightmap.cpp
+  177  g++ heightmap.cpp -o heightmap
+  178  ./heightmap
+  179  cd CSIS3400/wk5
+  180  ls
+  181  ./heightmap
+  182  ls
+  183  vim midpoint.c
+  184  vim heightmap.cpp
+  185  g++ heightmap.cpp -o heightmap
+  186  ./heightmap
+  187  cd CSIS3400/wk5
+  188  ls
+  189  vim heightmap.cpp 
+  190  g++ heightmap.cpp -o heightmap
+  191  ./heightmap
+  192  cd ../../CSIS3150/
+  193  vim arrasy01.cpp
+  194  vim arrays03.cpp
+  195  vim arrays04.cpp
+  196  vim iostream01.cpp
+  197  vim iostream02.cpp
+  198  vim iostream03.cpp
+  199  vim modulo_shorts.cpp 
+  200  vim iostream03.cpp
+  201  vim string01.cpp
+  202  cd CSIS3150/
+  203  g++ arrasy01.cpp 
+  204  g++ arrasy01.cpp -std=gnu++11
+  205  ./a.out 
+  206  g++ arrasy01.cpp -std=gnu++11
+  207  ./a.out 
+  208  g++ arrays03.cpp -std=gnu++0x
+  209  ./a.out 
+  210  g++ arrays04.cpp -std=gnu++0x
+  211  ./a.out 
+  212  g++ arrays04.cpp -std=gnu++0x
+  213  ./a.out 
+  214  g++ iostream01.cpp -std=gnu++0x
+  215  ./a.out 
+  216  g++ iostream02.cpp -std=gnu++0x
+  217  ./a.out 
+  218  g++ iostream02.cpp -std=gnu++0x
+  219  ./a.out 
+  220  g++ iostream03.cpp -std=gnu++0x
+  221  ./a.out 
+  222  ./a.out < modulo_shorts.cpp 
+  223  g++ iostream03.cpp -std=gnu++0x
+  224  ./a.out 
+  225  ./a.out < modulo_shorts.cpp 
+  226  g++ string01.cpp -std=gnu++0x
+  227  ./a.out 
+  228  g++ string01.cpp -std=gnu++0x
+  229  ./a.out 
+  230  g++ string01.cpp -std=gnu++0x
+  231  ./a.out 
+  232  g++ string01.cpp -std=gnu++0x
+  233  ./a.out 
+  234  g++ string01.cpp -std=gnu++0x
+  235  ./a.out 
+  236  cd Vim
+  237  vim pastie.cpp
+  238  g++ pastie.cpp -o pastie
+  239  ./pastie
+  240  ls
+  241  vim x_iter.tga 
+  242  cd Vim
+  243  g++ pastie.cpp -o pastie
+  244  ./pastie
+  245  g++ pastie.cpp -o pastie
+  246  ./pastie
+  247  cd ../CSIS3400/
+  248  cd wk5
+  249  ls
+  250  g++ heightmap -o heightmap
+  251  g++ heightmap.cpp -o heightmap
+  252  vim heightmap.cpp 
+  253  g++ heightmap.cpp -o heightmap
+  254  ./heightmap
+  255  ls
+  256  vim heightmap.cpp 
+  257  ./heightmap
+  258  vim heightmap.cpp 
+  259  g++ heightmap.cpp -o heightmap
+  260  ./heightmap
+  261  ls
+  262  cd CSIS3400/wk5
+  263  git add .
+  264  git add -A
+  265  git commit -m "Finished this assignment lol"
+  266  cd CSIS3400/wk5
+  267  git add -A
+  268  git commit  -m "Tried cleaning up some of the  weird bumps. Terrain.pov still looks weird...."
+  269  cd CSIS3150/hw/2k5
+  270  cd CSIS3150/hw/wk5
+  271  ls
+  272  cd ../../
+  273  ls
+  274  vim io.c
+  275  cd -
+  276  g++ mandhw.c -o mand
+  277  g++ mandhw.c -o mand -lm
+  278  cd ../../
+  279  g++ mand.c -o mand
+  280  ls
+  281  cd -
+  282  g++ mandhw.c -o mand
+  283  gcc mandhw.c -o mand
+  284  cd -
+  285  ls
+  286  vim startgimp.bat 
+  287  cp startgimp.bat ./hw/wk5/startgimp.bat
+  288  cd -
+  289  ls
+  290  gcc mandhw.c -o mand
+  291  gcc mandhw.c -o mand -lm
+  292  ./mand
+  293  ./startgimp.bat 
+  294  cd CSIS3150/
+  295  ls
+  296  cd hw
+  297  cd wk5
+  298  ls
+  299  rm a.out
+  300  vim doshw.c
+  301  cd ../../
+  302  ls
+  303  vim mand.c
+  304  cd -
+  305  vim mandhw.c
+  306  cd ../../mand.c
+  307  vim ../../mand.c
+  308  vim mandhw.c
+  309  vim startgimp.bat 
+  310  cd CSIS3150/hw/wk5
+  311  ls
+  312  vim startgimp.bat 
+  313  vim startgimp.sh
+  314  vim startgimp.bat 
+  315  dos2unix startgimp.bat
+  316  vim startgimp.bat 
+  317  vim mandhw.c 
+  318  vim mandin1.c
+  319  vim mandhw.c 
+  320  vim mandin1.c
+  321  ls
+  322  vim mandout1.c
+  323  vim testMax.c
+  324  vim mandout1.c
+  325  vim testMax.c
+  326  vim doshw.c 
+  327  vim mandhw.c
+  328  vim mandout1.c
+  329  vim mandin1.c
+  330  ls
+  331  vim testMax.c 
+  332  cd ../wk6
+  333  cd CSIS3150/hw/wk5
+  334  ./startgimp.bat 
+  335  ./startgimp.sh
+  336  apt-get install dos2unix
+  337  dos2unix -help
+  338  dos2unix startgimp.sh
+  339  ./startgimp.sh
+  340  cd /mnt/c/
+  341  cd "Program Files"
+  342  cd "Gimp 2/bin/"
+  343  cd "Gimp 2
+  344  "
+  345  ls
+  346  cd "GIMP 2"
+  347  cd bin
+  348  ls
+  349  ./startgimp.sh
+  350  cd ../../../Users/Katrina/Workspace/
+  351  cd CSIS3150/hw/wk5
+  352  ls
+  353  ./startgimp.sh
+  354  gimp mand.ppm
+  355  apt-get install gimp
+  356  gimp mand.ppm
+  357  ./startgimp.sh
+  358  ./startgimp.bat
+  359  chmod +x startgimp..bat
+  360  chmod +x startgimp.bat
+  361  ./startgimp.bat
+  362  ls
+  363  g++ mandin1.c -o mandin1
+  364  gcc mandin1.c -o mandin1
+  365  gcc mandin1.c -o mandin1 -lm
+  366  ./mandin1
+  367  gcc mandin1.c -o mandin1 -lm
+  368  ls ../../
+  369  vim ../../io2.c
+  370  vim ../../parameters.c
+  371  vim ../../parameters2.c
+  372  gcc mandin1.c -o mandin1 -lm
+  373  ./mandin1
+  374  ./mandin1 1
+  375  gcc mandin1.c -o mandin1 -lm
+  376  ./mandin1 1
+  377  gcc mandin1.c -o mandin1 -lm
+  378  ./mandin1 1
+  379  ./mandin1 2
+  380  ./mandin1 3
+  381  ./mandin1 4
+  382  ./mandin1 5
+  383  gcc mandout1.c -o mandout -lm
+  384  ./mandout1 1
+  385  ./mandout 1
+  386  ./mandout 2
+  387  ./mandout 3
+  388  ./mandout 4
+  389  ./mandout 5
+  390  gcc testMax.c -o test -lm
+  391  ./test
+  392  gcc testMax.c -o test -lm
+  393  ./test
+  394  -help
+  395  help
+  396  jobs
+  397  jobs -help
+  398  jobs --help
+  399  gcc doshw.c -o dos
+  400  ls
+  401  ./dos
+  402  help
+  403  time
+  404  times
+  405  tim pipeline
+  406  time pipeline
+  407  time
+  408  times
+  409  bash
+  410  cd -
+  411  ls
+  412  gcc doshw.c -o dos
+  413  ./dos
+  414  dc
+  415  gcc doshw.c -o dos
+  416  ./dos
+  417  gcc doshw.c -o dos
+  418  ./dos
+  419  gcc doshw.c -o dos
+  420  ./dos
+  421  gcc doshw.c -o dos
+  422  ./dos
+  423  clear
+  424  ls
+  425  ./mand
+  426  ls
+  427  clearm
+  428  rm mand.ppm
+  429  ls
+  430  clear
+  431  ls
+  432  ./mand
+  433  ls
+  434  cd ../wk6
+  435  cd ../
+  436  mkdir wk6
+  437  cd wk6
+  438  apt-get update
+  439  cd CSIS3150/hw/wk6
+  440  ls ../../
+  441  vim lineNum.l
+  442  vim ../../lineNum.l
+  443  vim ../../phone_numbers.l 
+  444  vim ../../numbers.l
+  445  vim ../../wordCount.l
+  446  vim ../../scanner01.l
+  447  vim ../../wordCount.l 
+  448  vim notes2.txt
+  449  vim ../../notes2.txt 
+  450  vim ../../notes9-27.txt
+  451  flex trimWhiteSpace.l 
+  452  gcc lex.yy.c -o flex1 -L/lib -lfl
+  453  ls
+  454  ./flex1
+  455  ./flex1 awmt.txt
+  456  flex trimWhiteSpace.l 
+  457  gcc lex.yy.c -o flex1 -L/lib -lfl
+  458  ./flex1 awmt.txt
+  459  flex trimWhiteSpace.l 
+  460  gcc lex.yy.c -o flex1 -L/lib -lfl
+  461  ./flex1 awmt.txt
+  462  flex trimWhiteSpace.l 
+  463  gcc lex.yy.c -o flex1 -L/lib -lfl
+  464  ./flex1 awmt.txt
+  465  flex trimWhiteSpace.l 
+  466  gcc lex.yy.c -o flex1 -L/lib -lfl
+  467  ./flex1 awmt.txt
+  468  flex trimWhiteSpace.l 
+  469  gcc lex.yy.c -o flex1 -L/lib -lfl
+  470  ./flex1 awmt.txt
+  471  flex trimWhiteSpace.l 
+  472  gcc lex.yy.c -o flex1 -L/lib -lfl
+  473  flex trimWhiteSpace.l 
+  474  gcc lex.yy.c -o flex1 -L/lib -lfl
+  475  ./flex1 awmt.txt
+  476  flex trimWhiteSpace.l 
+  477  gcc lex.yy.c -o flex1 -L/lib -lfl
+  478  ./flex1 awmt.txt
+  479  flex trimWhiteSpace.l 
+  480  gcc lex.yy.c -o flex1 -L/lib -lfl
+  481  ./flex1 awmt.txt
+  482  flex trimWhiteSpace.l 
+  483  gcc lex.yy.c -o flex1 -L/lib -lfl
+  484  ./flex1 awmt.txt
+  485  ./flex1 notes.txt
+  486  gcc lex.yy.c -o flex1 -L/lib -lfl
+  487  flex trimWhiteSpace.l 
+  488  gcc lex.yy.c -o flex1 -L/lib -lfl
+  489  ./flex1 notes.txt
+  490  flex trimWhiteSpace.l 
+  491  gcc lex.yy.c -o flex1 -L/lib -lfl
+  492  ./flex1 notes.txt
+  493  flex trimWhiteSpace.l 
+  494  gcc lex.yy.c -o flex1 -L/lib -lfl
+  495  ./flex1 notes.txt
+  496  flex trimWhiteSpace.l 
+  497  gcc lex.yy.c -o flex1 -L/lib -lfl
+  498  ./flex1 notes.txt
+  499  flex trimWhiteSpace.l 
+  500  gcc lex.yy.c -o flex1 -L/lib -lfl
+  501  ./flex1 notes.txt
+  502  ./flex1 awmt.txt
+  503  gcc lex.yy.c -o flex1 -L/lib -lfl
+  504  flex trimWhiteSpace.l 
+  505  gcc lex.yy.c -o flex1 -L/lib -lfl
+  506  ./flex1 awmt.txt
+  507  flex trimWhiteSpace.l 
+  508  gcc lex.yy.c -o flex1 -L/lib -lfl
+  509  ./flex1 awmt.txt
+  510  flex trimWhiteSpace.l 
+  511  gcc lex.yy.c -o flex1 -L/lib -lfl
+  512  ./flex1 awmt.txt
+  513  flex trimWhiteSpace.l 
+  514  gcc lex.yy.c -o flex1 -L/lib -lfl
+  515  ./flex1 awmt.txt
+  516  ./flex1 notes.txt
+  517  ls
+  518  vim trimWhiteSpace.l 
+  519  flex lexHTML.l
+  520  vim ../../notes9-27.txt
+  521  flex lexHTML.l
+  522  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  523  ./htmlflex test.html
+  524  flex lexHTML.l
+  525  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  526  ./htmlflex test.html
+  527  flex lexHTML.l
+  528  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  529  ./htmlflex test.html
+  530  flex lexHTML.l
+  531  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  532  ./htmlflex test.html
+  533  flex lexHTML.l
+  534  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  535  ./htmlflex test.html
+  536  flex lexHTML.l
+  537  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  538  ./htmlflex test.html
+  539  flex lexHTML.l
+  540  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  541  ./htmlflex test.html
+  542  flex lexHTML.l
+  543  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  544  ./htmlflex test.html
+  545  flex lexHTML.l
+  546  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  547  ./htmlflex test.html
+  548  flex lexHTML.l
+  549  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  550  ./htmlflex test.html
+  551  flex numbershw.l 
+  552  gcc lex.yy.c -o numbers
+  553  gcc lex.yy.c -o numbers -L/lib -lfl
+  554  ./numbers < input.txt
+  555  cd CSIS3150/hw/wk5
+  556  ls
+  557  cd ../
+  558  ls
+  559  cd wk6
+  560  ls
+  561  vim trimWhiteSpace.l
+  562  cd ../../
+  563  vim MidtermNotes.txt
+  564  cd -
+  565  ls
+  566  vim trimWhiteSpace.l 
+  567  vim lexHTML.l
+  568  vim trimWhiteSpace.l 
+  569  vim lexHTML.l
+  570  vim ../../numbers.l
+  571  vim numbershw.l
+  572  cd CSIS3150/hw/wk6
+  573  ls
+  574  ./htmlflex test.html
+  575  vim lexHTML.l 
+  576  cd ../../
+  577  git add -A
+  578  vim lexHTML.l 
+  579  cd -
+  580  vim lexHTML.l 
+  581  vim ../../wordCount.l 
+  582  vim wchw.l
+  583  cd CSIS3150/hw/wk6
+  584  flex lexHTML.l 
+  585  ls
+  586  gcc lexHTML.l -o htmlflex -L/lib -lfl
+  587  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  588  ./htmlflex test.html
+  589  flex lexHTML.l 
+  590  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  591  ./htmlflex test.html
+  592  flex lexHTML.l 
+  593  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  594  ./htmlflex test.html
+  595  flex lexHTML.l 
+  596  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  597  ./htmlflex test.html
+  598  flex lexHTML.l 
+  599  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  600  flex lexHTML.l 
+  601  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  602  flex lexHTML.l 
+  603  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  604  ./htmlflex test.html
+  605  flex lexHTML.l 
+  606  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  607  ./htmlflex test.html
+  608  flex lexHTML.l 
+  609  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  610  ./htmlflex test.html
+  611  flex lexHTML.l 
+  612  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  613  ./htmlflex test.html
+  614  flex lexHTML.l 
+  615  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  616  ./htmlflex test.html
+  617  cd ../../
+  618  ls
+  619  vim MidtermNotes.txt 
+  620  cd ../../
+  621  cd -/hw/wk6
+  622  cd -
+  623  cd hw/wk6
+  624  flex lexHTML.l 
+  625  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  626  ./htmlflex test.html
+  627  flex lexHTML.l 
+  628  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  629  ./htmlflex test.html
+  630  flex lexHTML.l 
+  631  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  632  ./htmlflex test.html
+  633  flex lexHTML.l 
+  634  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  635  ./htmlflex test.html
+  636  flex lexHTML.l 
+  637  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  638  ./htmlflex test.html
+  639  flex lexHTML.l 
+  640  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  641  flex lexHTML.l 
+  642  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  643  ./htmlflex test.html
+  644  flex lexHTML.l 
+  645  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  646  ./htmlflex test.html
+  647  flex lexHTML.l 
+  648  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  649  ./htmlflex test.html
+  650  flex lexHTML.l 
+  651  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  652  ./htmlflex test.html
+  653  flex lexHTML.l 
+  654  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  655  ./htmlflex test.html
+  656  flex lexHTML.l 
+  657  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  658  ./htmlflex test.html
+  659  flex lexHTML.l 
+  660  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  661  ./htmlflex test.html
+  662  flex lexHTML.l 
+  663  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  664  ./htmlflex test.html
+  665  flex lexHTML.l 
+  666  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  667  ./htmlflex test.html
+  668  flex lexHTML.l 
+  669  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  670  ./htmlflex test.html
+  671  flex lexHTML.l 
+  672  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  673  ./htmlflex test.html
+  674  flex lexHTML.l 
+  675  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  676  ./htmlflex test.html
+  677  flex lexHTML.l 
+  678  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  679  ./htmlflex test.html
+  680  flex lexHTML.l 
+  681  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  682  ./htmlflex test.html
+  683  flex lexHTML.l 
+  684  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  685  ./htmlflex test.html
+  686  flex lexHTML.l 
+  687  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  688  ./htmlflex test.html
+  689  flex lexHTML.l 
+  690  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  691  ./htmlflex test.html
+  692  vim ../../wordCount.l 
+  693  flex lexHTML.l 
+  694  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  695  ./htmlflex test.html
+  696  flex lexHTML.l 
+  697  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  698  ./htmlflex test.html
+  699  flex lexHTML.l 
+  700  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  701  ./htmlflex test.html
+  702  flex lexHTML.l 
+  703  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  704  ./htmlflex test.html
+  705  flex lexHTML.l 
+  706  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  707  ./htmlflex test.html
+  708  flex lexHTML.l 
+  709  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  710  ./htmlflex test.html
+  711  flex lexHTML.l 
+  712  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  713  ./htmlflex test.html
+  714  flex lexHTML.l 
+  715  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  716  ./htmlflex test.html
+  717  flex lexHTML.l 
+  718  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  719  ./htmlflex test.html
+  720  flex lexHTML.l 
+  721  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  722  ./htmlflex test.html
+  723  cd Vim
+  724  g++ testbyRef.cpp -o test
+  725  ./test
+  726  cd CSIS3150/
+  727  gcc prog12.c 
+  728  ./a.out 
+  729  cd CSIS3150/hw
+  730  ls
+  731  cd wk3
+  732  ls
+  733  ./create
+  734  sizeof(int)
+  735  int a;
+  736  sizeof(a)
+  737  vim sizing.cpp
+  738  g++ sizing.cpp 
+  739  ./a.out 
+  740  gcc testbits.c
+  741  ./a.out 
+  742  cd CSIS3150/hw/wk6
+  743  flex lexHTML.l 
+  744  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  745  ./htmlflex 
+  746  ./htmlflex test.html
+  747  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  748  flex lexHTML.l 
+  749  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  750  ./htmlflex test.html
+  751  flex lexHTML.l 
+  752  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  753  ./htmlflex test.html
+  754  flex lexHTML.l 
+  755  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  756  ./htmlflex test.html
+  757  flex lexHTML.l 
+  758  gcc lex.yy.c -o htmlflex -L/lib -lfl
+  759  ./htmlflex test.html
+  760  ifconfig
+  761  cd CSIS3150/
+  762  gcc passByRef.c 
+  763  bash --version
+  764  apt-get update
+  765  cd CSIS3150/hw/wk6
+  766  ls
+  767  vim wchw.l 
+  768  vim ../../mand.c
+  769  vim mand.cpp
+  770  vim ../../mand.c
+  771  vim mand.cpp
+  772  vim ../../prog01.c
+  773  vim ../../prog02.c
+  774  vim prog02.cpp
+  775  vim ../../prog08.c
+  776  vim ../../prog09.c
+  777  vim ../../prog10.c
+  778  vim ../../prog11.c
+  779  vim ../../prog12.c
+  780  vim ../../prog13.c
+  781  vim ../../prog14.c
+  782  vim ../../prog08.c
+  783  vim prog08.cpp
+  784  ls
+  785  vim ../wk2/compArr.c
+  786  compArr.cpp
+  787  vim compArr.cpp
+  788  vim ../wk2/compArr.c
+  789  vim compArr.cpp
+  790  vim ../wk2/compArr.c
+  791  vim compArr.cpp
+  792  vim strLib.cpp
+  793  vim sumComLine.cpp
+  794  ls
+  795  clear
+  796  ls
+  797  ./flex1
+  798  ./flex1 awmt.txt
+  799  vim trimWhiteSpace.l 
+  800  vim lexHTML.l 
+  801  vim numbershw.l 
+  802  vim wchw.l
+  803  vim mand.cpp
+  804  vim prog02.cpp 
+  805  vim compArr.cpp 
+  806  vim strLib.cpp 
+  807  vim sumComLine.cpp 
+  808  cd CSIS3150/hw/2k6
+  809  cd CSIS3150/hw/wk6
+  810  ls ../../
+  811  vim ../../fileio_01.c 
+  812  flex wchw.l 
+  813  gcc lex.yy.c -o wc -L/lib -lfl
+  814  ./wc test.html
+  815  vim ../../test1.cpp
+  816  g++ mand.cpp
+  817  g++ mand.cpp -lm
+  818  g++ mand.cpp -o mand -lm -g
+  819  ls ../../
+  820  g++ prog02.cpp -o sum
+  821  ./sum
+  822  ls ../../
+  823  g++ compArr.cpp -o compArr
+  824  g++ compArr.cpp -o compArr -std=gnu++0x
+  825  g++ compArr.cpp -o compArr
+  826  ./compArr
+  827  g++ strLib.cpp -o strings
+  828  ./strings
+  829  g++ strLib.cpp -o strings
+  830  ./strings
+  831  g++ strLib.cpp -o strings
+  832  ./strings
+  833  g++ sumComLine.cpp -o comsum
+  834  ./comsum 10 20 30
+  835  clear
+  836  ls
+  837  vim output.txt 
+  838  vim test.html
+  839  vim remHTML.txt 
+  840  vim input.txt
+  841  vim notes.txt 
+  842  clear
+  843  ls
+  844  ./ numbers input.txt
+  845  clear
+  846  ls
+  847  ./numbers input.txt 
+  848  ./numbers < input.txt 
+  849  clear
+  850  ls
+  851  ./numbers < input.txt 
+  852  ./wc notes.txt 
+  853  vim notes.txt 
+  854  vim test.html
+  855  clear
+  856  ls
+  857  ./wc test.html
+  858  vim wcresults.txt 
+  859  ./mand >> mand.ppm
+  860  clear
+  861  ls
+  862  ./sum
+  863  clear
+  864  ls
+  865  ./compArr
+  866  ./strings 
+  867  clear
+  868  ls
+  869  ./comsum
+  870  ./comsum 10 20 30
+  871  apt-get update
+  872  cd CSIS3400/wk6
+  873  ls
+  874  vim cube.cpp
+  875  g++ cube.cpp -o cube
+  876  ./cube
+  877  ls
+  878  cd -
+  879  cd CSIS3400/wk6
+  880  ls
+  881  vim cube.cpp 
+  882  ls
+  883  cd CSIS4550/
+  884  ls
+  885  vim goProbs
+  886  vim goProbs.go 
+  887  cd CSIS4550/
+  888  gccgo goProbs.go -o goProbs -g
+  889  ./goProbs
+  890  cd CSIS4550/
+  891  ls
+  892  gccgo goProbs.go -o goProbs -g
+  893  go
+  894  cd CSIS4550/
+  895  ls
+  896  go build goProbs.go 
+  897  ls
+  898  vim notes.txt 
+  899  cd ls
+  900  ls
+  901  cd Vim
+  902  vim countSteps.cpp
+  903  g++ countSteps.cpp 
+  904  ./a.out
+  905  vim countSteps.cpp
+  906  ./a.out
+  907  vim countSteps.cpp
+  908  g++ countSteps.cpp 
+  909  ./a.out
+  910  vim countSteps.cpp
+  911  g++ countSteps.cpp 
+  912  ./a.out
+  913  vim countSteps.cpp
+  914  g++ countSteps.cpp 
+  915  ./a.out
+  916  g++ countSteps.cpp 
+  917  vim countSteps.cpp
+  918  g++ countSteps.cpp 
+  919  ./a.out
+  920  g++ countSteps.cpp 
+  921  vim countSteps.cpp
+  922  g++ countSteps.cpp 
+  923  ./a.out
+  924  vim countSteps.cpp
+  925  g++ countSteps.cpp 
+  926  ./a.out
+  927  vim countSteps.cpp
+  928  g++ countSteps.cpp 
+  929  ./a.out 
+  930  vim countSteps.cpp
+  931  ./a.out 
+  932  g++ countSteps.cpp 
+  933  ./a.out 
+  934  vim countSteps.cpp
+  935  g++ countSteps.cpp 
+  936  ./a.out 
+  937  vim countSteps.cpp
+  938  g++ countSteps.cpp 
+  939  ./a.out 
+  940  vim countSteps.cpp
+  941  cd Vim
+  942  ls
+  943  vim countSteps.cpp 
+  944  cd CSIS4550/
+  945  ls
+  946  vim goProbs.go 
+  947  cd CSIS4550/
+  948  gccgo goProbs_test.go -o test -g
+  949  go test goProbs_test.go 
+  950  go test
+  951  go run goProbs.go
+  952  go run goProbs.go goProbs_test.go 
+  953  go run goProbs_test.go 
+  954  go build goProbs.go
+  955  go build goProbs_test.go 
+  956  go build goProbs.go
+  957  go run goProbs
+  958  go run goProbs.go 
+  959  go build goProbs.go goProbs_test
+  960  go build goProbs.go goProbs_test.go
+  961  go test
+  962  gccgo goProbs.go goProbs_test.go -o goProbs -g
+  963  ./goProbs
+  964  gccgo goProbs.go goProbs_test.go -o goProbs -g
+  965  ./goProbs
+  966  go test
+  967  gccgo goProbs.go goProbs_test.go -o goProbs -g
+  968  ./goProbs
+  969  gccgo goProbs.go goProbs_test.go -o goProbs -g
+  970  ./goProbs
+  971  gccgo goProbs.go goProbs_test.go -o goProbs -g
+  972  ./goProbs
+  973  go test
+  974  ./goProbs
+  975  go test
+  976  cd CSIS3150/
+  977  ls
+  978  vim notes10-20.txt
+  979  vim ratio.cpp
+  980  cd hw
+  981  ls
+  982  mkdir wk7
+  983  ls
+  984  cd wk7
+  985  vim testVect.cpp
+  986  cd CSIS3150/
+  987  g++ ratio.cpp
+  988  ./a.out 
+  989  g++ ratio.cpp
+  990  ./a.out 
+  991  g++ ratio2.cpp
+  992  ./a.out 
+  993  g++ ratio3.
+  994  g++ ratio3.cpp
+  995  ./a.out 
+  996  g++ ratio3.cpp
+  997  ./a.out 
+  998  cd hw/wk8
+  999  cd hw/wk7
+ 1000  g++ testVect.cpp -o vec
+ 1001  ./vec 
+ 1002  g++ testVect.cpp -o vec
+ 1003  ./vec 
+ 1004  g++ testVect.cpp -o vec
+ 1005  ./vec 
+ 1006  g++ testVect.cpp -o vec
+ 1007  ./vec 
+ 1008  g++ testVect.cpp -o vec
+ 1009  ./vec 
+ 1010  g++ testVect.cpp -o vec
+ 1011  ./vec 
+ 1012  g++ testVect.cpp -o vec
+ 1013  ./vec 
+ 1014  cd ../../../
+ 1015  ls
+ 1016  mkdir 2450
+ 1017  cd 2450
+ 1018  git init
+ 1019  git add .
+ 1020  git commit -m "first"
+ 1021  git remote add origin https://github.com/ktrinanm/2450.git
+ 1022  git remote -v
+ 1023  git push origin master
+ 1024  cd -
+ 1025  cd CSIS3400/hw/wk7
+ 1026  cd CSIS3150/hw/wk7
+ 1027  ls
+ 1028  g++ testVect.cpp -o vec
+ 1029  ./vec
+ 1030  g++ testVect.cpp -o vec
+ 1031  ./vec
+ 1032  g++ testVect.cpp -o vec
+ 1033  ./vec
+ 1034  g++ testVect.cpp -o vec
+ 1035  ./vec
+ 1036  ls ../../
+ 1037  vim ../../queue.cpp 
+ 1038  g++ testPQ.cpp -o pq -std=g++0x
+ 1039  g++ testPQ.cpp -o pq -std=gnu++0x
+ 1040  ./pq
+ 1041  g++ testPQ.cpp -o pq -std=gnu++0x
+ 1042  ./pq
+ 1043  g++ testPQ.cpp -o pq -std=gnu++0x
+ 1044  ./pq
+ 1045  cd ../../
+ 1046  vim testcin.cpp
+ 1047  g++ testcin.cpp -o cin
+ 1048  vim testcin.cpp
+ 1049  g++ testcin.cpp -o cin
+ 1050  ls
+ 1051  ./cin < iostream03.cpp
+ 1052  ./cin
+ 1053  cd -
+ 1054  g++ cinEx.cpp -o cin
+ 1055  ./cin
+ 1056  g++ cinEx.cpp -o cin
+ 1057  ./cin
+ 1058  g++ cinEx.cpp -o cin
+ 1059  ./cin
+ 1060  g++ cinEx.cpp -o cin
+ 1061  ./cin
+ 1062  g++ cinEx.cpp -o cin
+ 1063  ./cin
+ 1064  g++ cinEx.cpp -o cin
+ 1065  ./cin
+ 1066  ./cin < ../../awmt.txt
+ 1067  ./cin
+ 1068  ,
+ 1069  g++ cinEx.cpp -o cin
+ 1070  ./cin < ../../awmt.txt
+ 1071  g++ cinEx.cpp -o cin
+ 1072  ./cin < ../../awmt.txt
+ 1073  g++ cinEx.cpp -o cin
+ 1074  ./cin < ../../awmt.txt
+ 1075  g++ cinEx.cpp -o cin
+ 1076  ./cin < ../../awmt.txt
+ 1077  clear
+ 1078  g++ cinEx.cpp -o cin
+ 1079  ./cin < ../../awmt.txt
+ 1080  g++ testArray.cpp -o arr -std=gnu++0x
+ 1081  ./arr
+ 1082  g++ testArray.cpp -o arr -std=gnu++0x
+ 1083  ./arr
+ 1084  g++ testArray.cpp -o arr -std=gnu++0x
+ 1085  ./arr
+ 1086  g++ testArray.cpp -o arr -std=gnu++0x
+ 1087  ./arr
+ 1088  g++ testArray.cpp -o arr -std=gnu++0x
+ 1089  ./arr
+ 1090  g++ testArray.cpp -o arr -std=gnu++0x
+ 1091  ./arr
+ 1092  g++ testArray.cpp -o arr -std=gnu++0x
+ 1093  ./arr
+ 1094  g++ testArray.cpp -o arr -std=gnu++0x
+ 1095  ./arr
+ 1096  g++ testArray.cpp -o arr -std=gnu++0x
+ 1097  ./arr
+ 1098  g++ testArray.cpp -o arr -std=gnu++0x
+ 1099  ./arr
+ 1100  g++ testArray.cpp -o arr -std=gnu++0x
+ 1101  ./arr
+ 1102  clear
+ 1103  ./arr
+ 1104  g++ what.cpp -o what
+ 1105  ./what
+ 1106  clear
+ 1107  ./what
+ 1108  cd CSIS3150/hw/wk7
+ 1109  ls
+ 1110  vim testVect.cpp 
+ 1111  vim testPQ.cpp
+ 1112  ls ../../
+ 1113  vim iostream01.cpp
+ 1114  vim ../../iostream01.cpp 
+ 1115  ls
+ 1116  vim ../../iostream02.cpp 
+ 1117  vim ../../iostream03.cpp 
+ 1118  vim ../../iostream02.cpp 
+ 1119  vim cinEx.cpp
+ 1120  ls
+ 1121  vim testArray.cpp
+ 1122  vim what.cpp
+ 1123  cd CSIS4550/
+ 1124  vim goProbs.go
+ 1125  vim goProbs_test.go 
+ 1126  cd CSIS4550/
+ 1127  ls
+ 1128  go test
+ 1129  gccgo goProbs.go -o goProbs -g
+ 1130  gccgo goProbs.go goProbsTest.go -o goProbs -g
+ 1131  gccgo goProbs.go goProbs_test.go -o goProbs -g
+ 1132  export GOPATH=/mnt/c/Users/Katrina/Workspace/CSIS4550/
+ 1133  vim ~/.bashrc
+ 1134  go test
+ 1135  go get github.com/golang/geo/r3
+ 1136  go test
+ 1137  go get github.com/golang/geo/r3
+ 1138  go test
+ 1139  cd CSIS4550/
+ 1140  ls
+ 1141  vim goProbs_test.go 
+ 1142  cd CSIS4550/
+ 1143  cd CSIS4550/
+ 1144  go test
+ 1145  cd CSIS4550/
+ 1146  ls
+ 1147  vim goProbs_test.go 
+ 1148  cd CSIS4550/
+ 1149  go test
+ 1150  gccgo goProbs.go -o goProbs -g
+ 1151  gccgo goProbs.go goProbs_test.go -o goProbs -g
+ 1152  ./goProbs
+ 1153  go test
+ 1154  cd CSIS3150/hw/wk8
+ 1155  cd ../
+ 1156  cd wk9
+ 1157  vim ../../ratio4.cpp 
+ 1158  vim ratiohw.cpp
+ 1159  vim ../../ratio4.cpp 
+ 1160  vim ratiohw.cpp
+ 1161  cd CSIS3150/
+ 1162  ls
+ 1163  cd hw/wk8
+ 1164  ls
+ 1165  cd hw/wk7
+ 1166  cd ../
+ 1167  mkdir wk8
+ 1168  cd wk8
+ 1169  cd ../
+ 1170  rmdir wk8
+ 1171  ls
+ 1172  mkdir wk9
+ 1173  cd wk9
+ 1174  g++ ratiohw.cpp -o ratio
+ 1175  ./ratio
+ 1176  g++ ratiohw.cpp -o ratio
+ 1177  ./ratio
+ 1178  clear
+ 1179  ls
+ 1180  ./ratio
+ 1181  g++ ratiohw.cpp -o ratio
+ 1182  ./ratio
+ 1183  clear
+ 1184  ls
+ 1185  clear
+ 1186  ls 
+ 1187  ./ratio
+ 1188  g++ ratiohw.cpp -o ratio
+ 1189  gccgo goProbs.go goProbs_test.go -o goProbs -g
+ 1190  cd CSIS4550/
+ 1191  gccgo goProbs.go goProbs_test.go -o goProbs -g
+ 1192  test go
+ 1193  gccgo goProbs.go goProbs_test.go person.go -o goProbs -g
+ 1194  ./goProbs
+ 1195  gccgo goProbs.go goProbs_test.go person.go -o goProbs -g
+ 1196  ./goProbs
+ 1197  cd CSIS4550/
+ 1198  ls
+ 1199  vim goProbs_test.go 
+ 1200  aptget updates
+ 1201  apt-get update
+ 1202  cd CSIS3150/hw/wk9
+ 1203  cd CSIS3150/hw/wk9
+ 1204  cd CSIS3150/
+ 1205  ls
+ 1206  g++ stack_test.cpp
+ 1207  ./a.out 
+ 1208  g++ stack_test.cpp
+ 1209  ./a.out 
+ 1210  cd CSIS3150/
+ 1211  vim notes11-1.txt
+ 1212  vim stack.h
+ 1213  vim stack_test.cpp
+ 1214  vim stack.h
+ 1215  cd CSIS4550/
+ 1216  LS
+ 1217  ls
+ 1218  go test
+ 1219  cd CSIS3150/
+ 1220  g++ iterators.cpp 
+ 1221  ./a.out 
+ 1222  g++ iterators.cpp 
+ 1223  ./a.out 
+ 1224  g++ foreach.cpp 
+ 1225  ./a.out 
+ 1226  g++ foreach.cpp 
+ 1227  ./a.out 
+ 1228  ls
+ 1229  g++ fileToString.cpp 
+ 1230  ./a.out 
+ 1231  g++ fileToString.cpp 
+ 1232  ./a.out 
+ 1233  g++ fileToString02.cpp
+ 1234  ./a.out 
+ 1235  g++ fileToString02.cpp
+ 1236  ./a.out 
+ 1237  g++ fileToString02.cpp
+ 1238  ./a.out 
+ 1239  wq
+ 1240  g++ fileToString03.cpp 
+ 1241  ./a.out 
+ 1242  g++ fileToString04.cpp 
+ 1243  ./a.out 
+ 1244  apt-get update
+ 1245  cd CSIS3150/
+ 1246  ls
+ 1247  vim iterators.cpp
+ 1248  vim foreach.cpp
+ 1249  vim fileToString.cpp
+ 1250  vim fileToString02.cpp
+ 1251  vim utilities.h
+ 1252  vim fileToString03.cpp
+ 1253  vim utilities.h
+ 1254  vim fileToString03.cpp
+ 1255  vim fileToString04.cpp
+ 1256  ls
+ 1257  cd hw
+ 1258  ls
+ 1259  cd ../
+ 1260  vim utilities.h 
+ 1261  vim
+ 1262  vim ~/.vimrc
+ 1263  vagrant box add ubuntu/trusty64
+ 1264  apt-get install vagrant
+ 1265  vagrant box add ubuntu/trusty64
+ 1266  ls
+ 1267  vagrant box add ubuntu/trusty64
+ 1268  git init
+ 1269  git fetch https://github.com/cc-sav/proto.git
+ 1270  ls
+ 1271  vagrant box add ubuntu/trusty64
+ 1272  git checkout master
+ 1273  git checkout origin master
+ 1274  git checkout HEAD
+ 1275  git checkout FETCH_HEAD
+ 1276  git checkout FETCH_HEAD -b myproto
+ 1277  vagrant box add hashicorp/precise64
+ 1278  vagrant box add "hashicorp/precise64"
+ 1279  vagrant box add precise32 http://files.vagrantup.com/precise32.box
+ 1280  cd CSIS3150/
+ 1281  ls
+ 1282  cd hw
+ 1283  ls
+ 1284  mkdir wk10
+ 1285  ls
+ 1286  cd wk10
+ 1287  vim ../../ratio.h
+ 1288  vim ratio.h
+ 1289  vim ../../ratio.h
+ 1290  vim ratio.h
+ 1291  vim ../../ratio.h
+ 1292  vim ratio.h
+ 1293  cd ../wk9
+ 1294  ls
+ 1295  vim ratiohw.cpp 
+ 1296  cd ../wk10
+ 1297  ls
+ 1298  vim ratio.h
+ 1299  vim ../../ratio4.cpp 
+ 1300  ls
+ 1301  vim ratio-test.cpp
+ 1302  vim ratio.h
+ 1303  vim ratio-test.cpp 
+ 1304  vim ratio.h
+ 1305  vim ratio-test.cpp 
+ 1306  vim ratio.h
+ 1307  vim ratio-test.cpp 
+ 1308  vim ratio.h
+ 1309  vim ratio-test.cpp 
+ 1310  vim ratio.h
+ 1311  vim ratio-test.cpp 
+ 1312  vim ratio.h
+ 1313  vim ratio-test.cpp 
+ 1314  vim ratio.h
+ 1315  cd CSIS3150/
+ 1316  cd hw/wk9
+ 1317  ls
+ 1318  cd ratiohw.cpp -o ratio
+ 1319  g++ ratiohw.cpp -o ratio
+ 1320  clear
+ 1321  ls
+ 1322  ./ratio
+ 1323  ls
+ 1324  g++ ratiohw.cpp -o ratio
+ 1325  ./ratio
+ 1326  g++ ratiohw.cpp -o ratio
+ 1327  ./ratio
+ 1328  clear
+ 1329  ls
+ 1330  ./ratio
+ 1331  cd ../wk10
+ 1332  ls
+ 1333  g++ ratio-test.cpp  -o ratio
+ 1334  clear
+ 1335  ls
+ 1336  ./ratio
+ 1337  g++ ratio-test.cpp  -o ratio
+ 1338  clear
+ 1339  ls
+ 1340  ./ratio
+ 1341  g++ ratio-test.cpp  -o ratio
+ 1342  ./ratio
+ 1343  g++ ratio-test.cpp  -o ratio
+ 1344  ./ratio
+ 1345  g++ ratio-test.cpp  -o ratio
+ 1346  ./ratio
+ 1347  clear
+ 1348  ls
+ 1349  ./ratio
+ 1350  g++ ratio-test.cpp  -o ratio
+ 1351  ./ratio
+ 1352  g++ ratio-test.cpp  -o ratio
+ 1353  ./ratio
+ 1354  g++ ratio-test.cpp  -o ratio
+ 1355  ./ratio
+ 1356  g++ ratio-test.cpp  -o ratio
+ 1357  ./ratio
+ 1358  g++ ratio-test.cpp  -o ratio
+ 1359  ./ratio
+ 1360  g++ ratio-test.cpp  -o ratio
+ 1361  ./ratio
+ 1362  clear
+ 1363  ls
+ 1364  ./ratio
+ 1365  apt-get update
+ 1366  cd ../.vimrc
+ 1367  cd ../
+ 1368  vim ~/.vimrc
+ 1369  vim .vimrc
+ 1370  cd CSIS4550/
+ 1371  ls
+ 1372  vim goProbs.go 
+ 1373  cd CSIS4550/
+ 1374  vim goProbs.go 
+ 1375  ls
+ 1376  vim Quiz4.go 
+ 1377  vim person.go 
+ 1378  cd product
+ 1379  vagrant box add ubuntu/trust32
+ 1380  vagrant box add ubuntu/trusty32
+ 1381  vim ../../../
+ 1382  cd ../../../
+ 1383  ls
+ 1384  cd Program Files
+ 1385  cd "Program Files"
+ 1386  ls
+ 1387  cd Git
+ 1388  ls
+ 1389  cd cmd
+ 1390  vim curl.cmd
+ 1391  vim ~/.vimrc
+ 1392  vim .vimrc
+ 1393  vim ../.vimrc
+ 1394  cd product/go/src/
+ 1395  gccgo ./main/main.go ./users/users.go -o test
+ 1396  cd ../../
+ 1397  ls
+ 1398  cd scripts/
+ 1399  cd ../
+ 1400  ls
+ 1401  cd ../../
+ 1402  cd "Program Files"
+ 1403  which git
+ 1404  cd ../Users/Katrina/Workspace/product/
+ 1405  ls
+ 1406  git log --oneline
+ 1407  git push origin master
+ 1408  cd product/
+ 1409  ls
+ 1410  git status
+ 1411  git checkout master
+ 1412  git status
+ 1413  git pull
+ 1414  git stash
+ 1415  git pull
+ 1416  git status
+ 1417  git branch km-go
+ 1418  cd product/
+ 1419  git merge master
+ 1420  git status
+ 1421  git stash
+ 1422  git merge master
+ 1423  cd product/
+ 1424  git checkout km-go
+ 1425  git merge master
+ 1426  git stash
+ 1427  git merge master
+ 1428  cd product/
+ 1429  git checkout km-go
+ 1430  git merge master
+ 1431  git stash
+ 1432  git merge master
+ 1433  apt-get update
+ 1434  cd CSIS3150/
+ 1435  ls
+ 1436  vim fileToString05.cpp
+ 1437  vim fileToString06.cpp
+ 1438  vim utilities.h 
+ 1439  vim fileToString06.cpp
+ 1440  vim utilities.h 
+ 1441  vim fileToString07.cpp
+ 1442  vim fileToString06.cpp
+ 1443  vim fileToString07.cpp
+ 1444  vim heapSort.cpp
+ 1445  vim fileToString07.cpp
+ 1446  vim heapSort.cpp
+ 1447  vim utilities.h 
+ 1448  vim heapSort.cpp
+ 1449  vim set01.cpp 
+ 1450  vim utilities.h 
+ 1451  vim set01.cpp 
+ 1452  vim set02.cpp 
+ 1453  cd CSIS3150/
+ 1454  ls
+ 1455  g++ fileToString06.cpp 
+ 1456  ./a.out 
+ 1457  g++ heapSort.cpp 
+ 1458  ./a.out 
+ 1459  ./a.out > data07.txt
+ 1460  vim data07.txt
+ 1461  g++ set01.cpp 
+ 1462  ./a.out 
+ 1463  g++ set01.cpp 
+ 1464  ./a.out 
+ 1465  g++ heapSort.cpp 
+ 1466  ./a.out 
+ 1467  ./a.out  > data07.txt 
+ 1468  vim data07.txt 
+ 1469  g++ set02.cpp
+ 1470  ./a.out 
+ 1471  cd CSIS3150/
+ 1472  g++ set03.cpp 
+ 1473  ./a.out 
+ 1474  g++ countwords_with_map.cpp 
+ 1475  ./a.out 
+ 1476  ./a.out > input.txt
+ 1477  vim input.txt 
+ 1478  cd CSIS3150/
+ 1479  vim set02.cpp 
+ 1480  vim set03.cpp
+ 1481  vim countwords_with_map.cpp
+ 1482  cd CSIS3150/hw/wk11
+ 1483  ls
+ 1484  g++ test_stack.h -o test
+ 1485  vim stack.h
+ 1486  g++ test_stack.h -o test
+ 1487  vim stack.h
+ 1488  g++ test_stack.h -o test
+ 1489  g++ test_stack.cpp -o test
+ 1490  ./test
+ 1491  ls ../../
+ 1492  vim stack.h 
+ 1493  g++ dec_to_bin.cpp -o dec_to_bin
+ 1494  vim stack.h 
+ 1495  g++ dec_to_bin.cpp -o dec_to_bin
+ 1496  ./dec_to_bin
+ 1497  g++ dec_to_bin.cpp -o dec_to_bin
+ 1498  ./dec_to_bin
+ 1499  g++ dec_to_bin.cpp -o dec_to_bin
+ 1500  ./dec_to_bin
+ 1501  g++ dec_to_bin.cpp -o dec_to_bin
+ 1502  ./dec_to_bin
+ 1503  vim utilities.h 
+ 1504  g++ fileToString.cpp  -o f2s
+ 1505  ./f2s
+ 1506  vim utilities.h 
+ 1507  g++ fileToString.cpp  -o f2s
+ 1508  vim utilities.h 
+ 1509  g++ fileToString.cpp  -o f2s
+ 1510  ./f2s
+ 1511  cp ../../awmt.txt ./
+ 1512  ./f2s
+ 1513  ./f2s > data.txt
+ 1514  vim utilities.h 
+ 1515  g++ countWords.cpp -o cw
+ 1516  ./cw
+ 1517  clear
+ 1518  ls
+ 1519  ./cw
+ 1520  clear
+ 1521  ls
+ 1522  ./cw
+ 1523  vim utilities.h 
+ 1524  ls
+ 1525  g++ countWords.cpp -o cw
+ 1526  ./cw
+ 1527  vim utilities.h 
+ 1528  g++ countWords.cpp -o cw
+ 1529  ./cw
+ 1530  clear
+ 1531  ./cw
+ 1532  clear
+ 1533  ls
+ 1534  ./cw
+ 1535  vim utilities.h 
+ 1536  g++ countWords.cpp -o cw
+ 1537  ./cw
+ 1538  vim utilities.h 
+ 1539  g++ countWords.cpp -o cw
+ 1540  ./cw
+ 1541  vim utilities.h 
+ 1542  g++ countWords.cpp -o cw
+ 1543  ./cw > data2.txt
+ 1544  vim utilities.h 
+ 1545  g++ countWords.cpp -o cw
+ 1546  ./cw > data2.txt
+ 1547  vim utilities.h 
+ 1548  g++ countWords.cpp -o cw
+ 1549  ./cw > data2.txt
+ 1550  vim utilities.h 
+ 1551  g++ countWords.cpp -o cw
+ 1552  vim utilities.h 
+ 1553  g++ countWords.cpp -o cw
+ 1554  vim utilities.h 
+ 1555  g++ countWords.cpp -o cw
+ 1556  vim utilities.h 
+ 1557  g++ countWords.cpp -o cw
+ 1558  vim utilities.h 
+ 1559  g++ countWords.cpp -o cw
+ 1560  vim utilities.h 
+ 1561  g++ countWords.cpp -o cw
+ 1562  vim utilities.h 
+ 1563  g++ countWords.cpp -o cw
+ 1564  vim utilities.h 
+ 1565  g++ countWords.cpp -o cw
+ 1566  g++ countWords.cpp -o cw -std=gnu++0x
+ 1567  vim utilities.h 
+ 1568  g++ countWords.cpp -o cw -std=gnu++0x
+ 1569  vim utilities.h 
+ 1570  g++ countWords.cpp -o cw -std=gnu++0x
+ 1571  vim utilities.h 
+ 1572  g++ countWords.cpp -o cw -std=gnu++0x
+ 1573  vim utilities.h 
+ 1574  g++ countWords.cpp -o cw -std=gnu++0x
+ 1575  ./cw
+ 1576  vim utilities.h 
+ 1577  g++ countWords.cpp -o cw -std=gnu++0x
+ 1578  ./cw > data2.txt 
+ 1579  ./cw
+ 1580  clear
+ 1581  ls
+ 1582  vim utilities.h 
+ 1583  cd CSIS3150/
+ 1584  ls
+ 1585  cd hw
+ 1586  ls
+ 1587  cd wk11
+ 1588  mkdir wk11
+ 1589  cd wk11
+ 1590  help
+ 1591  copy
+ 1592  cp ../../stack.h 
+ 1593  cp ../../stack.h ./
+ 1594  ls
+ 1595  vim stack.h 
+ 1596  vim test_stack.h
+ 1597  vim stack.h 
+ 1598  vim test_stack.h
+ 1599  rm test_stack.h
+ 1600  ls
+ 1601  ls ../../
+ 1602  vim ../../stack_test.cpp
+ 1603  vim test_stack.cpp
+ 1604  vim dec_to_bin.cpp
+ 1605  cp ../../utilities.h
+ 1606  cp ../../utilities.h ./
+ 1607  ls
+ 1608  vim utilities.h 
+ 1609  vim ../../fileToString06.cpp
+ 1610  vim ../../fileToString05.cpp
+ 1611  ls
+ 1612  ls ../../
+ 1613  vim ../../fileToString04.cpp 
+ 1614  vim fileToString.cpp
+ 1615  vim countWords.cpp 
+ 1616  vim utilities.h 
+ 1617  vim countWords.cpp 
+ 1618  cd CSIS3150/
+ 1619  gcc dos.c
+ 1620  ./a.out 
+ 1621  cd CSIS3150/
+ 1622  cd hw
+ 1623  mkdir final
+ 1624  cd final
+ 1625  vim motion.cpp
+ 1626  echo $GOPATH
+ 1627  echo %GOPATH%
+ 1628  exit
+ 1629  which go
+ 1630  echo $GOPATH
+ 1631  vim ~/.bashrc
+ 1632  cd CSIS3150/
+ 1633  ls
+ 1634  g++ dos.cpp 
+ 1635  apt-get install sendmail
+ 1636  mail -s "Sending an email" +14355590647@vztext.com 
+ 1637  apt-get mailutils
+ 1638  apt-get install mailutils
+ 1639  mail -s "Sending an email" +14355590647@vztext.com 
+ 1640  mail -s "Sending an email" +14355590647@vztext.com  < ./dos.cpp
+ 1641  mail -s "Sending an email" +14355590647@vztext.com 
+ 1642  .
+ 1643  mail -s "Sending an email" +14355590647@vtext.com
+ 1644  .
+ 1645  mail -s "Sending an email" 4355590647@vtext.com
+ 1646  vim text.txt
+ 1647  mail -s "Sending an email" 4355590647@vtext.com < ./text.txt
+ 1648  mail -s "Sending an email" ktrinanl@gmail.com
+ 1649  apt-get update && apt-get install ssmtp
+ 1650  vim /etc/ssmtp/ssmtp.conf
+ 1651  service sendmail stop
+ 1652  chkconfig sendmail off
+ 1653  mkdir /root/.bakup
+ 1654  mv /usr/sbin/sendmail /root/.bakup
+ 1655  ln -s /usr/local/ssmtp/sbin/ssmtp /usr/sbin/sendmail
+ 1656  echo "This is a test" | mail -s "" 4355590647@vtext.com
+ 1657  vim /etc/ssmtp/revaliases
+ 1658  echo "This is a test" | mail -s "test" 4355590647@vtext.com
+ 1659  echo "A Message" | mail -s "subject" katrinamehring@gmail.com
+ 1660  vim /etc/ssmtp/ssmtp.conf
+ 1661  cd /etc/ssmtp
+ 1662  ls
+ 1663  cd /root
+ 1664  ls
+ 1665  cd ../
+ 1666  ls
+ 1667  cd ~/
+ 1668  ls
+ 1669  cd /
+ 1670  ls
+ 1671  cd home
+ 1672  ls
+ 1673  ls --all
+ 1674  cd /usr
+ 1675  ls
+ 1676  cd /et
+ 1677  cd /etc
+ 1678  ls
+ 1679  cd ~/
+ 1680  ls
+ 1681  ls -all
+ 1682  ls --all
+ 1683  apt-get udpate 
+ 1684  apt-get update
+ 1685  vim /etc/ssmtp/ssmtp.conf
+ 1686  cd /usr
+ 1687  ls
+ 1688  cd sbin
+ 1689  ls
+ 1690  vim ssmtp/ssmtp.conf
+ 1691  cd ssmtp
+ 1692  ls /etc
+ 1693  cd etc
+ 1694  ls
+ 1695  cd /etc
+ 1696  ls
+ 1697  cd /ssmtp
+ 1698  cd ssmtp
+ 1699  ls
+ 1700  cd /usr/local
+ 1701  ls
+ 1702  cd sbin
+ 1703  ls
+ 1704  cd ../
+ 1705  ln -s /etc/ssmtp
+ 1706  ln -s /etc/ssmtp /usr/sbin/sendmail
+ 1707  ls ~/
+ 1708  cd /etc
+ 1709  ls
+ 1710  find ssmtp.conf
+ 1711  cd ../
+ 1712  find ssmtp.conf
+ 1713  cd /etc/ssmtp
+ 1714  ls
+ 1715  find ssmtp.conf
+ 1716  cd../
+ 1717  cd ../
+ 1718  ls
+ 1719  cd sbin
+ 1720  ls
+ 1721  cd ../
+ 1722  ls
+ 1723  cd bin
+ 1724  ls
+ 1725  cd ../
+ 1726  ls
+ 1727  apt-get remove ssmtp
+ 1728  ls
+ 1729  cd etc
+ 1730  ls
+ 1731  cd ssmtp
+ 1732  ls
+ 1733  cd ../
+ 1734  rm -rf ssmtp
+ 1735  cd ../
+ 1736  apt-get update && apt-get install ssmtp
+ 1737  ssmtp --configure
+ 1738  cd etc
+ 1739  cd ssmpt
+ 1740  cd ssmtp
+ 1741  ls
+ 1742  ls --all
+ 1743  cd ../
+ 1744  apt-get remove ssmtp
+ 1745  apt-get autoremove
+ 1746  apt-get autoremove --remove
+ 1747  apt-get install ssmtp
+ 1748  dpkg --configure
+ 1749  ls
+ 1750  cd ssmtp
+ 1751  ls
+ 1752  sudo vim ssmtp.conf
+ 1753  ssmtp 4355590647@vtext.com
+ 1754  vim ssmtp.conf
+ 1755  ssmtp 4355590647@vtext.com
+ 1756  vim ssmtp.conf
+ 1757  ssmtp 4355590647@vtext.com
+ 1758  cd /mnt/c/Users/Katrina/Workspace/
+ 1759  ls
+ 1760  cd CSIS3150/
+ 1761  ls
+ 1762  cd ../../
+ 1763  ls
+ 1764  cd Pictures/
+ 1765  ls
+ 1766  ssmtp 4355590647@vtext.com < CSIS3150-comp.png
+ 1767  ssmtp 4355590647@vtext.com < ./CSIS3150-comp.png
+ 1768  ssmtp 4355590647@vtext.com < /mnt/c/Users/Katrina/Pictures/CSIS3150-comp.png
+ 1769  mutt
+ 1770  apt-get install mutt
+ 1771  echo "no" | mutt -- 4355590647@vtext.com -a "/mnt/c/Users/Katrina/Pictures/CSIS3150-comp.txt"
+ 1772  echo "no" | mutt -- 4355590647@vtext.com -a /mnt/c/Users/Katrina/Pictures/CSIS3150-comp.txt
+ 1773  uuencode
+ 1774  apt-get install sharutils
+ 1775  ls
+ 1776  echo "no" | mutt -- 4355590647@vtext.com -a /mnt/c/Users/Katrina/Pictures/CS3150-comp.txt
+ 1777  echo "no" | mutt -- 4355590647@vtext.com -a /mnt/c/Users/Katrina/Pictures/CS3150-comp.png
+ 1778  uuencode CS3150-comp.png | mail -s "test" 4355590647@vtext.com
+ 1779  uuencode /mnt/c/Users/Katrina/Pictures/CS3150-comp.png | ssmtp -s "test" 4355590647@vtext.com
+ 1780  ls
+ 1781  cd ../Pictures/
+ 1782  ls
+ 1783  uuencode /mnt/c/Users/Katrina/Pictures/HTML_Lab1.jpg | ssmtp -s "test" 4355590647@vtext.com
+ 1784  mutt -s "subject" -a /mnt/c/Users/Katrian/Pictures/HTML_Lab1.jpg 4355590647@vtext.com
+ 1785  mutt -s "subject" -a /mnt/c/Users/Katrina/Pictures/HTML_Lab1.jpg 4355590647@vtext.com
+ 1786  o
+ 1787  apt-get install mailutils
+ 1788  mutt -s "subject" -a /mnt/c/Users/Katrina/Pictures/HTML_Lab1.jpg 4355590647@vtext.com
+ 1789  mailutils --configure
+ 1790  mutt -s "subject" -a /mnt/c/Users/Katrina/Pictures/HTML_Lab1.jpg -- 4355590647@vtext.com
+ 1791  echo "words" | mutt -s "subject" -a /mnt/c/Users/Katrina/Pictures/HTML_Lab1.jpg -- 4355590647@vtext.com
+ 1792  mutt -s "subject" -a /mnt/c/Users/Katrina/Pictures/HTML_Lab1.jpg -- 4355590647@vtext.com
+ 1793  vim send.txt
+ 1794  cd CSIS3150/
+ 1795  cd hw/wk13
+ 1796  cd hw
+ 1797  ls
+ 1798  mkdir wk13
+ 1799  cd wk13
+ 1800  vim pqDemo.cpp
+ 1801  ls ../../
+ 1802  vim ../../set03.cpp
+ 1803  vim ../../heapSort.cpp 
+ 1804  vim pqDemo.cpp
+ 1805  vim ../../heapSort.cpp 
+ 1806  vim pqDemo.cpp
+ 1807  vim ../../heapSort.cpp 
+ 1808  vim pqDemo.cpp
+ 1809  vim setDemo.cpp
+ 1810  vim filter01.cpp
+ 1811  vim filter02.cpp
+ 1812  vim ../../
+ 1813  vim ../../set03.cpp 
+ 1814  vim diffInter.cpp
+ 1815  vim filter02.cpp
+ 1816  vim diffInter.cpp
+ 1817  vim utilities.h 
+ 1818  vim diffInter.cpp
+ 1819  vim utilities.h 
+ 1820  vim testDiffInt.cpp
+ 1821  vim diffInter.cpp
+ 1822  vim testDiffInt.cpp
+ 1823  vim utilities.h 
+ 1824  vim testDiffInt.cpp
+ 1825  vim utilities.h 
+ 1826  ls ../../
+ 1827  vim ../../countwords_with_map.cpp 
+ 1828  vim countwordshw.cpp
+ 1829  vim filterWords.cpp
+ 1830  vim algoDemo.cpp
+ 1831  cd CSIS3150/hw/wk13/
+ 1832  ls
+ 1833  g++ pqDemo.cpp -o pq
+ 1834  cp ../../utilities.h  ./
+ 1835  ls
+ 1836  g++ pqDemo.cpp -o pq
+ 1837  vim ../../heapSort.cpp 
+ 1838  cp ../../awmt.txt ./
+ 1839  ls
+ 1840  cp ../../awmt.txt ./
+ 1841  ls
+ 1842  g++ pqDemo.cpp -o pq
+ 1843  vim ../../heapSort.cpp 
+ 1844  g++ pqDemo.cpp -o pq
+ 1845  g++ pqDemo.cpp -o pq-std=gnu++ox
+ 1846  g++ pqDemo.cpp -o pq-std=gnu++0x
+ 1847  ./pq
+ 1848  g++ pqDemo.cpp -o pq-std=gnu++0x
+ 1849  g++ pqDemo.cpp -o pq
+ 1850  g++ pqDemo.cpp -o pq -std=gnu++0x
+ 1851  ./pq
+ 1852  g++ pqDemo.cpp -o pq -std=gnu++0x
+ 1853  ./pq
+ 1854  ls
+ 1855  g++ pqDemo.cpp -o pq -std=gnu++0x
+ 1856  ls
+ 1857  g++ pqDemo.cpp -o pq -std=gnu++0x
+ 1858  ./pq
+ 1859  clear
+ 1860  ls ../../
+ 1861  vim ../../set01.cpp 
+ 1862  vim ../../set02.cpp
+ 1863  g++ setDemo.cpp -o setDemo -std=gnu++0x
+ 1864  ls
+ 1865  g++ setDemo.cpp -o setDemo -std=gnu++0x
+ 1866  ./setDemo
+ 1867  g++ setDemo.cpp -o setDemo -std=gnu++0x
+ 1868  ./setDemo
+ 1869  ls
+ 1870  vim setDemo
+ 1871  vim setDemo.cpp 
+ 1872  g++ filter01.cpp -o filter01 -std=gnu++0x
+ 1873  ls
+ 1874  g++ filter01.cpp -o filter01 -std=gnu++0x
+ 1875  ./filter01
+ 1876  g++ filter02.cpp -o filter02 -std=gnu++0x
+ 1877  ls
+ 1878  g++ filter02.cpp -o filter02 -std=gnu++0x
+ 1879  ./filter02
+ 1880  g++ diffInter.cpp -o dif-inter -std=gnu++0x
+ 1881  ls
+ 1882  g++ diffInter.cpp -o dif-inter -std=gnu+
+ 1883  g++ diffInter.cpp -o dif-inter -std=gnu++0x
+ 1884  clear
+ 1885  ls
+ 1886  g++ diffInter.cpp -o dif-inter -std=gnu++0x
+ 1887  ./dif-inter 
+ 1888  vim diffInter.cpp 
+ 1889  g++ testDiffInt.cpp -o testDifInt -std=gnu++0x
+ 1890  vim utilities
+ 1891  vim utilities.h 
+ 1892  g++ testDiffInt.cpp -o testDifInt -std=gnu++0x
+ 1893  vim utilities.h 
+ 1894  g++ testDiffInt.cpp -o testDifInt -std=gnu++0x
+ 1895  clear
+ 1896  g++ testDiffInt.cpp -o testDifInt -std=gnu++0x
+ 1897  vim utilities.h 
+ 1898  g++ testDiffInt.cpp -o testDifInt -std=gnu++0x
+ 1899  clear
+ 1900  g++ testDiffInt.cpp -o testDifInt -std=gnu++0x
+ 1901  clear
+ 1902  g++ testDiffInt.cpp -o testDifInt -std=gnu++0x
+ 1903  clear 
+ 1904  g++ testDiffInt.cpp -o testDifInt -std=gnu++0x
+ 1905  vim utilities.h 
+ 1906  g++ testDiffInt.cpp -o testDifInt -std=gnu++0x
+ 1907  vim utilities.h 
+ 1908  g++ testDiffInt.cpp -o testDifInt -std=gnu++0x
+ 1909  vim utilities.h 
+ 1910  clear
+ 1911  g++ testDiffInt.cpp -o testDifInt -std=gnu++0x
+ 1912  vim utilities.h 
+ 1913  g++ testDiffInt.cpp -o testDifInt -std=gnu++0x
+ 1914  vim utilities.h 
+ 1915  g++ testDiffInt.cpp -o testDifInt -std=gnu++0x
+ 1916  vim utilities.h 
+ 1917  clear
+ 1918  g++ testDiffInt.cpp -o testDifInt -std=gnu++0x
+ 1919  vim utilities.h 
+ 1920  g++ testDiffInt.cpp -o testDifInt -std=gnu++0x
+ 1921  clear
+ 1922  ls
+ 1923  ./testDifInt 
+ 1924  g++ countwordshw.cpp -o cw -std=gnu++0x
+ 1925  ./cw 
+ 1926  g++ countwordshw.cpp -o cw -std=gnu++0x
+ 1927  ./cw 
+ 1928  g++ filterWords.cpp -o filter -std=gnu++0x
+ 1929  clear
+ 1930  g++ filterWords.cpp -o filter -std=gnu++0x
+ 1931  clear
+ 1932  g++ filterWords.cpp -o filter -std=gnu++0x
+ 1933  clear
+ 1934  g++ filterWords.cpp -o filter -std=gnu++0x
+ 1935  clear
+ 1936  g++ filterWords.cpp -o filter -std=gnu++0x
+ 1937  clear
+ 1938  g++ filterWords.cpp -o filter -std=gnu++0x
+ 1939  ls
+ 1940  g++ filterWords.cpp -o filter -std=gnu++0x
+ 1941  ./filter
+ 1942  g++ filterWords.cpp -o filter -std=gnu++0x
+ 1943  ls
+ 1944  g++ filterWords.cpp -o filter -std=gnu++0x
+ 1945  ./filter
+ 1946  ls
+ 1947  g++ filterWords.cpp -o filter -std=gnu++0x
+ 1948  ls
+ 1949  g++ filterWords.cpp -o filter -std=gnu++0x
+ 1950  ./filter
+ 1951  g++ algoDemo.cpp -o algo -std=gnu++0x
+ 1952  clear
+ 1953  g++ algoDemo.cpp -o algo -std=gnu++0x
+ 1954  ls
+ 1955  ./algo
+ 1956  ls
+ 1957  g++ algoDemo.cpp -o algo -std=gnu++0x
+ 1958  ./algo
+ 1959  g++ algoDemo.cpp -o algo -std=gnu++0x
+ 1960  ./algo
+ 1961  g++ algoDemo.cpp -o algo -std=gnu++0x
+ 1962  ./algo
+ 1963  g++ algoDemo.cpp -o algo -std=gnu++0x
+ 1964  ./algo
+ 1965  g++ algoDemo.cpp -o algo -std=gnu++0x
+ 1966  ./algo
+ 1967  git
+ 1968  which sh
+ 1969  cd /bin
+ 1970  pwd
+ 1971  git
+ 1972  which go
+ 1973  echo "msg" | mutt -s "" -a ../Pictures/arr-code.png -- 4355590647@vzpix.com
+ 1974  mutt -s "subject" -a /mnt/c/Users/Katrina/Pictures/HTML_Lab1.jpg -- 4355590647@vzpix.com
+ 1975  echo "" | mutt -s "subject" -a /mnt/c/Users/Katrina/Pictures/HTML_Lab1.jpg -- 4355590647@vzpix.com
+ 1976  echo words
+ 1977  echo | mutt -s "" -a /mnt/c/Users/Katrina/Pictures/HTML_Lab1.jpg -- 14355590647@vzwpix.com
+ 1978  git merge master
+ 1979  git status
+ 1980  cd pl-final-project/
+ 1981  git merge master
+ 1982  ffmpeg
+ 1983  apt-get install ffmpeg
+ 1984  vim
+ 1985  vim ~/.vimrc
+ 1986  cd CSIS3150/final
+ 1987  ls
+ 1988  git init
+ 1989  git add .
+ 1990  git commit -m "final project"
+ 1991  git remote add origin http://github.com/ktrinanm/3150-final-proj
+ 1992  git push origin master
+ 1993  git push -f origin master
+ 1994  ls
+ 1995  ls -al
+ 1996  javac
+ 1997  apt-get install default-jdk
+ 1998  cd CS3000/Week01/
+ 1999  javac eratosthenes.java 
+ 2000  java eratosthenes
+ 2001  ls
+ 2002  cd CS3600/
+ 2003  ls
+ 2004  mkdir wk2
+ 2005  cd wk2
+ 2006  vim ProcessMngmnt.txt
+ 2007  date
+ 2008  cal
+ 2009  pwd
+ 2010  cd /
+ 2011  pwd
+ 2012  ls
+ 2013  cd ls
+ 2014  exit
+ 2015  apt-get update
+ 2016  which
+ 2017  ls
+ 2018  which ls
+ 2019  which awk
+ 2020  which gawk
+ 2021  man ls
+ 2022  help ls
+ 2023  ls help
+ 2024  ls --help
+ 2025  ls -1
+ 2026  ls -i
+ 2027  cd /cs3600
+ 2028  cd CS3600/
+ 2029  ls -r
+ 2030  ls -R
+ 2031  cd /
+ 2032  ls -R
+ 2033  cd -
+ 2034  ls -S
+ 2035  ls -s
+ 2036  cd /
+ 2037  history
+ 2038  ls 
+ 2039  cd -
+ 2040  cd /proc
+ 2041  cd -
+ 2042  cd /proc
+ 2043  cat cpuinfo 
+ 2044  ifconfig
+ 2045  ifconfig -a
+ 2046  top
+ 2047  cd
+ 2048  mkdir temp
+ 2049  cd temp
+ 2050  cd ../
+ 2051  rm temp
+ 2052  rmdir temp
+ 2053  cd pwd
+ 2054  cd /mnt/c/Users/Katrina/Workspace/CS3600/
+ 2055  ls
+ 2056  cd wk2
+ 2057  mkdir temp
+ 2058  cd temp
+ 2059  script jan11.txt
+ 2060  cat jan11.txt 
+ 2061  history
+ 2062  history | less
+ 2063  ls
+ 2064  cd ../
+ 2065  rmdir temp
+ 2066  rm -rf temp
+ 2067  ls
+ 2068  history > commands.txt
+ 2069  ps
+ 2070  tasklist
+ 2071  process
+ 2072  ps -all
+ 2073  ps -a
+ 2074  ps -l
+ 2075  vim ~/.bashrc
+ 2076  which javac
+ 2077  javac --version
+ 2078  javac -version
+ 2079  ls
+ 2080  ps -A
+ 2081  ps -e
+ 2082  set
+ 2083  environment
+ 2084  printenv
+ 2085  ls
+ 2086  cd ../
+ 2087  mkdir bin
+ 2088  ls
+ 2089  cd bin
+ 2090  vim ls
+ 2091  ls
+ 2092  touch greetings
+ 2093  ls
+ 2094  vim greetings 
+ 2095  which bash
+ 2096  vim greetings 
+ 2097  cat greetings 
+ 2098  ls -al
+ 2099  greetings
+ 2100  which greetings 
+ 2101  source greetings 
+ 2102  cd /proc
+ 2103  ls
+ 2104  cat filesystems 
+ 2105  cat meminfo 
+ 2106  cat mounts
+ 2107  cat net
+ 2108  cd net/
+ 2109  ls
+ 2110  cat if_inet6 
+ 2111  cd ..
+ 2112  cat partitions
+ 2113  ls
+ 2114  cat self
+ 2115  cd self
+ 2116  ls
+ 2117  cat ctty
+ 2118  cd ..
+ 2119  cat stat
+ 2120  cd CS3000/
+ 2121  ls
+ 2122  cd week01
+ 2123  cd Week01/
+ 2124  ls
+ 2125  vim wk1p1.txt
+ 2126  history
+ 2127  history > ../../CS3600/1-11+1-12hist.txt

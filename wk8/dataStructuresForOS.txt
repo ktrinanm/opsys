@@ -1,0 +1,44 @@
+Data Structures of Operating Systems:
+
+1. Access control list:
+	A list of each file, the names of users who have access to it, and the type of access each user is permitted.
+2. B-tree:
+	A generalized tree data structure for storing data on hard drives. It is based on a design that minimizes the number of disk requests.
+3. Buffers:
+	Arrays that temporarily store data that is read from an input device before it is needed by the CPU, or data that will be written to an output device.
+4. Process Resource Diagraph:
+	for deadlock detection.
+5. Queues:
+	Specialized for things like print jobs, network packet handling.
+	There are Multi-process queues for process management.
+6. File allocation tables (hash table usually):
+	a hash table that maps files to their physical locations.
+7. File descriptor:
+	a small data strucutre kept in the file's directory that contains the file name, size, time last accessed, ownership, and permissions.
+8. Interrupt vectors:
+	When the OS boots, it assigns an interrupt request number to each hardware device. The OS detects the source of the interrupt, then consults the interrupt vector, which has a pointer to the appropriate function for handling the interrupt.
+9. Job Tables:
+	a hash table in main memory that contains these entries for each active job: the size of the job and the memory location where its page map is stored.
+10. Master File Directory:
+	This data structure is stored immediately after the volume descriptor. Based on a hash table. Stores names and characteristics of every file contained in the volume so that it has the appropriate data on every file.
+11. Memory map table:
+	Also a hash table. Contains as many entries as there are page frames and lists the location and the free or busy status of each (page frame).
+12. Page Map table:
+	A hash table that contains for every process and page of the process, what page frame it's sitting in.
+13. Process Control Block: ******EXTREMELY IMPORTANT*********
+	Questions about this in the hw.
+14. File System Tree:
+15. Priority Queues:
+	For managing processes involving priorities.
+16. Bit Vectors:
+	Keep track of free blocks on the hard drive.
+17. Program path Cache:
+	For every command used in the current session, the shell first looks at this program path cache. If it doesn't look at the current command name there, it then looks at entries in the PATH variable. When the location is found, it's stored in this Program Path Cache. A hash table. 
+
+Some programmers our there spend so much time programming operating systems that they can only think in hash tables.
+
+Interrupt: hardware signal that suspends executaion of a program.
+
+Hash tables are good for finding, inserting, and deleting. That's why they are used so much in OS dev. Practically anything that's called a table in the OS is a hash table.
+
+UNIX is based on C with spots of just assembly for speed up.

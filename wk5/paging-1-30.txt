@@ -1,0 +1,62 @@
+Paging, segmentation, and virtual memory
+
+Hard drive is divided into equal sized blocks. A typical block size is 1K bytes. The HD
+controller is easily able to locate and transfer data to and from any block.
+
+Why not map the memory in the same way?
+A big hardware improvement: divide the RAM into equally sized page frames. Each frame
+can accommodate exactly 1 block. We don't have to have continout blocks.
+
+EX: Suppose we have a program (job 1). Suppose we can fit 100 lines of code in 1 block.
+Job 1 has 350 lines. (see oneNote)
+
+To manage this scheme we require 3 tables:
+	Job table - list of all the jobs in the queue and their sizes
+	Page Map table - for each job, which page of the job is in which page frame
+	Memory Map table - an entry for each page frame indicating if it is being 
+		used or not
+
+What do we do if we have a lot of programs or  a large program?
+
+Virtual Memory: It's not necessary to load an entire program into RAM. You just need
+to load the pages you need at the moment.
+
+Demand paging:  Only pulls pages you need.
+
+The first page of a program is loaded into memory and the first command is executed.
+The program counter keeps track of the relative address of the next instruction. The
+hardware takes this address and uses it to determine which page frame it's on. (an 
+address 1000 away in a 100 line page is 10 pages away). It consults the Page Map Table 
+to see if he page is in memory. If there is a free frame, the page is moved to RAM. If
+not, the OS senses a "page fault". When the OS detects a page fault, it needs to decide
+which frame to remove. To do this, it uses a "Page Replacement Policy". 
+
+Common replacement policies:
+	 FIFO - First in first out
+	 LRU  - Least recently used
+
+For a given program, it often turns out that only a small subset of pages is in RAM
+most of the time. This subset is called the "working set". A sophisticated OS will
+keep statistics to determine working sets. Useful because each time the program is run,
+the OS can pull in the working set. (Program by program basis. Say with Notepad++, it
+will have data that's always in there, no matter what you're running. It will
+automatically pull in all of that data.
+
+Well structured programs can be broken into modules. (EG a subroutine, or function, is
+a module). Compilers are good at dividing your programs into modules called segments.
+Instead of loading by page, we are going to load segments. When loading a program,
+it will be loaded by segments (multiple pages).
+
+If the memory manager detects that there is not room to load a new segment, it issues
+a "segmentation fault". There are Segmentation replacement policies for dealing with
+that.
+
+Swap space on the hard drive: improves the transfer process during demand paging. It 
+allows you to put a page/segment that needs to be rewritten into the swap space while
+you put another page in so you don't have to wait to rewrite before adding a new page.
+This saves time.
+
+Advantages of Virtual Memory:
+	1. Job size is not restricted by the size of RAM.
+	2. Eliminates fragmentation of RAM
+	3. Allows unlimited multiprogramming (when multiple processes are running.

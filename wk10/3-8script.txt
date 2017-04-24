@@ -1,0 +1,866 @@
+Script started on Wed Mar  8 22:04:35 2017
+[?1034h]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# ls
+2-15.txt       alltextfiles  dir1	      matlab-link  week03
+3-6script.txt  awmt.txt      excel.exe	      newawmt.txt  week07
+3-8script.txt  awmt.txt.gz   executables.txt  newfilename  week10
+Firefox        bin	     firefox-link     out.txt	   word.exe
+Mathematica    chrome.exe    hello	      reader.exe
+Matlab	       contents.txt  math-link	      txtfiles
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# cd week03
+]0;~/week03
+[32mKatrina@AphroditesTears [33m~/week03[0m
+# ls
+1-20.txt  5
+]0;~/week03
+[32mKatrina@AphroditesTears [33m~/week03[0m
+# cd ..
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# which tar
+/usr/bin/tar
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# tar cvf week03.tar week03/
+week03/
+week03/1-20.txt
+week03/5
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# ls
+2-15.txt       alltextfiles  dir1	      matlab-link  week03
+3-6script.txt  awmt.txt      excel.exe	      newawmt.txt  week03.tar
+3-8script.txt  awmt.txt.gz   executables.txt  newfilename  week07
+Firefox        bin	     firefox-link     out.txt	   week10
+Mathematica    chrome.exe    hello	      reader.exe   word.exe
+Matlab	       contents.txt  math-link	      txtfiles
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# lstar cvf week03.tar week03/[1@z[C[C[C[C[C[C[C[C[C[C[C. week03/g week03/z week03/
+week03/
+week03/1-20.txt
+week03/5
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# ls
+2-15.txt       alltextfiles  dir1	      matlab-link  week03
+3-6script.txt  awmt.txt      excel.exe	      newawmt.txt  week03.tar
+3-8script.txt  awmt.txt.gz   executables.txt  newfilename  week03.tar.gz
+Firefox        bin	     firefox-link     out.txt	   week07
+Mathematica    chrome.exe    hello	      reader.exe   week10
+Matlab	       contents.txt  math-link	      txtfiles	   word.exe
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# mv week03.tar week10/
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# cd week10
+]0;~/week10
+[32mKatrina@AphroditesTears [33m~/week10[0m
+# ls
+7zC.txt				       PropValueAliases.txt
+7zFormat.txt			       PropertyAliases.txt
+ArabicShaping.txt		       RELEASE.txt
+BidiMirroring.txt		       ReadMe.txt
+Blocks.txt			       Scripts.txt
+CHANGES.txt			       SpecialCasing.txt
+CaseFolding.txt			       StandardizedVariants.txt
+CompositionExclusions.txt	       TODO.txt
+EastAsianWidth.txt		       UnicodeData.txt
+HISTORY.txt			       allkeys.txt
+HangulSyllableType.txt		       copying.txt
+INSTALL.txt			       extrafld.txt
+INSTALL_Cygwin.txt		       faq.txt
+INSTALL_Windows.txt		       funzip.txt
+INSTALL_Windows_From_Command_Line.txt  keys.txt
+INSTALL_Windows_Short_VS6.0.txt        lzma-file-format.txt
+Index.txt			       lzma.txt
+Jamo.txt			       lzop.txt
+License.txt			       timezone.txt
+LineBreak.txt			       unRarLicense.txt
+Methods.txt			       unzip.txt
+NameAliases.txt			       unzipsfx.txt
+NamedSequences.txt		       week03.tar
+NamedSqProv.txt			       xz-file-format.txt
+NamesList.txt			       zipgrep.txt
+NormalizationCorrections.txt	       zipinfo.txt
+PropList.txt			       ziplimit.txt
+]0;~/week10
+[32mKatrina@AphroditesTears [33m~/week10[0m
+# cd ..
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# mkdir week10a
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# mkdir week10a[C[C[8Pcd ..[C[C[3Plscd week10a/[K[C[Cmv week03.tar week10/[C[Cls[Kmv week03.tar week10/[Ka/[C[1@w[1@e[1@e[1@k[1@1[1@0[1@/
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# cd week10a
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# ls
+week03.tar
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# tar xvf week03.tar
+week03/
+week03/1-20.txt
+week03/5
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# ls
+week03	week03.tar
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# cd week03
+]0;~/week10a/week03
+[32mKatrina@AphroditesTears [33m~/week10a/week03[0m
+# ls
+1-20.txt  5
+]0;~/week10a/week03
+[32mKatrina@AphroditesTears [33m~/week10a/week03[0m
+# cd ..
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# ls
+week03	week03.tar
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# rm week03-week03rweek03fweek03 week03
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# ls
+week03.tar
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# #just tar fil.e [K[K[Ke. list contents without opening
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# tar tvf week03.tar
+drwxr-xr-x Katrina/root      0 2017-01-20 15:06 week03/
+-rw-r--r-- Katrina/root  21777 2017-01-20 15:36 week03/1-20.txt
+-rw-r--r-- Katrina/root     26 2017-01-20 15:06 week03/5
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# cat newfile[K[K[K[K[K[K[K> newfile
+now is the time
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# ne[K[Kls
+newfile  week03.tar
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# tar rvf week03.tar newfile
+newfile
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# tar rvf week03.tar newfile[C[Cls[Kcat > newfile[C[Ctar tvf week03.tar
+drwxr-xr-x Katrina/root      0 2017-01-20 15:06 week03/
+-rw-r--r-- Katrina/root  21777 2017-01-20 15:36 week03/1-20.txt
+-rw-r--r-- Katrina/root     26 2017-01-20 15:06 week03/5
+-rw-r--r-- Katrina/root     16 2017-03-08 15:12 newfile
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# #move onto grep
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# ls
+newfile  week03.tar
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# #gloa[Kbally search a regulat[Kr expression and print
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# ls
+newfile  week03.tar
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# grep "Implementing Regular Expressions" regular-expressionts.txt
+grep: regular-expressionts.txt: No such file or directory
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# grep "Implementing Regular Expressions" regular-expressionts.txt[1Ps.txt
+grep: regular-expressions.txt: No such file or directory
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# cd ../
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# cd ../[C[Cgrep "Implementing Regular Expressions" regular-expressions.txt
+grep: regular-expressions.txt: No such file or directory
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# grep "Implementing Regular Expressions" regular-expressions.txt
+    Implementing Regular Expressions, Russ Cox, including references to assist in reading Thompson (1968):
+        Implementing Regular Expressions, CS 121 Extra Lecture, November 17, 2000
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# greap [K[K[Kp "AWK" regular-expressions.txt 
+Regular expressions are so useful in computing that the various systems to specify regular expressions have evolved to provide both a basic and extended standard for the grammar and syntax; modern regular expressions heavily augment the standard. Regular expression processors are found in several search engines, search and replace dialogs of several word processors and text editors, and in the command lines of text processing utilities, such as sed and AWK.
+Many programming languages provide regular expression capabilities, some built-in, for example Perl, Ruby, AWK, and Tcl, and others via a standard library, for example .NET languages, Java, Python and C++ (since C++11). Most other languages offer regular expressions via a library.
+Many variations of these original forms of regular expressions were used in Unix[6] programs at Bell Labs in the 1970s, including vi, lex, sed, AWK, and expr, and in other programs such as Emacs. Regular expressions were subsequently adopted by a wide range of programs, with these early forms standardized in the POSIX.2 standard in 1992.
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# grep -i "AWK" regular-expressions.txt 
+Regular expressions are so useful in computing that the various systems to specify regular expressions have evolved to provide both a basic and extended standard for the grammar and syntax; modern regular expressions heavily augment the standard. Regular expression processors are found in several search engines, search and replace dialogs of several word processors and text editors, and in the command lines of text processing utilities, such as sed and AWK.
+Many programming languages provide regular expression capabilities, some built-in, for example Perl, Ruby, AWK, and Tcl, and others via a standard library, for example .NET languages, Java, Python and C++ (since C++11). Most other languages offer regular expressions via a library.
+Many variations of these original forms of regular expressions were used in Unix[6] programs at Bell Labs in the 1970s, including vi, lex, sed, AWK, and expr, and in other programs such as Emacs. Regular expressions were subsequently adopted by a wide range of programs, with these early forms standardized in the POSIX.2 standard in 1992.
+    Extending ASCII-oriented constructs to Unicode. For example, in ASCII-based implementations, character ranges of the form [x-y] are valid wherever x and y have code points in the range [0x00,0x7F] and codepoint(x) ≤ codepoint(y). The natural extension of such character ranges to Unicode would simply change the requirement that the endpoints lie in [0x00,0x7F] to the requirement that they lie in [0,0x10FFFF]. However, in practice this is often not the case. Some implementations, such as that of gawk, do not allow character ranges to cross Unicode blocks. A range like [0x61,0x7F] is valid since both endpoints fall within the Basic Latin block, as is [0x0530,0x0560] since both endpoints fall within the Armenian block, but a range like [0x0061,0x0532] is invalid since it includes multiple Unicode blocks. Other engines, such as that of the Vim editor, allow block-crossing but the character values must not be more than 256 apart.[27]
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# # case insene[Ksitivie ^[K[K[K[Ke ^
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# #show line numbers
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# grep -in "AWK" regular-expressions.txt 
+17:Regular expressions are so useful in computing that the various systems to specify regular expressions have evolved to provide both a basic and extended standard for the grammar and syntax; modern regular expressions heavily augment the standard. Regular expression processors are found in several search engines, search and replace dialogs of several word processors and text editors, and in the command lines of text processing utilities, such as sed and AWK.
+19:Many programming languages provide regular expression capabilities, some built-in, for example Perl, Ruby, AWK, and Tcl, and others via a standard library, for example .NET languages, Java, Python and C++ (since C++11). Most other languages offer regular expressions via a library.
+58:Many variations of these original forms of regular expressions were used in Unix[6] programs at Bell Labs in the 1970s, including vi, lex, sed, AWK, and expr, and in other programs such as Emacs. Regular expressions were subsequently adopted by a wide range of programs, with these early forms standardized in the POSIX.2 standard in 1992.
+271:    Extending ASCII-oriented constructs to Unicode. For example, in ASCII-based implementations, character ranges of the form [x-y] are valid wherever x and y have code points in the range [0x00,0x7F] and codepoint(x) ≤ codepoint(y). The natural extension of such character ranges to Unicode would simply change the requirement that the endpoints lie in [0x00,0x7F] to the requirement that they lie in [0,0x10FFFF]. However, in practice this is often not the case. Some implementations, such as that of gawk, do not allow character ranges to cross Unicode blocks. A range like [0x61,0x7F] is valid since both endpoints fall within the Basic Latin block, as is [0x0530,0x0560] since both endpoints fall within the Armenian block, but a range like [0x0061,0x0532] is invalid since it includes multiple Unicode blocks. Other engines, such as that of the Vim editor, allow block-crossing but the character values must not be more than 256 apart.[27]
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# grep[K[K[K[Kgrep -in "AWK" regular-expressions.txt [C[1P[1P[1P[1@P[1@o[1@r[1@t[1@a[1@b[1@l[1@e[1@ [1@.[1@*[1@ [1@I[1@n[1@t[1@e[1@r[1@f[1@a[1@c[1@e
+473:    Jump up Jump up ^ ISO/IEC 9945-2:1993 Information technology – Portable Operating System Interface (POSIX) – Part 2: Shell and Utilities, successively revised as ISO/IEC 9945-2:2002 Information technology – Portable Operating System Interface (POSIX) – Part 2: System Interfaces, ISO/IEC 9945-2:2003, and currently ISO/IEC/IEEE 9945:2009 Information technology – Portable Operating System Interface (POSIX®) Base Specifications, Issue 7
+515:    ISO/IEC 9945-2:1993 Information technology – Portable Operating System Interface (POSIX) – Part 2: Shell and Utilities
+516:    ISO/IEC 9945-2:2002 Information technology – Portable Operating System Interface (POSIX) – Part 2: System Interfaces
+517:    ISO/IEC 9945-2:2003 Information technology – Portable Operating System Interface (POSIX) – Part 2: System Interfaces
+518:    ISO/IEC/IEEE 9945:2009 Information technology – Portable Operating System Interface (POSIX®) Base Specifications, Issue 7
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# exit
+exit
+
+Script done on Wed Mar  8 15:19:24 2017
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# 
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# 
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# exit
+Script started, file is typescript
+Script started, file is typescript
+Script done, file is typescript
+Script started on Wed Mar  8 15:21:11 2017
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# script 3-8script.txt[C[Cexit[K[C[Cgrep -in "Portable .* Interface" regular-expressions.txt [C[C[C[C[C[C[C[C[C[C[C[C[18PAWK[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18@Portable .* Interface[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K[C[Cgrep -in "Portable .* Interface" regular-expressions.txt [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Knre [K[K[Kw "express" regular-expressions.txt 
+114:Regular expressions in this sense can express the regular languages, exactly the class of languages accepted by deterministic finite automata. There is, however, a significant difference in compactness. Some classes of regular languages can only be described by deterministic finite automata whose size grows exponentially in the size of the shortest equivalent regular expressions. The standard example here is the languages Lk consisting of all strings over the alphabet {a,b} whose kth-from-last letter equals a. On one hand, a regular expression describing L4 is given by (a|b)^*a(a|b)(a|b)(a|b). Generalizing this pattern to Lk gives the expression
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# grep -nw "express" regular-expressions.txt [1P[C[1@n
+114:Regular expressions in this sense can express the regular languages, exactly the class of languages accepted by deterministic finite automata. There is, however, a significant difference in compactness. Some classes of regular languages can only be described by deterministic finite automata whose size grows exponentially in the size of the shortest equivalent regular expressions. The standard example here is the languages Lk consisting of all strings over the alphabet {a,b} whose kth-from-last letter equals a. On one hand, a regular expression describing L4 is given by (a|b)^*a(a|b)(a|b)(a|b). Generalizing this pattern to Lk gives the expression
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# grep -wn "express" regular-expressions.txt [C[1@i
+114:Regular expressions in this sense can express the regular languages, exactly the class of languages accepted by deterministic finite automata. There is, however, a significant difference in compactness. Some classes of regular languages can only be described by deterministic finite automata whose size grows exponentially in the size of the shortest equivalent regular expressions. The standard example here is the languages Lk consisting of all strings over the alphabet {a,b} whose kth-from-last letter equals a. On one hand, a regular expression describing L4 is given by (a|b)^*a(a|b)(a|b)(a|b). Generalizing this pattern to Lk gives the expression
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# g[Kgrep -iwn "express" regular-expressions.txt [C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnw[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Pscript 3-8script.txt[C[Cexit[K[C[Cgrep -in "Portable .* Interface" regular-expressions.txt [1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@e[1@x[1@p[1@r[1@e[1@s[1@s
+1:Regular expression
+3:  (Redirected from Regular expressions)
+5:The regular expression
+8:In theoretical computer science and formal language theory, a regular expression (abbreviated regex or regexp) is a sequence of characters that forms a search pattern, mainly for use in pattern matching with strings, or string matching, i.e. "find and replace"-like operations. The concept arose in the 1950s, when the American mathematician Stephen Kleene formalized the description of a regular language, and came into common use with the Unix text processing utilities ed, an editor, and grep (global regular expression print), a filter.
+10:Each character in a regular expression is either understood to be a metacharacter with its special meaning, or a regular character with its literal meaning. Together, they can be used to identify textual material of a given pattern, or process a number of instances of it that can vary from a precise equality to a very general similarity of the pattern. The pattern sequence itself is an expression that is a statement in a language designed specifically to represent prescribed targets in the most concise and flexible way to direct the automation of text processing of general text files, specific textual forms, or of random input strings.
+12:A very simple use of a regular expression would be to locate the same word spelled two different ways in a text editor, for example seriali[sz]e. A wildcard match can also achieve this, but wildcard matches differ from regular expressions in that wildcards are limited to what they can pattern (having fewer metacharacters and a simple language-base), whereas regular expressions are not. A usual context of wildcard characters is in globbing similar names in a list of files, whereas regular expressions are usually employed in applications that pattern-match text strings in general. For example, the simple regexp ^[ \t]+|[ \t]+$ matches excess whitespace at the beginning and end of a line. An advanced regexp used to match any numeral is ^[+-]?(\d+\.?\d*|\.\d+)([eE][+-]?\d+)?$. See Examples for more examples.
+15:A regular expression processor processes a regular expression statement expressed in terms of a grammar in a given formal language, and with that examines the target text string, parsing it to identify substrings that are members of its language, the regular expressions.
+17:Regular expressions are so useful in computing that the various systems to specify regular expressions have evolved to provide both a basic and extended standard for the grammar and syntax; modern regular expressions heavily augment the standard. Regular expression processors are found in several search engines, search and replace dialogs of several word processors and text editors, and in the command lines of text processing utilities, such as sed and AWK.
+19:Many programming languages provide regular expression capabilities, some built-in, for example Perl, Ruby, AWK, and Tcl, and others via a standard library, for example .NET languages, Java, Python and C++ (since C++11). Most other languages offer regular expressions via a library.
+27:        3.2 Expressive power and compactness
+28:        3.3 Deciding equivalence of regular expressions
+38:    6 Fuzzy regular expressions
+54:Regular expressions originated in 1956, when mathematician Stephen Cole Kleene described regular languages using his mathematical notation called regular sets.[1] These arose in theoretical computer science, in the subfields of automata theory (models of computation) and the description and classification of formal languages. Other early implementations of pattern matching include the SNOBOL language, which did not use regular expressions, but instead its own syntax.
+56:Regular expressions entered popular use from 1968 in two uses: pattern matching in a text editor[2] and lexical analysis in a compiler.[3] Among the first appearances of regular expressions in program form was when Ken Thompson built Kleene's notation into the editor QED as a means to match patterns in text files.[2][4][5][6] For speed, Thompson implemented regular expression matching by just-in-time compilation (JIT) to IBM 7094 code on the Compatible Time-Sharing System, an important early example of JIT compilation.[7] He later added this capability to the Unix editor ed, which eventually led to the popular search tool grep's use of regular expressions ("grep" is a word derived from the command for regular expression searching in the ed editor: g/re/p meaning "Global search for Regular Expression and Print matching lines"[8]). Around the same time when Thompson developed QED, a group of researchers including Douglas T. Ross implemented a tool based on regular expressions that is used for lexical analysis in compiler design.[3]
+58:Many variations of these original forms of regular expressions were used in Unix[6] programs at Bell Labs in the 1970s, including vi, lex, sed, AWK, and expr, and in other programs such as Emacs. Regular expressions were subsequently adopted by a wide range of programs, with these early forms standardized in the POSIX.2 standard in 1992.
+60:In the 1980s more complicated regular expressions arose in Perl, which originally derived from a regex library written by Henry Spencer (1986), who later wrote an implementation of Advanced Regular Expressions for Tcl.[9] The Tcl library is a hybrid NFA/DFA implementation with improved performance characteristics, earning praise from Jeffrey Friedl who said, "...it really seems quite wonderful."[10] Software projects that have adopted Spencer's Tcl regular expression implementation include PostgreSQL.[11] Perl later expanded on Spencer's original library to add many new features,[12] but has not yet caught up with Spencer's Advanced Regular Expressions implementation in terms of performance or Unicode handling.[13][14] Part of the effort in the design of Perl 6 is to improve Perl's regular expression integration, and to increase their scope and capabilities to allow the definition of parsing expression grammars.[15] The result is a mini-language called Perl 6 rules, which are used to define Perl 6 grammar as well as provide a tool to programmers in the language. These rules maintain existing features of Perl 5.x regular expressions, but also allow BNF-style definition of a recursive descent parser via sub-rules.
+62:The use of regular expressions in structured information standards for document and database modeling started in the 1960s and expanded in the 1980s when industry standards like ISO SGML (precursored by ANSI "GCA 101-1983") consolidated. The kernel of the structure specification language standards consists of regular expressions. Its use is evident in the DTD element group syntax.
+64:Starting in 1997, Philip Hazel developed PCRE (Perl Compatible Regular Expressions), which attempts to closely mimic Perl's regular expression functionality and is used by many modern tools including PHP and Apache HTTP Server.
+66:Today regular expressions are widely supported in programming languages, text processing programs (particular lexers), advanced text editors, and some other programs. Regular expression support is part of the standard library of many programming languages, including Java and Python, and is built into the syntax of others, including Perl and ECMAScript. Implementations of regular expression functionality is often called a regular expression engine, and a number of libraries are available for reuse.
+69:A regular expression, often called a pattern, is an expression used to specify a set of strings required for a particular purpose. A simple way to specify a set of strings is simply to list its elements or members. However, there are often more concise ways to specify the desired set of strings. For example, the set containing the three strings "Handel", "Händel", and "Haendel" can be specified by the pattern H(ä|ae?)ndel; we say that this pattern matches each of the three strings. In most formalisms, if there exists at least one regex that matches a particular set then there exists an infinite number of other regex that also match it—the specification is not unique. Most formalisms provide the following operations to construct regular expressions.
+82:These constructions can be combined to form arbitrarily complex expressions, much like one can construct arithmetical expressions from numbers and the operations +, −, ×, and ÷. For example, H(ae?|ä)ndel and H(a|ae|ä)ndel are both valid patterns which match the same strings as the earlier example, H(ä|ae?)ndel.
+84:The precise syntax for regular expressions varies among tools and with context; more detail is given in the Syntax section.
+87:Regular expressions describe regular languages in formal language theory. They have the same expressive power as regular grammars.
+90:Regular expressions consist of constants and operator symbols that denote sets of strings and operations over these sets, respectively. The following definition is standard, and found as such in most textbooks on formal language theory.[16][17] Given a finite alphabet Σ, the following constants are defined as regular expressions:
+96:Given regular expressions R and S, the following operations over them are defined to produce regular expressions:
+98:    (concatenation) RS denoting the set { αβ | α in set described by expression R and β in set described by S }. For example {"ab", "c"}{"d", "ef"} = {"abd", "abef", "cd", "cef"}.
+99:    (alternation) R | S denoting the set union of sets described by R and S. For example, if R describes {"ab", "c"} and S describes {"ab", "d", "ef"}, expression R | S describes {"ab", "c", "d", "ef"}.
+110:Expressive power and compactness
+112:The formal definition of regular expressions is purposely parsimonious and avoids defining the redundant quantifiers ? and +, which can be expressed as follows: a+ = aa*, and a? = (a|ε). Sometimes the complement operator is added, to give a generalized regular expression; here Rc matches all strings over Σ* that do not match R. In principle, the complement operator is redundant, as it can always be circumscribed by using the other operators. However, the process for computing such a representation is complex, and the result may require expressions of a size that is double exponentially larger.[18][19]
+114:Regular expressions in this sense can express the regular languages, exactly the class of languages accepted by deterministic finite automata. There is, however, a significant difference in compactness. Some classes of regular languages can only be described by deterministic finite automata whose size grows exponentially in the size of the shortest equivalent regular expressions. The standard example here is the languages Lk consisting of all strings over the alphabet {a,b} whose kth-from-last letter equals a. On one hand, a regular expression describing L4 is given by (a|b)^*a(a|b)(a|b)(a|b). Generalizing this pattern to Lk gives the expression
+118:On the other hand, it is known that every deterministic finite automaton accepting the language Lk must have at least 2k states. Luckily, there is a simple mapping from regular expressions to the more general nondeterministic finite automata (NFAs) that does not lead to such a blowup in size; for this reason NFAs are often used as alternative representations of regular languages. NFAs are a simple variation of the type-3 grammars of the Chomsky hierarchy.[16]
+120:Finally, it is worth noting that many real-world "regular expression" engines implement features that cannot be described by the regular expressions in the sense of formal language theory; see below for more on this.
+121:Deciding equivalence of regular expressions
+123:As seen in many of the examples above, there is more than one way to construct a regular expression to achieve the same results.
+125:It is possible to write an algorithm which for two given regular expressions decides whether the described languages are essentially equal, reduces each expression to a minimal deterministic finite state machine, and determines whether they are isomorphic (equivalent).
+127:The redundancy can be eliminated by using Kleene star and set union to find an interesting subset of regular expressions that is still fully expressive, but perhaps their use can be restricted. This is a surprisingly difficult problem. As simple as the regular expressions are, there is no method to systematically rewrite them to some normal form. The lack of axiom in the past led to the star height problem. In 1991, Dexter Kozen axiomatized regular expressions with Kleene algebra.[20]
+130:A regexp pattern matches a target string. The pattern is composed of a sequence of atoms. An atom is what matches at a point in the target string. The simplest atom is a literal, but grouping parts of the pattern to match an atom will require using ( ) as metacharacters. Metacharacters help form: atoms; quantifiers telling how many atoms (and whether it is a greedy quantifier or not); a logical OR character, which offers a set of alternatives, and a logical NOT character, which negates an atom's existence; and back references to refer to previous atoms of a completing pattern of atoms. A match is made, not when all the atoms of the string are matched, but rather when all the pattern atoms in the regular expression have matched. The idea is to make a small pattern of characters stand for a large number of possible strings, rather than compiling a large list of all the literal possibilities.
+132:Depending on the regexp processor there are about fourteen metacharacters, characters that may or may not have their literal character meaning, depending on context, or whether they are "escaped", i.e., preceded by an escape sequence, in this case, the backslash \. Modern and POSIX extended regular expressions use metacharacters more often than their literal meaning, so to avoid "backslash-osis" it makes sense to have a metacharacter escape to a literal mode; but starting out, it makes more sense to have the four bracketing metacharacters ( ) and { } be primarily literal, and "escape" that usual meaning to become metacharacters. Common standards implement both. The usual metacharacters are {}[]()^$.|*+? and \. The usual characters that become metacharacters when escaped are dsw.DSW and N.
+135:When entering a regular expression in a programming language, they may be represented as a usual string literal, hence usually quoted; this is common in C, Java, and Python for instance, where the regular expression re is entered as "re". However, they are often written with slashes as delimiters, as in /re/ for the regular expression re. This originates in ed, where / is the editor command for searching, and an expression /re/ can be used to specify a range of lines (matching the pattern), which can be combined with other commands on either side, most famously g/re/p as in grep ("global regex print"). A similar convention is used in sed, where search and replace is given by s/regexp/replacement/ and patterns can be joined with a comma to specify a range of lines as in /re1/,/re2/. This notation is particularly well-known due to its use in Perl, where it forms part of the syntax distinct from normal string literals. In some cases, such as sed and Perl, alternative delimiters can be used to avoid collision with contents, and to avoid having to escape occurrences of the delimiter character in the contents. For example, in sed the command s,/,X, will replace a / with an X, using commas as delimiters.
+138:The IEEE POSIX standard has three sets of compliance: BRE,[21] ERE, and SRE for Basic, Extended, and Simple Regular Expressions. SRE is deprecated,[22] in favor of BRE, as both provide backward compatibility. The subsection below covering the character classes applies to both BRE and ERE.
+140:BRE and ERE work together. ERE adds ?, +, and |, and it removes the need to escape the metacharacters ( ) and { }, which are required in BRE. Furthermore, as long as the POSIX standard syntax for regular expressions is adhered to, there can be, and often is, additional syntax to serve specific (yet POSIX compliant) applications. Although POSIX.2 leaves some implementation specifics undefined, BRE and ERE provide a "standard" which has since been adopted as the default syntax of many tools, where the choice of BRE or ERE modes is usually a supported option. For example, GNU grep has the following options: "grep -E" for ERE, and "grep -G" for BRE (the default), and "grep -P" for Perl regular expressions.
+142:Perl regular expressions have become a de facto standard, having a rich and powerful set of atomic expressions. Perl has no "basic" "extended" level, where the ( ) and { } may or may not have literal meanings. They are always metacharacters, as they are in "extended" mode for POSIX. To get their literal meaning, you escape them. Other metacharacters are known to be literal or symbolic based on context alone. Perl offers much more functionality: "lazy" regular expressions, backtracking, named capture groups, and recursive patterns, all of which are powerful additions to POSIX BRE/ERE. (See Lazy quantification below.)
+147:. 	Matches any single character (many applications exclude newlines, and exactly which characters are considered newlines is flavor-, character-encoding-, and platform-specific, but it is safe to assume that the line feed character is included). Within POSIX bracket expressions, the dot character matches a literal dot. For example, a.c matches "abc", etc., but [a.c] matches only "a", ".", or "c".
+148:[ ] 	A bracket expression. Matches a single character that is contained within the brackets. For example, [abc] matches "a", "b", or "c". [a-z] specifies a range which matches any lowercase letter from "a" to "z". These forms can be mixed: [abcx-z] matches "a", "b", "c", "x", "y", or "z", as does [a-cx-z].
+150:The - character is treated as a literal character if it is the last or the first (after the ^, if present) character within the brackets: [abc-], [-abc]. Note that backslash escapes are not allowed. The ] character can be included in a bracket expression if it is the first (after the ^) character: []abc].
+154:( ) 	Defines a marked subexpression. The string matched within the parentheses can be recalled later (see the next entry, \n). A marked subexpression is also called a block or capturing group. BRE mode requires \( \).
+155:\n 	Matches what the nth marked subexpression matched, where n is a digit from 1 to 9. This construct is vaguely defined in the POSIX.2 standard. Some tools allow referencing more than nine capturing groups.
+157:{m,n} 	Matches the preceding element at least m and not more than n times. For example, a{3,5} matches only "aaa", "aaaa", and "aaaaa". This is not found in a few older instances of regular expressions. BRE mode requires \{m,n\}.
+171:The meaning of metacharacters escaped with a backslash is reversed for some characters in the POSIX Extended Regular Expression (ERE) syntax. With this syntax, a backslash causes the metacharacter to be treated as a literal character. So, for example, \( \) is now ( ) and \{ \} is now { }. Additionally, support is removed for \n backreferences and the following metacharacters are added:
+175:| 	The choice (also known as alternation or set union) operator matches either the expression before or the expression after the operator. For example, abc|def matches "abc" or "def".
+184:POSIX Extended Regular Expressions can often be used with modern Unix utilities by including the command line flag -E.
+187:The character class is the most basic regular expression concept after a literal match. It makes one small sequence of characters match a larger set of characters. For example, [A-Z] could stand for the alphabet, and \d could mean any digit. Character classes apply to both POSIX levels.
+189:When specifying a range of characters, such as [a-Z] computer's locale settings determine the contents by the numeric ordering of the character encoding. They could store digits in that sequence, or the ordering could be abc...zABC...Z, or aAbBcC...zZ. So the POSIX standard defines a character class, which will be known by the regular expression processor installed. Those definitions are in the following table:
+209:POSIX character classes can only be used within bracket expressions. For example, [[:upper:]ab] matches the uppercase letters and lowercase "a" and "b".
+213:Note that what the POSIX regular expression standards call character classes are commonly referred to as POSIX character classes in other regular expression flavors which support them. With most other regular expression flavors, the term character class is used to describe what POSIX calls bracket expressions.
+218:Largely because of its expressive power, many other utilities and programming languages have adopted syntax similar to Perl's — for example, Java, JavaScript, Python, Ruby, Microsoft's .NET Framework, and the W3C's XML Schema all use regular expression syntax similar to Perl's. Some languages and tools such as Boost and PHP support multiple regular expression flavors. Perl-derivative regular expression implementations are not identical and usually implement a subset of features found in Perl 5.0, released in 1994. Perl sometimes does incorporate features initially found in other languages, for example, Perl 5.10 implements syntactic extensions originally developed in PCRE and Python.[23]
+225:To match (then display) only "<January 26>" and not ", <2004>" it is tempting to write <.*>. But there is more than one >, and the expression can take the second one, and having both, still match, displaying "<January 26>, <2004>". Because the * quantifier is greedy, it will consume as many characters as possible from the string, and "<January 26>, <2004>" has more characters than "<January 26>".
+227:This problem can be avoided by specifying the text that is not to be matched: <[^>]*>), but modern regular expressions allow a quantifier to be specified as lazy. They put a question mark after the quantifier to make it lazy <.*?>). By using a lazy quantifier, the expression tries the minimal match first. Lazy matching may also be used to improve performance, because greedy matching requires more backtracking.
+230:Many features found in modern regular expression libraries provide an expressive power that far exceeds the regular languages. For example, many implementations allow grouping subexpressions with parentheses and recalling the value they match in the same expression (backreferences). This means that, among other things, a pattern can match strings of repeated words like "papa" or "WikiWiki", called squares in formal language theory. The pattern for these strings is (.*)\1.
+234:However, many tools, libraries, and engines that provide such constructions still use the term regular expression for their patterns. This has led to a nomenclature where the term regular expression has different meanings in formal language theory and pattern matching. For this reason, some people have taken to using the term regex or simply pattern to describe the latter. Larry Wall, author of the Perl programming language, writes in an essay about the design of Perl 6:
+235:“ 	'Regular expressions' [...] are only marginally related to real regular expressions. Nevertheless, the term has grown with the capabilities of our pattern matching engines, so I'm not going to try to fight linguistic necessity here. I will, however, generally call them "regexes" (or "regexen", when I'm in an Anglo-Saxon mood).[15] 	”
+236:Fuzzy regular expressions
+240:Variants of regular expressions can be used for working with text in natural language, when it is necessary to take into account possible typos and spelling variants. For example, the text "Julius Caesar" might be a fuzzy match for:
+250:Some software libraries work with fuzzy regular expressions:
+253:    FREJ – open source project in Java with non-standard syntax (which utilizes prefix, Lisp-like notation), targeted to allow easy use of substitutions of inner matched fragments in outer blocks, but lacks many features of standard regular expressions.
+258:There are at least three different algorithms that decide if and how a given regular expression matches a string.
+260:The oldest and fastest relies on a result in formal language theory that allows every nondeterministic finite automaton (NFA) to be transformed into a deterministic finite automaton (DFA). The DFA can be constructed explicitly and then run on the resulting input string one symbol at a time. Constructing the DFA for a regular expression of size m has the time and memory cost of O(2m), but it can be run on a string of size n in time O(n). An alternative approach is to simulate the NFA directly, essentially building each DFA state on demand and then discarding it at the next step. This keeps the DFA implicit and avoids the exponential construction cost, but running cost rises to O(m n). The explicit approach is called the DFA algorithm and the implicit approach the NFA algorithm. Adding caching to the NFA algorithm is often called the "lazy DFA" algorithm, or just the DFA algorithm without making a distinction. These algorithms are fast, but using them for recalling grouped subexpressions, lazy quantification, and similar features is tricky.[25][26]
+262:The third algorithm is to match the pattern against the input string by backtracking. This algorithm is commonly called NFA, but this terminology can be confusing. Its running time can be exponential, which simple implementations exhibit when matching against expressions like (a|aa)*b that contain both alternation and unbounded quantification and force the algorithm to consider an exponentially increasing number of sub-cases. This behavior can cause a security problem called Regular expression Denial of Service.
+264:Although backtracking implementations only give an exponential guarantee in the worst case, they provide much greater flexibility and expressive power. For example, any implementation which allows the use of backreferences, or implements the various extensions introduced by Perl, must include some kind of backtracking. Some implementations try to provide the best of both algorithms by first running a fast DFA algorithm, and revert to a potentially slower backtracking algorithm only when a backreference is encountered during the match.
+267:In theoretical terms, any token set can be matched by regular expressions as long as it is pre-defined. In terms of historical implementations, regular expressions were originally written to use ASCII characters as their token set though regular expression libraries have supported numerous other character sets. Many modern regular expression engines offer at least some support for Unicode. In most respects it makes no difference what the character set is, but some issues do arise when extending regular expressions to support Unicode.
+269:    Supported encoding. Some regular expression libraries expect to work on some particular encoding instead of on abstract Unicode characters. Many of these require the UTF-8 encoding, while others might expect UTF-16, or UTF-32. In contrast, Perl and Java are agnostic on encodings, instead operating on decoded characters internally.
+270:    Supported Unicode range. Many regular expression engines support only the Basic Multilingual Plane, that is, the characters which can be encoded with only 16 bits. Currently, only a few regular expression engines (e.g., Perl's and Java's) can handle the full 21-bit Unicode range.
+280:Regular expressions are useful in the production of syntax highlighting systems, data validation, and many other tasks.
+282:While regular expressions would be useful on Internet search engines, processing them across the entire database could consume excessive computer resources depending on the complexity and design of the regex. Although in many cases system administrators can run regex-based queries internally, most search engines do not offer regex support to the public. Notable exceptions: Google Code Search, Exalead.
+286:A regular expression is a string that is used to describe or match a set of strings according to certain syntax rules. The specific syntax rules vary depending on the specific implementation, programming language, or library in use. Additionally, the functionality of regex implementations can vary between versions.
+288:Despite this variability, and because regular expressions can be difficult to both explain and understand without examples, this article provides a basic description of some of the properties of regular expressions by way of illustration.
+296:Also worth noting is that these regular expressions are all Perl-like syntax. Standard POSIX regular expressions are different.
+446:    Comparison of regular expression engines
+448:    List of regular expression software — applications which support regular expressions
+456:    Jump up Jump up ^ Kernighan, Brian. "A Regular Expressions Matcher". Beautiful Code. O'Reilly Media. pp. 1–2. ISBN 978-0-596-51004-6. Retrieved 2013-05-15.
+461:    Jump up Jump up ^ "New Regular Expression Features in Tcl 8.1". Retrieved 2013-10-11.
+462:    Jump up Jump up ^ Friedl, Jeffrey. "The Mechanics of Expression Processing". Mastering Regular Expressions. O'Reilly Media. p. 182. ISBN 0-596-52812-4.
+464:    Jump up Jump up ^ Wall, Larry and the Perl 5 development team (2006). "perlre: Perl regular expressions".
+466:    Jump up Jump up ^ Russ Cox (2007). "Regular Expression Matching Can Be Simple And Fast (but is slow in Java, Perl, PHP, Python, Ruby, ...)". Retrieved 2013-10-11.
+475:    Jump up Jump up ^ "Perl Regular Expression Documentation". perldoc.perl.org. Retrieved January 8, 2012.
+480:    ^ Jump up to: Jump up to: a b "UTS#18 on Unicode Regular Expressions, Annex A: Character Blocks". Retrieved 2010-02-05.
+484:    Jump up Jump up ^ Conway, Damian (2005). "Regular Expressions, End of String". Perl Best Practices. O'Reilly. p. 240. ISBN 978-0-596-00173-5.
+489:    Aho, Alfred V.; Ullman, Jeffrey D. (1992). "Chapter 10. Patterns, Automata, and Regular Expressions". Foundations of Computer Science.
+490:    "Regular Expressions". The Single UNIX ® Specification, Version 2. The Open Group. 1997
+491:    "Chapter 9: Regular Expressions". The Open Group Base Specifications Issue 6, IEEE Std 1003.1, 2004 Edition. The Open Group. 2004
+492:    Cox, Russ (2007). "Regular Expression Matching Can Be Simple and Fast"
+493:    Forta, Ben (2004). Sams Teach Yourself Regular Expressions in 10 Minutes. Sams. ISBN 0-672-32566-7.
+494:    Friedl, Jeffrey (2002). Mastering Regular Expressions. O'Reilly. ISBN 0-596-00289-0.
+495:    Gelade, Wouter; Neven, Frank (2008). "Succinctness of the Complement and Intersection of Regular Expressions". Proceedings of the 25th International Symposium on Theoretical Aspects of Computer Science (STACS 2008). pp. 325–336
+496:    Goyvaerts, Jan; [Jan Goyvaerts], [Steven Levithan] (2009). Regular Expressions Cookbook. [O'reilly]. ISBN 978-0-596-52068-7.
+497:    Gruber, Hermann; Holzer, Markus (2008). "Finite Automata, Digraph Connectivity, and Regular Expression Size". Proceedings of the 35th International Colloquium on Automata, Languages and Programming (ICALP 2008) 5126. pp. 39–50. doi:10.1007/978-3-540-70583-3_4
+498:    Habibi, Mehran (2004). Real World Regular Expressions with Java 1.4. Springer. ISBN 1-59059-107-0.
+506:    Stubblebine, Tony (2003). Regular Expression Pocket Reference. O'Reilly. ISBN 0-596-00415-X.
+507:    Thompson, K. (1968). "Programming Techniques: Regular expression search algorithm". Communications of the ACM 11 (6): 419–422. doi:10.1145/363347.363387. edit
+511:	Wikibooks has a book on the topic of: Regular Expressions
+522:    Java Tutorials: Regular Expressions
+523:    Perl Regular Expressions documentation
+524:    VBScript and Regular Expressions
+525:    .NET Framework Regular Expressions
+526:    JavaScript Regular Expressions Chapter and RegExp Object Reference at the Mozilla Developer Center
+530:    Regular Expressions on the Open Directory Project
+535:    Structural Regular Expressions, by Rob Pike
+536:    Implementing Regular Expressions, Russ Cox, including references to assist in reading Thompson (1968):
+538:        Implementing Regular Expressions, CS 121 Extra Lecture, November 17, 2000
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# cd bin
+]0;~/bin
+[32mKatrina@AphroditesTears [33m~/bin[0m
+# ls
+ndir  nfiles  nlines  nprocesses
+]0;~/bin
+[32mKatrina@AphroditesTears [33m~/bin[0m
+# cd ..
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# grep  [K-r"[K "e[Kexport" *
+2-15.txt:# export bin[K[K[KPATH=./[K~[K[K~/bin/nfiles[K[K[K[K[K[K[K[K[K[K[K[K[K=$PATH: [K~/bin/[K
+3-6script.txt:7[?47h[0;10m[4l[39;49m[39;49m[H[J[0;10;7m  GNU nano 2.2.5                     File: .bashrc                                                  [B[0;10m# base-files version 3.9-3[5d# To pick up the latest recommended .bashrc content,[B# look in /etc/defaults/etc/skel/.bashrc[8d# Modifying /etc/skel/.bashrc directly will prevent[B# setup from updating it.[11d# The copy in your home directory (~/.bashrc) is yours, please[B# feel free to customise it to create a shell[B# environment to your liking.  If you feel a change[B# would be benificial to all, please feel free to send[B# a patch to the cygwin mailing list.[17d# User dependent .bashrc file[19d# Environment Variables[B# #####################[22d# TMP and TEMP are defined in the Windows environment.  Leaving[B# them set to the default Windows temporary directory can have[B# unexpected consequences.[Bunset TMP[Bunset TEMP[27;42H[0;10;7m[ Read 181 lines ][B^G[0;10m Get Help     [0;10;7m^O[0;10m WriteOut     [0;10;7m^R[0;10m Read File    [0;10;7m^Y[0;10m Prev Page    [0;10;7m^K[0;10m Cut Text     [0;10;7m^C[0;10m Cur Pos[B[0;10;7m^X[0;10m Exit[29;17H[0;10;7m^J[0;10m Justify[33G[0;10;7m^W[0;10m Where Is     [0;10;7m^V[0;10m Next Page    [0;10;7m^U[0;10m UnCut Text   [0;10;7m^T[0;10m To Spell[3d[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[3d[K[B# User dependent .bashrc file[B[K[B# Environment Variables[K[B# #####################[B[K[B# TMP and TEMP are defined in the Windows environment.  Leaving[B# them set to the default Windows temporary directory can have[B# unexpected consequences.[K[Bunset TMP[K[Bunset TEMP[K[B[K[B# Alternatively, set them to the Cygwin temporary directory[B# or to any other tmp directory of your choice[B# export TMP=/tmp[K[B# export TEMP=/tmp[B[K[B# Or use TMPDIR instead[B# export TMPDIR=/tmp[B[K[B# Shell Options[K[B# #############[K[B[K[B# See man bash for more options...[14d[B[27d[K[16d[B[B[B[B[B[B[B[B[B[B[3d# or to any other tmp directory of your choice[B# export TMP=/tmp[K[B# export TEMP=/tmp[B[K[B# Or use TMPDIR instead[B# export TMPDIR=/tmp[B[K[B# Shell Options[K[B# #############[K[B[K[B# See man bash for more options...[15;3HDon't wait for job termination notification[K[B# set -o notify[K[B[K[B# Don't use ^D to exit[B# set -o ignoreeof[B[K[B# Use case-insensitive filename globbing[B# shopt -s nocaseglob[B[K[B# Make bash append rather than overwrite the history on disk[B# shopt -s histappend[B[K[14d[B[B[B[B[B[B[B[B[B[B[B[B[3d# set -o notify[K[B[K[B# Don't use ^D to exit[B# set -o ignoreeof[B[K[B# Use case-insensitive filename globbing[B# shopt -s nocaseglob[B[K[B# Make bash append rather than overwrite the history on disk[B# shopt -s histappend[B[K[B# When changing directory small typos can be ignored by bash[B# for example, cd /vr/lgo/apaache would find /var/log/apache[B# shopt -s cdspell[18d[K[B# Completion options[B# ##################[B[K[B# These completion tuning parameters change the default behavior of bash_completion:[24;3HDefine to access remotely checked-out files over passwordless ssh for CVS[B# COMP_CVS_REMOTE=1  [14d[B[B[B[B[B[B[B[B[B[B[B[B[3;4Hhopt -s cdspell[5d[K[B# Completion options[B# ##################[B[K[B# These completion tuning parameters change the default behavior of bash_completion:[11;3HDefine to access remotely checked-out files over passwordless ssh for CVS[B# COMP_CVS_REMOTE=1  [14;3HDefine to avoid stripping description in --option=description of './configure --help'[B# COMP_CONFIGURE_HINTS=1[K[B[K[B# Define to avoid flattening internal contents of tar files[B# COMP_TAR_INTERNAL_PATHS=1[B[K[B# If this shell is interactive, turn on programmable completion enhancements.[B# Any completions you add in ~/.bash_completion are sourced last.[B# case $- in[K[B#   *i*) [[ -f /etc/bash_completion ]] && . /etc/bash_completion ;;[B# esac[K[B[K[14d[B[B[B[B[B[B[B[B[B[B[B[B[3d[K[B# Define to avoid flattening internal contents of tar files[B# COMP_TAR_INTERNAL_PATHS=1[B[K[B# If this shell is interactive, turn on programmable completion enhancements.[B# Any completions you add in ~/.bash_completion are sourced last.[B# case $- in[K[B#   *i*) [[ -f /etc/bash_completion ]] && . /etc/bash_completion ;;[B# esac[K[B[K[14d# History Options[K[B# ###############[K[17;4Hon't put duplicate lines in the history.[K[B# export HISTCONTROL="ignoredups"[20;3Hfor setting history length see HISTSIZE and HISTFILESIZE in bash(1)[K[BHISTSIZE=100000[K[BHISTFILESIZE=100000[B[K[B# Ignore some controlling instructions[B# HISTIGNORE is a colon-delimited list of patterns which should be excluded.[B# The '&' is a special pattern which suppresses duplicate entries.[14d[B[B[B[B[B[B[B[B[B[B[B[B[4;4Hon't put duplicate lines in the history.[K[B# export HISTCONTROL="ignoredups"[7;3Hfor setting history length see HISTSIZE and HISTFILESIZE in bash(1)[K[BHISTSIZE=100000[K[BHISTFILESIZE=100000[B[K[B# Ignore some controlling instructions[B# HISTIGNORE is a colon-delimited list of patterns which should be excluded.[B# The '&' is a special pattern which suppresses duplicate entries.[B# export HISTIGNORE=$'[ \t]*:&:[fb]g:exit'[B# export HISTIGNORE=$'[ \t]*:&:[fb]g:exit:ls' # Ignore the ls command as well[17;3HWhenever displaying the prompt, write the previous line to disk[18;10HPROMPT_COMMAND="history -a"[20d[K[B# Aliases[K[B# #######[K[24dalias ps='ps;tasklist'[K[B[K[B# Some example alias instructions[K[14d[B[B[B[B[B[B[B[B[B[B[B[B[4d# Whenever displaying the prompt, write the previous line to disk[5;10HPROMPT_COMMAND="history -a"[7d[K[B# Aliases[K[B# #######[K[11dalias ps='ps;tasklist'[K[B[K[B# Some example alias instructions[K[B# If these are enabled they will be used instead of any instructions[B# they may mask.  For example, alias rm='rm -i' will mask the rm[K[B# application.  To override the alias instruction use a \ before, ie[B# \rm will call the real rm not the alias.[K[B[K[B# Interactive operation...[B# alias rm='rm -i'[B# alias cp='cp -i'[B# alias mv='mv -i'[24d# Default to human readable figures[B# alias df='df -h'[B# alias du='du -h'[K[14d[B[B[B[B[B[B[B[B[B[B[B[B[3d# application.  To override the alias instruction use a \ before, ie[B# \rm will call the real rm not the alias.[K[B[K[B# Interactive operation...[B# alias rm='rm -i'[B# alias cp='cp -i'[B# alias mv='mv -i'[11d# Default to human readable figures[B# alias df='df -h'[B# alias du='du -h'[K[B[K[B# Misc :)[K[B# alias less='less -r'[26X[16;49H# raw control characters[B# alias whence='type -a'[18X[17;49H# where, of a sort[B# alias grep='grep --color'[18;49H# show differences in colour[B[K[B# Some shortcuts for different directory listings[21;9Hls='ls -hF --color=tty'[21;49H# classify files in colour[22;9Hdir='ls --color=auto --format=vertical'[B# alias vdir='ls --color=auto --format=long'[B# alias ll='ls -l'[17X[24;49H# long list[25;9Hla='ls -A[25;49H# all but . and ..[26;9Hl='ls -CF[26;49H#[14d[B[B[B[B[B[B[B[B[B[B[B[B[3;4Hlias less='less -r'[26X[3;49H# raw control characters[B# alias whence='type -a'[18X[4;49H# where, of a sort[B# alias grep='grep --color'[5;49H# show differences in colour[B[K[B# Some shortcuts for different directory listings[8;9Hls='ls -hF --color=tty'[8;49H# classify files in colour[9;9Hdir='ls --color=auto --format=vertical'[B# alias vdir='ls --color=auto --format=long'[B# alias ll='ls -l'[17X[11;49H# long list[12;9Hla='ls -A[12;49H# all but . and ..[13;9Hl='ls -CF[13;49H#[15d[K[Balias notepad++='"/cygdrive/c/Program Files (x86)/Notepad++/notepad++.exe"'[Balias cs3600='cd /cygdrive/c/Users/Katrina/Workspace/CS3600'[K[Balias solitaire='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/BigSolitairesPortable_1.4_$alias breakout='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/LBreakout2Portable_2.6.3_En$alias libreoffice='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/LibreOfficePortable_5.3.$alias tuxkart='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/SuperTuxKartPortable_0.9.2.p$alias supertux='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/SuperTuxPortable_0.5.1_Engl$alias touchtype='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/TypeFasterPortable_0.4.2_E$[K[B[K[B# Functions[K[14d[B[B[B[B[B[B[B[B[B[B[B[B[3dalias notepad++='"/cygdrive/c/Program Files (x86)/Notepad++/notepad++.exe"'[Balias cs3600='cd /cygdrive/c/Users/Katrina/Workspace/CS3600'[K[Balias solitaire='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/BigSolitairesPortable_1.4_$alias breakout='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/LBreakout2Portable_2.6.3_En$alias libreoffice='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/LibreOfficePortable_5.3.$alias tuxkart='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/SuperTuxKartPortable_0.9.2.p$alias supertux='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/SuperTuxPortable_0.5.1_Engl$alias touchtype='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/TypeFasterPortable_0.4.2_E$[K[B[K[B# Functions[K[B# #########[16dfunction windowstools()[K[B{[K[18;8H[1K echo "Tools for observing the state of the windows OS"[K[19;8H[1K echo "taskmgr           Details of running processes"[K[20;8H[1K echo "services.msc  Complete list of services and their state"[K[21;8H[1K echo "eventvwr          Displays detailed information about significant events"[K[22;8H[1K echo "netstat           Displays network connections for TCP/IP."[K[B}[K[25dfunction portableapps()[B{[K[14d[B[B[B[B[B[B[B[B[B[B[B[B[3dfunction windowstools()[K[B{[K[5;8H[1K echo "Tools for observing the state of the windows OS"[K[6;8H[1K echo "taskmgr           Details of running processes"[K[7;8H[1K echo "services.msc  Complete list of services and their state"[K[8;8H[1K echo "eventvwr          Displays detailed information about significant events"[K[9;8H[1K echo "netstat           Displays network connections for TCP/IP."[K[B}[K[12dfunction portableapps()[B{[K[14;8H[1K echo "Portable apps"[15;9Hecho "solitaire[15;33HOpens the solitaire portable app."[16;8H[1K echo "breakout [16;33HThe LBreakout 2 Portable app."[17;8H[1K echo "libreoffice[33GA portable office app."[18;15Htuxkart           Super Tux Kart portable game app."[19;15Hsupertux[19;33HSuper Tux side scrolling portable game app."[20;15Htouchtype         A touch typing tutor in a portable app."[B}[K[B[K[Bfunction start_webserver()[B{[25;8H[1K /cygdrive/c/Users/Katrina/Workspace/CS3600/xampp/apache_start.bat&[26;8H[1K chrome localhost[14d[B[B[B[B[B[B[B[B[B[B[B[B[3;8H[1K echo "breakout [3;33HThe LBreakout 2 Portable app."[4;8H[1K echo "libreoffice[33GA portable office app."[5;15Htuxkart           Super Tux Kart portable game app."[6;15Hsupertux[6;33HSuper Tux side scrolling portable game app."[7;15Htouchtype         A touch typing tutor in a portable app."[B}[K[B[K[Bfunction start_webserver()[B{[12;8H[1K /cygdrive/c/Users/Katrina/Workspace/CS3600/xampp/apache_start.bat&[13;8H[1K chrome localhost[B}[K[B[K[B# Some example functions[K[B# function settitle() { echo -ne "\e]2;$@\a\e]1;$@\a"; }[B[K[Bexport PATH=$PATH:'/cygdrive/c/Program Files/Java/jdk1.8.0_112/bin'[K[Bexport CLASSPATH=$CLASSPATH[K[Bexport PATH=$PATH:'/cygdrive/c/Program Files (x86)/Mozilla Firefox/'[Bexport PATH=$PATH:'/cygdrive/c/Program Files (x86)/Google/Chrome/Application/'[Bexport PATH=$PATH:~/bin   [B[K[Bexport -f windowstools[K[Bexport -f portableapps  [14d[B[B[B[B[B[B[B[B[B[B[B[B[3d# Some example functions[K[B# function settitle() { echo -ne "\e]2;$@\a\e]1;$@\a"; }[B[K[Bexport PATH=$PATH:'/cygdrive/c/Program Files/Java/jdk1.8.0_112/bin'[K[Bexport CLASSPATH=$CLASSPATH[K[Bexport PATH=$PATH:'/cygdrive/c/Program Files (x86)/Mozilla Firefox/'[Bexport PATH=$PATH:'/cygdrive/c/Program Files (x86)/Google/Chrome/Application/'[Bexport PATH=$PATH:~/bin   [B[K[Bexport -f windowstools[K[Bexport -f portableapps  [Bexport -f start_webserver[16d[K[B[K[19d[K[B[K[B[K[B[K[B[K[25d[K[B[K[14d[B[1;91H[0;10;7mModified[16d[0;10m[Bmintty[27d[0;10;7mFile Name to Write: .bashrc                                                                         [28;17H[0;10m         [0;10;7mM-D[0;10m DOS Format           [0;10;7mM-A[0;10m Append[15X[28;76H[0;10;7mM-B[0;10m Backup File[B[C[0;10;7mC[0;10m Cancel[17G         [0;10;7mM-M[0;10m Mac Format           [0;10;7mM-P[0;10m Prepend[K[27;28H[1;91H[39;49m[0;10;7m        [27;40H[0;10m[1K [0;10;7m[ Wrote 184 lines ][0;10m[K[28;17H[0;10;7m^O[0;10m WriteOut     [0;10;7m^R[0;10m Read File    [0;10;7m^Y[0;10m Prev Page    [0;10;7m^K[0;10m Cut Text     [0;10;7m^C[0;10m Cur Pos[B[C[0;10;7mX[0;10m Exit  [17G[0;10;7m^J[0;10m Justify      [0;10;7m^W[0;10m Where Is     [0;10;7m^V[0;10m Next Page    [0;10;7m^U[0;10m UnCut Text   [0;10;7m^T[0;10m To Spell[17;7H[28d[J[29;100H[29;1H[2J[?47l8]0;~
+3-6script.txt:           debug and release version as well as export libraries for DLL
+3-6script.txt:      HDF5 tool export library for DLL:
+3-6script.txt:               hdf5ddll.lib- the DLL export library                  
+3-6script.txt:               hdf5dll.lib- the DLL export library
+3-6script.txt:               libtestD.lib - the internal DLL export library for test
+3-6script.txt:               libtestD.lib - the internal DLL export library for test
+3-6script.txt:               toolslibD.lib- the internal DLL export library for tools 
+3-6script.txt:               hdf5_cppddll.lib- the C++ API DLL export library
+3-6script.txt:               hdf5_cppdll.lib- the C++ API DLL export library
+3-6script.txt:       except now link the export library that is created with the DLL.
+3-6script.txt:       The export library is called hdf5dll.lib for HDF5 C libray,
+3-6script.txt:      2) add HDF5 DLL export library into your project
+3-6script.txt:        for sh/ksh/zsh:    LZOP="-1v --name"; export LZOP
+3-6script.txt:              UNZIP=-qq; export UNZIP
+3-6script.txt:       United States export restrictions, de-/encryption support might be dis-
+3-6script.txt:       abled in your compiled binary.  However, since spring 2000,  US  export
+3-6script.txt:              ZIPINFO=-l; export ZIPINFO
+alltextfiles:           debug and release version as well as export libraries for DLL
+alltextfiles:      HDF5 tool export library for DLL:
+alltextfiles:               hdf5ddll.lib- the DLL export library                  
+alltextfiles:               hdf5dll.lib- the DLL export library
+alltextfiles:               libtestD.lib - the internal DLL export library for test
+alltextfiles:               libtestD.lib - the internal DLL export library for test
+alltextfiles:               toolslibD.lib- the internal DLL export library for tools 
+alltextfiles:               hdf5_cppddll.lib- the C++ API DLL export library
+alltextfiles:               hdf5_cppdll.lib- the C++ API DLL export library
+alltextfiles:       except now link the export library that is created with the DLL.
+alltextfiles:       The export library is called hdf5dll.lib for HDF5 C libray,
+alltextfiles:      2) add HDF5 DLL export library into your project
+alltextfiles:        for sh/ksh/zsh:    LZOP="-1v --name"; export LZOP
+alltextfiles:              UNZIP=-qq; export UNZIP
+alltextfiles:       United States export restrictions, de-/encryption support might be dis-
+alltextfiles:       abled in your compiled binary.  However, since spring 2000,  US  export
+alltextfiles:              ZIPINFO=-l; export ZIPINFO
+Binary file chrome.exe matches
+week03/1-20.txt:# export PS1='\! ->'
+week03/1-20.txt:49 ->export PS1='\w ->'
+week10/INSTALL_Windows.txt:           debug and release version as well as export libraries for DLL
+week10/INSTALL_Windows.txt:      HDF5 tool export library for DLL:
+week10/INSTALL_Windows.txt:               hdf5ddll.lib- the DLL export library                  
+week10/INSTALL_Windows.txt:               hdf5dll.lib- the DLL export library
+week10/INSTALL_Windows.txt:               libtestD.lib - the internal DLL export library for test
+week10/INSTALL_Windows.txt:               libtestD.lib - the internal DLL export library for test
+week10/INSTALL_Windows.txt:               toolslibD.lib- the internal DLL export library for tools 
+week10/INSTALL_Windows.txt:               hdf5_cppddll.lib- the C++ API DLL export library
+week10/INSTALL_Windows.txt:               hdf5_cppdll.lib- the C++ API DLL export library
+week10/INSTALL_Windows.txt:       except now link the export library that is created with the DLL.
+week10/INSTALL_Windows.txt:       The export library is called hdf5dll.lib for HDF5 C libray,
+week10/INSTALL_Windows.txt:      2) add HDF5 DLL export library into your project
+week10/lzop.txt:        for sh/ksh/zsh:    LZOP="-1v --name"; export LZOP
+week10/unzip.txt:              UNZIP=-qq; export UNZIP
+week10/unzip.txt:       United States export restrictions, de-/encryption support might be dis-
+week10/unzip.txt:       abled in your compiled binary.  However, since spring 2000,  US  export
+week10/zipinfo.txt:              ZIPINFO=-l; export ZIPINFO
+Binary file week10a/week03.tar matches
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# grep -r "export" * | wc
+     57    1569   17779
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# cource[K[K[K[K[K[Ksource
+sh: source: filename argument required
+source: usage: source filename [arguments]
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# source .ba[K[K[K[K .bashrc
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# ls
+2-15.txt	Matlab	      contents.txt     math-link    regular-expressions.txt  week10
+3-6script.txt	alltextfiles  dir1	       matlab-link  txtfiles		     week10a
+3-8script.txt	awmt.txt      excel.exe        newawmt.txt  typescript		     word.exe
+3-8script2.txt	awmt.txt.gz   executables.txt  newfilename  week03
+Firefox		bin	      firefox-link     out.txt	    week03.tar.gz
+Mathematica	chrome.exe    hello	       reader.exe   week07
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# lssource .bashrc[K[C[Cgrep -r "export" * | wc
+     57    1569   17779
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# grep -r "export" * | wc[C[Cls[Ksource .bashrc[K[C[Cgrep -r "export" * | wc[K
+[35m[K2-15.txt[m[K[36m[K:[m[K# [01;31m[Kexport[m[K bin[K[K[KPATH=./[K~[K[K~/bin/nfiles[K[K[K[K[K[K[K[K[K[K[K[K[K=$PATH: [K~/bin/[K
+[35m[K3-6script.txt[m[K[36m[K:[m[K7[?47h[0;10m[4l[39;49m[39;49m[H[J[0;10;7m  GNU nano 2.2.5                     File: .bashrc                                                  [B[0;10m# base-files version 3.9-3[5d# To pick up the latest recommended .bashrc content,[B# look in /etc/defaults/etc/skel/.bashrc[8d# Modifying /etc/skel/.bashrc directly will prevent[B# setup from updating it.[11d# The copy in your home directory (~/.bashrc) is yours, please[B# feel free to customise it to create a shell[B# environment to your liking.  If you feel a change[B# would be benificial to all, please feel free to send[B# a patch to the cygwin mailing list.[17d# User dependent .bashrc file[19d# Environment Variables[B# #####################[22d# TMP and TEMP are defined in the Windows environment.  Leaving[B# them set to the default Windows temporary directory can have[B# unexpected consequences.[Bunset TMP[Bunset TEMP[27;42H[0;10;7m[ Read 181 lines ][B^G[0;10m Get Help     [0;10;7m^O[0;10m WriteOut     [0;10;7m^R[0;10m Read File    [0;10;7m^Y[0;10m Prev Page    [0;10;7m^K[0;10m Cut Text     [0;10;7m^C[0;10m Cur Pos[B[0;10;7m^X[0;10m Exit[29;17H[0;10;7m^J[0;10m Justify[33G[0;10;7m^W[0;10m Where Is     [0;10;7m^V[0;10m Next Page    [0;10;7m^U[0;10m UnCut Text   [0;10;7m^T[0;10m To Spell[3d[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[3d[K[B# User dependent .bashrc file[B[K[B# Environment Variables[K[B# #####################[B[K[B# TMP and TEMP are defined in the Windows environment.  Leaving[B# them set to the default Windows temporary directory can have[B# unexpected consequences.[K[Bunset TMP[K[Bunset TEMP[K[B[K[B# Alternatively, set them to the Cygwin temporary directory[B# or to any other tmp directory of your choice[B# [01;31m[Kexport[m[K TMP=/tmp[K[B# [01;31m[Kexport[m[K TEMP=/tmp[B[K[B# Or use TMPDIR instead[B# [01;31m[Kexport[m[K TMPDIR=/tmp[B[K[B# Shell Options[K[B# #############[K[B[K[B# See man bash for more options...[14d[B[27d[K[16d[B[B[B[B[B[B[B[B[B[B[3d# or to any other tmp directory of your choice[B# [01;31m[Kexport[m[K TMP=/tmp[K[B# [01;31m[Kexport[m[K TEMP=/tmp[B[K[B# Or use TMPDIR instead[B# [01;31m[Kexport[m[K TMPDIR=/tmp[B[K[B# Shell Options[K[B# #############[K[B[K[B# See man bash for more options...[15;3HDon't wait for job termination notification[K[B# set -o notify[K[B[K[B# Don't use ^D to exit[B# set -o ignoreeof[B[K[B# Use case-insensitive filename globbing[B# shopt -s nocaseglob[B[K[B# Make bash append rather than overwrite the history on disk[B# shopt -s histappend[B[K[14d[B[B[B[B[B[B[B[B[B[B[B[B[3d# set -o notify[K[B[K[B# Don't use ^D to exit[B# set -o ignoreeof[B[K[B# Use case-insensitive filename globbing[B# shopt -s nocaseglob[B[K[B# Make bash append rather than overwrite the history on disk[B# shopt -s histappend[B[K[B# When changing directory small typos can be ignored by bash[B# for example, cd /vr/lgo/apaache would find /var/log/apache[B# shopt -s cdspell[18d[K[B# Completion options[B# ##################[B[K[B# These completion tuning parameters change the default behavior of bash_completion:[24;3HDefine to access remotely checked-out files over passwordless ssh for CVS[B# COMP_CVS_REMOTE=1  [14d[B[B[B[B[B[B[B[B[B[B[B[B[3;4Hhopt -s cdspell[5d[K[B# Completion options[B# ##################[B[K[B# These completion tuning parameters change the default behavior of bash_completion:[11;3HDefine to access remotely checked-out files over passwordless ssh for CVS[B# COMP_CVS_REMOTE=1  [14;3HDefine to avoid stripping description in --option=description of './configure --help'[B# COMP_CONFIGURE_HINTS=1[K[B[K[B# Define to avoid flattening internal contents of tar files[B# COMP_TAR_INTERNAL_PATHS=1[B[K[B# If this shell is interactive, turn on programmable completion enhancements.[B# Any completions you add in ~/.bash_completion are sourced last.[B# case $- in[K[B#   *i*) [[ -f /etc/bash_completion ]] && . /etc/bash_completion ;;[B# esac[K[B[K[14d[B[B[B[B[B[B[B[B[B[B[B[B[3d[K[B# Define to avoid flattening internal contents of tar files[B# COMP_TAR_INTERNAL_PATHS=1[B[K[B# If this shell is interactive, turn on programmable completion enhancements.[B# Any completions you add in ~/.bash_completion are sourced last.[B# case $- in[K[B#   *i*) [[ -f /etc/bash_completion ]] && . /etc/bash_completion ;;[B# esac[K[B[K[14d# History Options[K[B# ###############[K[17;4Hon't put duplicate lines in the history.[K[B# [01;31m[Kexport[m[K HISTCONTROL="ignoredups"[20;3Hfor setting history length see HISTSIZE and HISTFILESIZE in bash(1)[K[BHISTSIZE=100000[K[BHISTFILESIZE=100000[B[K[B# Ignore some controlling instructions[B# HISTIGNORE is a colon-delimited list of patterns which should be excluded.[B# The '&' is a special pattern which suppresses duplicate entries.[14d[B[B[B[B[B[B[B[B[B[B[B[B[4;4Hon't put duplicate lines in the history.[K[B# [01;31m[Kexport[m[K HISTCONTROL="ignoredups"[7;3Hfor setting history length see HISTSIZE and HISTFILESIZE in bash(1)[K[BHISTSIZE=100000[K[BHISTFILESIZE=100000[B[K[B# Ignore some controlling instructions[B# HISTIGNORE is a colon-delimited list of patterns which should be excluded.[B# The '&' is a special pattern which suppresses duplicate entries.[B# [01;31m[Kexport[m[K HISTIGNORE=$'[ \t]*:&:[fb]g:exit'[B# [01;31m[Kexport[m[K HISTIGNORE=$'[ \t]*:&:[fb]g:exit:ls' # Ignore the ls command as well[17;3HWhenever displaying the prompt, write the previous line to disk[18;10HPROMPT_COMMAND="history -a"[20d[K[B# Aliases[K[B# #######[K[24dalias ps='ps;tasklist'[K[B[K[B# Some example alias instructions[K[14d[B[B[B[B[B[B[B[B[B[B[B[B[4d# Whenever displaying the prompt, write the previous line to disk[5;10HPROMPT_COMMAND="history -a"[7d[K[B# Aliases[K[B# #######[K[11dalias ps='ps;tasklist'[K[B[K[B# Some example alias instructions[K[B# If these are enabled they will be used instead of any instructions[B# they may mask.  For example, alias rm='rm -i' will mask the rm[K[B# application.  To override the alias instruction use a \ before, ie[B# \rm will call the real rm not the alias.[K[B[K[B# Interactive operation...[B# alias rm='rm -i'[B# alias cp='cp -i'[B# alias mv='mv -i'[24d# Default to human readable figures[B# alias df='df -h'[B# alias du='du -h'[K[14d[B[B[B[B[B[B[B[B[B[B[B[B[3d# application.  To override the alias instruction use a \ before, ie[B# \rm will call the real rm not the alias.[K[B[K[B# Interactive operation...[B# alias rm='rm -i'[B# alias cp='cp -i'[B# alias mv='mv -i'[11d# Default to human readable figures[B# alias df='df -h'[B# alias du='du -h'[K[B[K[B# Misc :)[K[B# alias less='less -r'[26X[16;49H# raw control characters[B# alias whence='type -a'[18X[17;49H# where, of a sort[B# alias grep='grep --color'[18;49H# show differences in colour[B[K[B# Some shortcuts for different directory listings[21;9Hls='ls -hF --color=tty'[21;49H# classify files in colour[22;9Hdir='ls --color=auto --format=vertical'[B# alias vdir='ls --color=auto --format=long'[B# alias ll='ls -l'[17X[24;49H# long list[25;9Hla='ls -A[25;49H# all but . and ..[26;9Hl='ls -CF[26;49H#[14d[B[B[B[B[B[B[B[B[B[B[B[B[3;4Hlias less='less -r'[26X[3;49H# raw control characters[B# alias whence='type -a'[18X[4;49H# where, of a sort[B# alias grep='grep --color'[5;49H# show differences in colour[B[K[B# Some shortcuts for different directory listings[8;9Hls='ls -hF --color=tty'[8;49H# classify files in colour[9;9Hdir='ls --color=auto --format=vertical'[B# alias vdir='ls --color=auto --format=long'[B# alias ll='ls -l'[17X[11;49H# long list[12;9Hla='ls -A[12;49H# all but . and ..[13;9Hl='ls -CF[13;49H#[15d[K[Balias notepad++='"/cygdrive/c/Program Files (x86)/Notepad++/notepad++.exe"'[Balias cs3600='cd /cygdrive/c/Users/Katrina/Workspace/CS3600'[K[Balias solitaire='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/BigSolitairesPortable_1.4_$alias breakout='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/LBreakout2Portable_2.6.3_En$alias libreoffice='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/LibreOfficePortable_5.3.$alias tuxkart='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/SuperTuxKartPortable_0.9.2.p$alias supertux='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/SuperTuxPortable_0.5.1_Engl$alias touchtype='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/TypeFasterPortable_0.4.2_E$[K[B[K[B# Functions[K[14d[B[B[B[B[B[B[B[B[B[B[B[B[3dalias notepad++='"/cygdrive/c/Program Files (x86)/Notepad++/notepad++.exe"'[Balias cs3600='cd /cygdrive/c/Users/Katrina/Workspace/CS3600'[K[Balias solitaire='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/BigSolitairesPortable_1.4_$alias breakout='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/LBreakout2Portable_2.6.3_En$alias libreoffice='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/LibreOfficePortable_5.3.$alias tuxkart='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/SuperTuxKartPortable_0.9.2.p$alias supertux='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/SuperTuxPortable_0.5.1_Engl$alias touchtype='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/TypeFasterPortable_0.4.2_E$[K[B[K[B# Functions[K[B# #########[16dfunction windowstools()[K[B{[K[18;8H[1K echo "Tools for observing the state of the windows OS"[K[19;8H[1K echo "taskmgr           Details of running processes"[K[20;8H[1K echo "services.msc  Complete list of services and their state"[K[21;8H[1K echo "eventvwr          Displays detailed information about significant events"[K[22;8H[1K echo "netstat           Displays network connections for TCP/IP."[K[B}[K[25dfunction portableapps()[B{[K[14d[B[B[B[B[B[B[B[B[B[B[B[B[3dfunction windowstools()[K[B{[K[5;8H[1K echo "Tools for observing the state of the windows OS"[K[6;8H[1K echo "taskmgr           Details of running processes"[K[7;8H[1K echo "services.msc  Complete list of services and their state"[K[8;8H[1K echo "eventvwr          Displays detailed information about significant events"[K[9;8H[1K echo "netstat           Displays network connections for TCP/IP."[K[B}[K[12dfunction portableapps()[B{[K[14;8H[1K echo "Portable apps"[15;9Hecho "solitaire[15;33HOpens the solitaire portable app."[16;8H[1K echo "breakout [16;33HThe LBreakout 2 Portable app."[17;8H[1K echo "libreoffice[33GA portable office app."[18;15Htuxkart           Super Tux Kart portable game app."[19;15Hsupertux[19;33HSuper Tux side scrolling portable game app."[20;15Htouchtype         A touch typing tutor in a portable app."[B}[K[B[K[Bfunction start_webserver()[B{[25;8H[1K /cygdrive/c/Users/Katrina/Workspace/CS3600/xampp/apache_start.bat&[26;8H[1K chrome localhost[14d[B[B[B[B[B[B[B[B[B[B[B[B[3;8H[1K echo "breakout [3;33HThe LBreakout 2 Portable app."[4;8H[1K echo "libreoffice[33GA portable office app."[5;15Htuxkart           Super Tux Kart portable game app."[6;15Hsupertux[6;33HSuper Tux side scrolling portable game app."[7;15Htouchtype         A touch typing tutor in a portable app."[B}[K[B[K[Bfunction start_webserver()[B{[12;8H[1K /cygdrive/c/Users/Katrina/Workspace/CS3600/xampp/apache_start.bat&[13;8H[1K chrome localhost[B}[K[B[K[B# Some example functions[K[B# function settitle() { echo -ne "\e]2;$@\a\e]1;$@\a"; }[B[K[B[01;31m[Kexport[m[K PATH=$PATH:'/cygdrive/c/Program Files/Java/jdk1.8.0_112/bin'[K[B[01;31m[Kexport[m[K CLASSPATH=$CLASSPATH[K[B[01;31m[Kexport[m[K PATH=$PATH:'/cygdrive/c/Program Files (x86)/Mozilla Firefox/'[B[01;31m[Kexport[m[K PATH=$PATH:'/cygdrive/c/Program Files (x86)/Google/Chrome/Application/'[B[01;31m[Kexport[m[K PATH=$PATH:~/bin   [B[K[B[01;31m[Kexport[m[K -f windowstools[K[B[01;31m[Kexport[m[K -f portableapps  [14d[B[B[B[B[B[B[B[B[B[B[B[B[3d# Some example functions[K[B# function settitle() { echo -ne "\e]2;$@\a\e]1;$@\a"; }[B[K[B[01;31m[Kexport[m[K PATH=$PATH:'/cygdrive/c/Program Files/Java/jdk1.8.0_112/bin'[K[B[01;31m[Kexport[m[K CLASSPATH=$CLASSPATH[K[B[01;31m[Kexport[m[K PATH=$PATH:'/cygdrive/c/Program Files (x86)/Mozilla Firefox/'[B[01;31m[Kexport[m[K PATH=$PATH:'/cygdrive/c/Program Files (x86)/Google/Chrome/Application/'[B[01;31m[Kexport[m[K PATH=$PATH:~/bin   [B[K[B[01;31m[Kexport[m[K -f windowstools[K[B[01;31m[Kexport[m[K -f portableapps  [B[01;31m[Kexport[m[K -f start_webserver[16d[K[B[K[19d[K[B[K[B[K[B[K[B[K[25d[K[B[K[14d[B[1;91H[0;10;7mModified[16d[0;10m[Bmintty[27d[0;10;7mFile Name to Write: .bashrc                                                                         [28;17H[0;10m         [0;10;7mM-D[0;10m DOS Format           [0;10;7mM-A[0;10m Append[15X[28;76H[0;10;7mM-B[0;10m Backup File[B[C[0;10;7mC[0;10m Cancel[17G         [0;10;7mM-M[0;10m Mac Format           [0;10;7mM-P[0;10m Prepend[K[27;28H[1;91H[39;49m[0;10;7m        [27;40H[0;10m[1K [0;10;7m[ Wrote 184 lines ][0;10m[K[28;17H[0;10;7m^O[0;10m WriteOut     [0;10;7m^R[0;10m Read File    [0;10;7m^Y[0;10m Prev Page    [0;10;7m^K[0;10m Cut Text     [0;10;7m^C[0;10m Cur Pos[B[C[0;10;7mX[0;10m Exit  [17G[0;10;7m^J[0;10m Justify      [0;10;7m^W[0;10m Where Is     [0;10;7m^V[0;10m Next Page    [0;10;7m^U[0;10m UnCut Text   [0;10;7m^T[0;10m To Spell[17;7H[28d[J[29;100H[29;1H[2J[?47l8]0;~
+[35m[K3-6script.txt[m[K[36m[K:[m[K           debug and release version as well as [01;31m[Kexport[m[K libraries for DLL
+[35m[K3-6script.txt[m[K[36m[K:[m[K      HDF5 tool [01;31m[Kexport[m[K library for DLL:
+[35m[K3-6script.txt[m[K[36m[K:[m[K               hdf5ddll.lib- the DLL [01;31m[Kexport[m[K library                  
+[35m[K3-6script.txt[m[K[36m[K:[m[K               hdf5dll.lib- the DLL [01;31m[Kexport[m[K library
+[35m[K3-6script.txt[m[K[36m[K:[m[K               libtestD.lib - the internal DLL [01;31m[Kexport[m[K library for test
+[35m[K3-6script.txt[m[K[36m[K:[m[K               libtestD.lib - the internal DLL [01;31m[Kexport[m[K library for test
+[35m[K3-6script.txt[m[K[36m[K:[m[K               toolslibD.lib- the internal DLL [01;31m[Kexport[m[K library for tools 
+[35m[K3-6script.txt[m[K[36m[K:[m[K               hdf5_cppddll.lib- the C++ API DLL [01;31m[Kexport[m[K library
+[35m[K3-6script.txt[m[K[36m[K:[m[K               hdf5_cppdll.lib- the C++ API DLL [01;31m[Kexport[m[K library
+[35m[K3-6script.txt[m[K[36m[K:[m[K       except now link the [01;31m[Kexport[m[K library that is created with the DLL.
+[35m[K3-6script.txt[m[K[36m[K:[m[K       The [01;31m[Kexport[m[K library is called hdf5dll.lib for HDF5 C libray,
+[35m[K3-6script.txt[m[K[36m[K:[m[K      2) add HDF5 DLL [01;31m[Kexport[m[K library into your project
+[35m[K3-6script.txt[m[K[36m[K:[m[K        for sh/ksh/zsh:    LZOP="-1v --name"; [01;31m[Kexport[m[K LZOP
+[35m[K3-6script.txt[m[K[36m[K:[m[K              UNZIP=-qq; [01;31m[Kexport[m[K UNZIP
+[35m[K3-6script.txt[m[K[36m[K:[m[K       United States [01;31m[Kexport[m[K restrictions, de-/encryption support might be dis-
+[35m[K3-6script.txt[m[K[36m[K:[m[K       abled in your compiled binary.  However, since spring 2000,  US  [01;31m[Kexport[m[K
+[35m[K3-6script.txt[m[K[36m[K:[m[K              ZIPINFO=-l; [01;31m[Kexport[m[K ZIPINFO
+[35m[K3-8script2.txt[m[K[36m[K:[m[K# grep  [K-r"[K "e[K[01;31m[Kexport[m[K" *
+[35m[K3-8script2.txt[m[K[36m[K:[m[K2-15.txt:# [01;31m[Kexport[m[K bin[K[K[KPATH=./[K~[K[K~/bin/nfiles[K[K[K[K[K[K[K[K[K[K[K[K[K=$PATH: [K~/bin/[K
+[35m[K3-8script2.txt[m[K[36m[K:[m[K3-6script.txt:7[?47h[0;10m[4l[39;49m[39;49m[H[J[0;10;7m  GNU nano 2.2.5                     File: .bashrc                                                  [B[0;10m# base-files version 3.9-3[5d# To pick up the latest recommended .bashrc content,[B# look in /etc/defaults/etc/skel/.bashrc[8d# Modifying /etc/skel/.bashrc directly will prevent[B# setup from updating it.[11d# The copy in your home directory (~/.bashrc) is yours, please[B# feel free to customise it to create a shell[B# environment to your liking.  If you feel a change[B# would be benificial to all, please feel free to send[B# a patch to the cygwin mailing list.[17d# User dependent .bashrc file[19d# Environment Variables[B# #####################[22d# TMP and TEMP are defined in the Windows environment.  Leaving[B# them set to the default Windows temporary directory can have[B# unexpected consequences.[Bunset TMP[Bunset TEMP[27;42H[0;10;7m[ Read 181 lines ][B^G[0;10m Get Help     [0;10;7m^O[0;10m WriteOut     [0;10;7m^R[0;10m Read File    [0;10;7m^Y[0;10m Prev Page    [0;10;7m^K[0;10m Cut Text     [0;10;7m^C[0;10m Cur Pos[B[0;10;7m^X[0;10m Exit[29;17H[0;10;7m^J[0;10m Justify[33G[0;10;7m^W[0;10m Where Is     [0;10;7m^V[0;10m Next Page    [0;10;7m^U[0;10m UnCut Text   [0;10;7m^T[0;10m To Spell[3d[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[3d[K[B# User dependent .bashrc file[B[K[B# Environment Variables[K[B# #####################[B[K[B# TMP and TEMP are defined in the Windows environment.  Leaving[B# them set to the default Windows temporary directory can have[B# unexpected consequences.[K[Bunset TMP[K[Bunset TEMP[K[B[K[B# Alternatively, set them to the Cygwin temporary directory[B# or to any other tmp directory of your choice[B# [01;31m[Kexport[m[K TMP=/tmp[K[B# [01;31m[Kexport[m[K TEMP=/tmp[B[K[B# Or use TMPDIR instead[B# [01;31m[Kexport[m[K TMPDIR=/tmp[B[K[B# Shell Options[K[B# #############[K[B[K[B# See man bash for more options...[14d[B[27d[K[16d[B[B[B[B[B[B[B[B[B[B[3d# or to any other tmp directory of your choice[B# [01;31m[Kexport[m[K TMP=/tmp[K[B# [01;31m[Kexport[m[K TEMP=/tmp[B[K[B# Or use TMPDIR instead[B# [01;31m[Kexport[m[K TMPDIR=/tmp[B[K[B# Shell Options[K[B# #############[K[B[K[B# See man bash for more options...[15;3HDon't wait for job termination notification[K[B# set -o notify[K[B[K[B# Don't use ^D to exit[B# set -o ignoreeof[B[K[B# Use case-insensitive filename globbing[B# shopt -s nocaseglob[B[K[B# Make bash append rather than overwrite the history on disk[B# shopt -s histappend[B[K[14d[B[B[B[B[B[B[B[B[B[B[B[B[3d# set -o notify[K[B[K[B# Don't use ^D to exit[B# set -o ignoreeof[B[K[B# Use case-insensitive filename globbing[B# shopt -s nocaseglob[B[K[B# Make bash append rather than overwrite the history on disk[B# shopt -s histappend[B[K[B# When changing directory small typos can be ignored by bash[B# for example, cd /vr/lgo/apaache would find /var/log/apache[B# shopt -s cdspell[18d[K[B# Completion options[B# ##################[B[K[B# These completion tuning parameters change the default behavior of bash_completion:[24;3HDefine to access remotely checked-out files over passwordless ssh for CVS[B# COMP_CVS_REMOTE=1  [14d[B[B[B[B[B[B[B[B[B[B[B[B[3;4Hhopt -s cdspell[5d[K[B# Completion options[B# ##################[B[K[B# These completion tuning parameters change the default behavior of bash_completion:[11;3HDefine to access remotely checked-out files over passwordless ssh for CVS[B# COMP_CVS_REMOTE=1  [14;3HDefine to avoid stripping description in --option=description of './configure --help'[B# COMP_CONFIGURE_HINTS=1[K[B[K[B# Define to avoid flattening internal contents of tar files[B# COMP_TAR_INTERNAL_PATHS=1[B[K[B# If this shell is interactive, turn on programmable completion enhancements.[B# Any completions you add in ~/.bash_completion are sourced last.[B# case $- in[K[B#   *i*) [[ -f /etc/bash_completion ]] && . /etc/bash_completion ;;[B# esac[K[B[K[14d[B[B[B[B[B[B[B[B[B[B[B[B[3d[K[B# Define to avoid flattening internal contents of tar files[B# COMP_TAR_INTERNAL_PATHS=1[B[K[B# If this shell is interactive, turn on programmable completion enhancements.[B# Any completions you add in ~/.bash_completion are sourced last.[B# case $- in[K[B#   *i*) [[ -f /etc/bash_completion ]] && . /etc/bash_completion ;;[B# esac[K[B[K[14d# History Options[K[B# ###############[K[17;4Hon't put duplicate lines in the history.[K[B# [01;31m[Kexport[m[K HISTCONTROL="ignoredups"[20;3Hfor setting history length see HISTSIZE and HISTFILESIZE in bash(1)[K[BHISTSIZE=100000[K[BHISTFILESIZE=100000[B[K[B# Ignore some controlling instructions[B# HISTIGNORE is a colon-delimited list of patterns which should be excluded.[B# The '&' is a special pattern which suppresses duplicate entries.[14d[B[B[B[B[B[B[B[B[B[B[B[B[4;4Hon't put duplicate lines in the history.[K[B# [01;31m[Kexport[m[K HISTCONTROL="ignoredups"[7;3Hfor setting history length see HISTSIZE and HISTFILESIZE in bash(1)[K[BHISTSIZE=100000[K[BHISTFILESIZE=100000[B[K[B# Ignore some controlling instructions[B# HISTIGNORE is a colon-delimited list of patterns which should be excluded.[B# The '&' is a special pattern which suppresses duplicate entries.[B# [01;31m[Kexport[m[K HISTIGNORE=$'[ \t]*:&:[fb]g:exit'[B# [01;31m[Kexport[m[K HISTIGNORE=$'[ \t]*:&:[fb]g:exit:ls' # Ignore the ls command as well[17;3HWhenever displaying the prompt, write the previous line to disk[18;10HPROMPT_COMMAND="history -a"[20d[K[B# Aliases[K[B# #######[K[24dalias ps='ps;tasklist'[K[B[K[B# Some example alias instructions[K[14d[B[B[B[B[B[B[B[B[B[B[B[B[4d# Whenever displaying the prompt, write the previous line to disk[5;10HPROMPT_COMMAND="history -a"[7d[K[B# Aliases[K[B# #######[K[11dalias ps='ps;tasklist'[K[B[K[B# Some example alias instructions[K[B# If these are enabled they will be used instead of any instructions[B# they may mask.  For example, alias rm='rm -i' will mask the rm[K[B# application.  To override the alias instruction use a \ before, ie[B# \rm will call the real rm not the alias.[K[B[K[B# Interactive operation...[B# alias rm='rm -i'[B# alias cp='cp -i'[B# alias mv='mv -i'[24d# Default to human readable figures[B# alias df='df -h'[B# alias du='du -h'[K[14d[B[B[B[B[B[B[B[B[B[B[B[B[3d# application.  To override the alias instruction use a \ before, ie[B# \rm will call the real rm not the alias.[K[B[K[B# Interactive operation...[B# alias rm='rm -i'[B# alias cp='cp -i'[B# alias mv='mv -i'[11d# Default to human readable figures[B# alias df='df -h'[B# alias du='du -h'[K[B[K[B# Misc :)[K[B# alias less='less -r'[26X[16;49H# raw control characters[B# alias whence='type -a'[18X[17;49H# where, of a sort[B# alias grep='grep --color'[18;49H# show differences in colour[B[K[B# Some shortcuts for different directory listings[21;9Hls='ls -hF --color=tty'[21;49H# classify files in colour[22;9Hdir='ls --color=auto --format=vertical'[B# alias vdir='ls --color=auto --format=long'[B# alias ll='ls -l'[17X[24;49H# long list[25;9Hla='ls -A[25;49H# all but . and ..[26;9Hl='ls -CF[26;49H#[14d[B[B[B[B[B[B[B[B[B[B[B[B[3;4Hlias less='less -r'[26X[3;49H# raw control characters[B# alias whence='type -a'[18X[4;49H# where, of a sort[B# alias grep='grep --color'[5;49H# show differences in colour[B[K[B# Some shortcuts for different directory listings[8;9Hls='ls -hF --color=tty'[8;49H# classify files in colour[9;9Hdir='ls --color=auto --format=vertical'[B# alias vdir='ls --color=auto --format=long'[B# alias ll='ls -l'[17X[11;49H# long list[12;9Hla='ls -A[12;49H# all but . and ..[13;9Hl='ls -CF[13;49H#[15d[K[Balias notepad++='"/cygdrive/c/Program Files (x86)/Notepad++/notepad++.exe"'[Balias cs3600='cd /cygdrive/c/Users/Katrina/Workspace/CS3600'[K[Balias solitaire='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/BigSolitairesPortable_1.4_$alias breakout='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/LBreakout2Portable_2.6.3_En$alias libreoffice='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/LibreOfficePortable_5.3.$alias tuxkart='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/SuperTuxKartPortable_0.9.2.p$alias supertux='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/SuperTuxPortable_0.5.1_Engl$alias touchtype='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/TypeFasterPortable_0.4.2_E$[K[B[K[B# Functions[K[14d[B[B[B[B[B[B[B[B[B[B[B[B[3dalias notepad++='"/cygdrive/c/Program Files (x86)/Notepad++/notepad++.exe"'[Balias cs3600='cd /cygdrive/c/Users/Katrina/Workspace/CS3600'[K[Balias solitaire='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/BigSolitairesPortable_1.4_$alias breakout='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/LBreakout2Portable_2.6.3_En$alias libreoffice='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/LibreOfficePortable_5.3.$alias tuxkart='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/SuperTuxKartPortable_0.9.2.p$alias supertux='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/SuperTuxPortable_0.5.1_Engl$alias touchtype='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/TypeFasterPortable_0.4.2_E$[K[B[K[B# Functions[K[B# #########[16dfunction windowstools()[K[B{[K[18;8H[1K echo "Tools for observing the state of the windows OS"[K[19;8H[1K echo "taskmgr           Details of running processes"[K[20;8H[1K echo "services.msc  Complete list of services and their state"[K[21;8H[1K echo "eventvwr          Displays detailed information about significant events"[K[22;8H[1K echo "netstat           Displays network connections for TCP/IP."[K[B}[K[25dfunction portableapps()[B{[K[14d[B[B[B[B[B[B[B[B[B[B[B[B[3dfunction windowstools()[K[B{[K[5;8H[1K echo "Tools for observing the state of the windows OS"[K[6;8H[1K echo "taskmgr           Details of running processes"[K[7;8H[1K echo "services.msc  Complete list of services and their state"[K[8;8H[1K echo "eventvwr          Displays detailed information about significant events"[K[9;8H[1K echo "netstat           Displays network connections for TCP/IP."[K[B}[K[12dfunction portableapps()[B{[K[14;8H[1K echo "Portable apps"[15;9Hecho "solitaire[15;33HOpens the solitaire portable app."[16;8H[1K echo "breakout [16;33HThe LBreakout 2 Portable app."[17;8H[1K echo "libreoffice[33GA portable office app."[18;15Htuxkart           Super Tux Kart portable game app."[19;15Hsupertux[19;33HSuper Tux side scrolling portable game app."[20;15Htouchtype         A touch typing tutor in a portable app."[B}[K[B[K[Bfunction start_webserver()[B{[25;8H[1K /cygdrive/c/Users/Katrina/Workspace/CS3600/xampp/apache_start.bat&[26;8H[1K chrome localhost[14d[B[B[B[B[B[B[B[B[B[B[B[B[3;8H[1K echo "breakout [3;33HThe LBreakout 2 Portable app."[4;8H[1K echo "libreoffice[33GA portable office app."[5;15Htuxkart           Super Tux Kart portable game app."[6;15Hsupertux[6;33HSuper Tux side scrolling portable game app."[7;15Htouchtype         A touch typing tutor in a portable app."[B}[K[B[K[Bfunction start_webserver()[B{[12;8H[1K /cygdrive/c/Users/Katrina/Workspace/CS3600/xampp/apache_start.bat&[13;8H[1K chrome localhost[B}[K[B[K[B# Some example functions[K[B# function settitle() { echo -ne "\e]2;$@\a\e]1;$@\a"; }[B[K[B[01;31m[Kexport[m[K PATH=$PATH:'/cygdrive/c/Program Files/Java/jdk1.8.0_112/bin'[K[B[01;31m[Kexport[m[K CLASSPATH=$CLASSPATH[K[B[01;31m[Kexport[m[K PATH=$PATH:'/cygdrive/c/Program Files (x86)/Mozilla Firefox/'[B[01;31m[Kexport[m[K PATH=$PATH:'/cygdrive/c/Program Files (x86)/Google/Chrome/Application/'[B[01;31m[Kexport[m[K PATH=$PATH:~/bin   [B[K[B[01;31m[Kexport[m[K -f windowstools[K[B[01;31m[Kexport[m[K -f portableapps  [14d[B[B[B[B[B[B[B[B[B[B[B[B[3d# Some example functions[K[B# function settitle() { echo -ne "\e]2;$@\a\e]1;$@\a"; }[B[K[B[01;31m[Kexport[m[K PATH=$PATH:'/cygdrive/c/Program Files/Java/jdk1.8.0_112/bin'[K[B[01;31m[Kexport[m[K CLASSPATH=$CLASSPATH[K[B[01;31m[Kexport[m[K PATH=$PATH:'/cygdrive/c/Program Files (x86)/Mozilla Firefox/'[B[01;31m[Kexport[m[K PATH=$PATH:'/cygdrive/c/Program Files (x86)/Google/Chrome/Application/'[B[01;31m[Kexport[m[K PATH=$PATH:~/bin   [B[K[B[01;31m[Kexport[m[K -f windowstools[K[B[01;31m[Kexport[m[K -f portableapps  [B[01;31m[Kexport[m[K -f start_webserver[16d[K[B[K[19d[K[B[K[B[K[B[K[B[K[25d[K[B[K[14d[B[1;91H[0;10;7mModified[16d[0;10m[Bmintty[27d[0;10;7mFile Name to Write: .bashrc                                                                         [28;17H[0;10m         [0;10;7mM-D[0;10m DOS Format           [0;10;7mM-A[0;10m Append[15X[28;76H[0;10;7mM-B[0;10m Backup File[B[C[0;10;7mC[0;10m Cancel[17G         [0;10;7mM-M[0;10m Mac Format           [0;10;7mM-P[0;10m Prepend[K[27;28H[1;91H[39;49m[0;10;7m        [27;40H[0;10m[1K [0;10;7m[ Wrote 184 lines ][0;10m[K[28;17H[0;10;7m^O[0;10m WriteOut     [0;10;7m^R[0;10m Read File    [0;10;7m^Y[0;10m Prev Page    [0;10;7m^K[0;10m Cut Text     [0;10;7m^C[0;10m Cur Pos[B[C[0;10;7mX[0;10m Exit  [17G[0;10;7m^J[0;10m Justify      [0;10;7m^W[0;10m Where Is     [0;10;7m^V[0;10m Next Page    [0;10;7m^U[0;10m UnCut Text   [0;10;7m^T[0;10m To Spell[17;7H[28d[J[29;100H[29;1H[2J[?47l8]0;~
+[35m[K3-8script2.txt[m[K[36m[K:[m[K3-6script.txt:           debug and release version as well as [01;31m[Kexport[m[K libraries for DLL
+[35m[K3-8script2.txt[m[K[36m[K:[m[K3-6script.txt:      HDF5 tool [01;31m[Kexport[m[K library for DLL:
+[35m[K3-8script2.txt[m[K[36m[K:[m[K3-6script.txt:               hdf5ddll.lib- the DLL [01;31m[Kexport[m[K library                  
+[35m[K3-8script2.txt[m[K[36m[K:[m[K3-6script.txt:               hdf5dll.lib- the DLL [01;31m[Kexport[m[K library
+[35m[K3-8script2.txt[m[K[36m[K:[m[K3-6script.txt:               libtestD.lib - the internal DLL [01;31m[Kexport[m[K library for test
+[35m[K3-8script2.txt[m[K[36m[K:[m[K3-6script.txt:               libtestD.lib - the internal DLL [01;31m[Kexport[m[K library for test
+[35m[K3-8script2.txt[m[K[36m[K:[m[K3-6script.txt:               toolslibD.lib- the internal DLL [01;31m[Kexport[m[K library for tools 
+[35m[K3-8script2.txt[m[K[36m[K:[m[K3-6script.txt:               hdf5_cppddll.lib- the C++ API DLL [01;31m[Kexport[m[K library
+[35m[K3-8script2.txt[m[K[36m[K:[m[K3-6script.txt:               hdf5_cppdll.lib- the C++ API DLL [01;31m[Kexport[m[K library
+[35m[K3-8script2.txt[m[K[36m[K:[m[K3-6script.txt:       except now link the [01;31m[Kexport[m[K library that is created with the DLL.
+[35m[K3-8script2.txt[m[K[36m[K:[m[K3-6script.txt:       The [01;31m[Kexport[m[K library is called hdf5dll.lib for HDF5 C libray,
+[35m[K3-8script2.txt[m[K[36m[K:[m[K3-6script.txt:      2) add HDF5 DLL [01;31m[Kexport[m[K library into your project
+[35m[K3-8script2.txt[m[K[36m[K:[m[K3-6script.txt:        for sh/ksh/zsh:    LZOP="-1v --name"; [01;31m[Kexport[m[K LZOP
+[35m[K3-8script2.txt[m[K[36m[K:[m[K3-6script.txt:              UNZIP=-qq; [01;31m[Kexport[m[K UNZIP
+[35m[K3-8script2.txt[m[K[36m[K:[m[K3-6script.txt:       United States [01;31m[Kexport[m[K restrictions, de-/encryption support might be dis-
+[35m[K3-8script2.txt[m[K[36m[K:[m[K3-6script.txt:       abled in your compiled binary.  However, since spring 2000,  US  [01;31m[Kexport[m[K
+[35m[K3-8script2.txt[m[K[36m[K:[m[K3-6script.txt:              ZIPINFO=-l; [01;31m[Kexport[m[K ZIPINFO
+[35m[K3-8script2.txt[m[K[36m[K:[m[Kalltextfiles:           debug and release version as well as [01;31m[Kexport[m[K libraries for DLL
+[35m[K3-8script2.txt[m[K[36m[K:[m[Kalltextfiles:      HDF5 tool [01;31m[Kexport[m[K library for DLL:
+[35m[K3-8script2.txt[m[K[36m[K:[m[Kalltextfiles:               hdf5ddll.lib- the DLL [01;31m[Kexport[m[K library                  
+[35m[K3-8script2.txt[m[K[36m[K:[m[Kalltextfiles:               hdf5dll.lib- the DLL [01;31m[Kexport[m[K library
+[35m[K3-8script2.txt[m[K[36m[K:[m[Kalltextfiles:               libtestD.lib - the internal DLL [01;31m[Kexport[m[K library for test
+[35m[K3-8script2.txt[m[K[36m[K:[m[Kalltextfiles:               libtestD.lib - the internal DLL [01;31m[Kexport[m[K library for test
+[35m[K3-8script2.txt[m[K[36m[K:[m[Kalltextfiles:               toolslibD.lib- the internal DLL [01;31m[Kexport[m[K library for tools 
+[35m[K3-8script2.txt[m[K[36m[K:[m[Kalltextfiles:               hdf5_cppddll.lib- the C++ API DLL [01;31m[Kexport[m[K library
+[35m[K3-8script2.txt[m[K[36m[K:[m[Kalltextfiles:               hdf5_cppdll.lib- the C++ API DLL [01;31m[Kexport[m[K library
+[35m[K3-8script2.txt[m[K[36m[K:[m[Kalltextfiles:       except now link the [01;31m[Kexport[m[K library that is created with the DLL.
+[35m[K3-8script2.txt[m[K[36m[K:[m[Kalltextfiles:       The [01;31m[Kexport[m[K library is called hdf5dll.lib for HDF5 C libray,
+[35m[K3-8script2.txt[m[K[36m[K:[m[Kalltextfiles:      2) add HDF5 DLL [01;31m[Kexport[m[K library into your project
+[35m[K3-8script2.txt[m[K[36m[K:[m[Kalltextfiles:        for sh/ksh/zsh:    LZOP="-1v --name"; [01;31m[Kexport[m[K LZOP
+[35m[K3-8script2.txt[m[K[36m[K:[m[Kalltextfiles:              UNZIP=-qq; [01;31m[Kexport[m[K UNZIP
+[35m[K3-8script2.txt[m[K[36m[K:[m[Kalltextfiles:       United States [01;31m[Kexport[m[K restrictions, de-/encryption support might be dis-
+[35m[K3-8script2.txt[m[K[36m[K:[m[Kalltextfiles:       abled in your compiled binary.  However, since spring 2000,  US  [01;31m[Kexport[m[K
+[35m[K3-8script2.txt[m[K[36m[K:[m[Kalltextfiles:              ZIPINFO=-l; [01;31m[Kexport[m[K ZIPINFO
+[35m[K3-8script2.txt[m[K[36m[K:[m[Kweek03/1-20.txt:# [01;31m[Kexport[m[K PS1='\! ->'
+[35m[K3-8script2.txt[m[K[36m[K:[m[Kweek03/1-20.txt:49 ->[01;31m[Kexport[m[K PS1='\w ->'
+[35m[K3-8script2.txt[m[K[36m[K:[m[Kweek10/INSTALL_Windows.txt:           debug and release version as well as [01;31m[Kexport[m[K libraries for DLL
+[35m[K3-8script2.txt[m[K[36m[K:[m[Kweek10/INSTALL_Windows.txt:      HDF5 tool [01;31m[Kexport[m[K library for DLL:
+[35m[K3-8script2.txt[m[K[36m[K:[m[Kweek10/INSTALL_Windows.txt:               hdf5ddll.lib- the DLL [01;31m[Kexport[m[K library                  
+[35m[K3-8script2.txt[m[K[36m[K:[m[Kweek10/INSTALL_Windows.txt:               hdf5dll.lib- the DLL [01;31m[Kexport[m[K library
+[35m[K3-8script2.txt[m[K[36m[K:[m[Kweek10/INSTALL_Windows.txt:               libtestD.lib - the internal DLL [01;31m[Kexport[m[K library for test
+[35m[K3-8script2.txt[m[K[36m[K:[m[Kweek10/INSTALL_Windows.txt:               libtestD.lib - the internal DLL [01;31m[Kexport[m[K library for test
+[35m[K3-8script2.txt[m[K[36m[K:[m[Kweek10/INSTALL_Windows.txt:               toolslibD.lib- the internal DLL [01;31m[Kexport[m[K library for tools 
+[35m[K3-8script2.txt[m[K[36m[K:[m[Kweek10/INSTALL_Windows.txt:               hdf5_cppddll.lib- the C++ API DLL [01;31m[Kexport[m[K library
+[35m[K3-8script2.txt[m[K[36m[K:[m[Kweek10/INSTALL_Windows.txt:               hdf5_cppdll.lib- the C++ API DLL [01;31m[Kexport[m[K library
+[35m[K3-8script2.txt[m[K[36m[K:[m[Kweek10/INSTALL_Windows.txt:       except now link the [01;31m[Kexport[m[K library that is created with the DLL.
+[35m[K3-8script2.txt[m[K[36m[K:[m[Kweek10/INSTALL_Windows.txt:       The [01;31m[Kexport[m[K library is called hdf5dll.lib for HDF5 C libray,
+[35m[K3-8script2.txt[m[K[36m[K:[m[Kweek10/INSTALL_Windows.txt:      2) add HDF5 DLL [01;31m[Kexport[m[K library into your project
+[35m[K3-8script2.txt[m[K[36m[K:[m[Kweek10/lzop.txt:        for sh/ksh/zsh:    LZOP="-1v --name"; [01;31m[Kexport[m[K LZOP
+[35m[K3-8script2.txt[m[K[36m[K:[m[Kweek10/unzip.txt:              UNZIP=-qq; [01;31m[Kexport[m[K UNZIP
+[35m[K3-8script2.txt[m[K[36m[K:[m[Kweek10/unzip.txt:       United States [01;31m[Kexport[m[K restrictions, de-/encryption support might be dis-
+[35m[K3-8script2.txt[m[K[36m[K:[m[Kweek10/unzip.txt:       abled in your compiled binary.  However, since spring 2000,  US  [01;31m[Kexport[m[K
+[35m[K3-8script2.txt[m[K[36m[K:[m[Kweek10/zipinfo.txt:              ZIPINFO=-l; [01;31m[Kexport[m[K ZIPINFO
+[35m[K3-8script2.txt[m[K[36m[K:[m[K# grep -r "[01;31m[Kexport[m[K" * | wc
+[35m[K3-8script2.txt[m[K[36m[K:[m[K# lssource .bashrc[K[C[Cgrep -r "[01;31m[Kexport[m[K" * | wc
+[35m[K3-8script2.txt[m[K[36m[K:[m[K# grep -r "[01;31m[Kexport[m[K" * | wc[C[Cls[Ksource .bashrc[K[C[Cgrep -r "[01;31m[Kexport[m[K" * | wc[K
+[35m[K3-8script2.txt[m[K[36m[K:[m[K[35m[K2-15.txt[m[K[36m[K:[m[K# [01;31m[K[01;31m[Kexport[m[K[m[K bin[K[K[KPATH=./[K~[K[K~/bin/nfiles[K[K[K[K[K[K[K[K[K[K[K[K[K=$PATH: [K~/bin/[K
+[35m[K3-8script2.txt[m[K[36m[K:[m[K[35m[K3-6script.txt[m[K[36m[K:[m[K7[?47h[0;10m[4l[39;49m[39;49m[H[J[0;10;7m  GNU nano 2.2.5                     File: .bashrc                                                  [B[0;10m# base-files version 3.9-3[5d# To pick up the latest recommended .bashrc content,[B# look in /etc/defaults/etc/skel/.bashrc[8d# Modifying /etc/skel/.bashrc directly will prevent[B# setup from updating it.[11d# The copy in your home directory (~/.bashrc) is yours, please[B# feel free to customise it to create a shell[B# environment to your liking.  If you feel a change[B# would be benificial to all, please feel free to send[B# a patch to the cygwin mailing list.[17d# User dependent .bashrc file[19d# Environment Variables[B# #####################[22d# TMP and TEMP are defined in the Windows environment.  Leaving[B# them set to the default Windows temporary directory can have[B# unexpected consequences.[Bunset TMP[Bunset TEMP[27;42H[0;10;7m[ Read 181 lines ][B^G[0;10m Get Help     [0;10;7m^O[0;10m WriteOut     [0;10;7m^R[0;10m Read File    [0;10;7m^Y[0;10m Prev Page    [0;10;7m^K[0;10m Cut Text     [0;10;7m^C[0;10m Cur Pos[B[0;10;7m^X[0;10m Exit[29;17H[0;10;7m^J[0;10m Justify[33G[0;10;7m^W[0;10m Where Is     [0;10;7m^V[0;10m Next Page    [0;10;7m^U[0;10m UnCut Text   [0;10;7m^T[0;10m To Spell[3d[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[3d[K[B# User dependent .bashrc file[B[K[B# Environment Variables[K[B# #####################[B[K[B# TMP and TEMP are defined in the Windows environment.  Leaving[B# them set to the default Windows temporary directory can have[B# unexpected consequences.[K[Bunset TMP[K[Bunset TEMP[K[B[K[B# Alternatively, set them to the Cygwin temporary directory[B# or to any other tmp directory of your choice[B# [01;31m[K[01;31m[Kexport[m[K[m[K TMP=/tmp[K[B# [01;31m[K[01;31m[Kexport[m[K[m[K TEMP=/tmp[B[K[B# Or use TMPDIR instead[B# [01;31m[K[01;31m[Kexport[m[K[m[K TMPDIR=/tmp[B[K[B# Shell Options[K[B# #############[K[B[K[B# See man bash for more options...[14d[B[27d[K[16d[B[B[B[B[B[B[B[B[B[B[3d# or to any other tmp directory of your choice[B# [01;31m[K[01;31m[Kexport[m[K[m[K TMP=/tmp[K[B# [01;31m[K[01;31m[Kexport[m[K[m[K TEMP=/tmp[B[K[B# Or use TMPDIR instead[B# [01;31m[K[01;31m[Kexport[m[K[m[K TMPDIR=/tmp[B[K[B# Shell Options[K[B# #############[K[B[K[B# See man bash for more options...[15;3HDon't wait for job termination notification[K[B# set -o notify[K[B[K[B# Don't use ^D to exit[B# set -o ignoreeof[B[K[B# Use case-insensitive filename globbing[B# shopt -s nocaseglob[B[K[B# Make bash append rather than overwrite the history on disk[B# shopt -s histappend[B[K[14d[B[B[B[B[B[B[B[B[B[B[B[B[3d# set -o notify[K[B[K[B# Don't use ^D to exit[B# set -o ignoreeof[B[K[B# Use case-insensitive filename globbing[B# shopt -s nocaseglob[B[K[B# Make bash append rather than overwrite the history on disk[B# shopt -s histappend[B[K[B# When changing directory small typos can be ignored by bash[B# for example, cd /vr/lgo/apaache would find /var/log/apache[B# shopt -s cdspell[18d[K[B# Completion options[B# ##################[B[K[B# These completion tuning parameters change the default behavior of bash_completion:[24;3HDefine to access remotely checked-out files over passwordless ssh for CVS[B# COMP_CVS_REMOTE=1  [14d[B[B[B[B[B[B[B[B[B[B[B[B[3;4Hhopt -s cdspell[5d[K[B# Completion options[B# ##################[B[K[B# These completion tuning parameters change the default behavior of bash_completion:[11;3HDefine to access remotely checked-out files over passwordless ssh for CVS[B# COMP_CVS_REMOTE=1  [14;3HDefine to avoid stripping description in --option=description of './configure --help'[B# COMP_CONFIGURE_HINTS=1[K[B[K[B# Define to avoid flattening internal contents of tar files[B# COMP_TAR_INTERNAL_PATHS=1[B[K[B# If this shell is interactive, turn on programmable completion enhancements.[B# Any completions you add in ~/.bash_completion are sourced last.[B# case $- in[K[B#   *i*) [[ -f /etc/bash_completion ]] && . /etc/bash_completion ;;[B# esac[K[B[K[14d[B[B[B[B[B[B[B[B[B[B[B[B[3d[K[B# Define to avoid flattening internal contents of tar files[B# COMP_TAR_INTERNAL_PATHS=1[B[K[B# If this shell is interactive, turn on programmable completion enhancements.[B# Any completions you add in ~/.bash_completion are sourced last.[B# case $- in[K[B#   *i*) [[ -f /etc/bash_completion ]] && . /etc/bash_completion ;;[B# esac[K[B[K[14d# History Options[K[B# ###############[K[17;4Hon't put duplicate lines in the history.[K[B# [01;31m[K[01;31m[Kexport[m[K[m[K HISTCONTROL="ignoredups"[20;3Hfor setting history length see HISTSIZE and HISTFILESIZE in bash(1)[K[BHISTSIZE=100000[K[BHISTFILESIZE=100000[B[K[B# Ignore some controlling instructions[B# HISTIGNORE is a colon-delimited list of patterns which should be excluded.[B# The '&' is a special pattern which suppresses duplicate entries.[14d[B[B[B[B[B[B[B[B[B[B[B[B[4;4Hon't put duplicate lines in the history.[K[B# [01;31m[K[01;31m[Kexport[m[K[m[K HISTCONTROL="ignoredups"[7;3Hfor setting history length see HISTSIZE and HISTFILESIZE in bash(1)[K[BHISTSIZE=100000[K[BHISTFILESIZE=100000[B[K[B# Ignore some controlling instructions[B# HISTIGNORE is a colon-delimited list of patterns which should be excluded.[B# The '&' is a special pattern which suppresses duplicate entries.[B# [01;31m[K[01;31m[Kexport[m[K[m[K HISTIGNORE=$'[ \t]*:&:[fb]g:exit'[B# [01;31m[K[01;31m[Kexport[m[K[m[K HISTIGNORE=$'[ \t]*:&:[fb]g:exit:ls' # Ignore the ls command as well[17;3HWhenever displaying the prompt, write the previous line to disk[18;10HPROMPT_COMMAND="history -a"[20d[K[B# Aliases[K[B# #######[K[24dalias ps='ps;tasklist'[K[B[K[B# Some example alias instructions[K[14d[B[B[B[B[B[B[B[B[B[B[B[B[4d# Whenever displaying the prompt, write the previous line to disk[5;10HPROMPT_COMMAND="history -a"[7d[K[B# Aliases[K[B# #######[K[11dalias ps='ps;tasklist'[K[B[K[B# Some example alias instructions[K[B# If these are enabled they will be used instead of any instructions[B# they may mask.  For example, alias rm='rm -i' will mask the rm[K[B# application.  To override the alias instruction use a \ before, ie[B# \rm will call the real rm not the alias.[K[B[K[B# Interactive operation...[B# alias rm='rm -i'[B# alias cp='cp -i'[B# alias mv='mv -i'[24d# Default to human readable figures[B# alias df='df -h'[B# alias du='du -h'[K[14d[B[B[B[B[B[B[B[B[B[B[B[B[3d# application.  To override the alias instruction use a \ before, ie[B# \rm will call the real rm not the alias.[K[B[K[B# Interactive operation...[B# alias rm='rm -i'[B# alias cp='cp -i'[B# alias mv='mv -i'[11d# Default to human readable figures[B# alias df='df -h'[B# alias du='du -h'[K[B[K[B# Misc :)[K[B# alias less='less -r'[26X[16;49H# raw control characters[B# alias whence='type -a'[18X[17;49H# where, of a sort[B# alias grep='grep --color'[18;49H# show differences in colour[B[K[B# Some shortcuts for different directory listings[21;9Hls='ls -hF --color=tty'[21;49H# classify files in colour[22;9Hdir='ls --color=auto --format=vertical'[B# alias vdir='ls --color=auto --format=long'[B# alias ll='ls -l'[17X[24;49H# long list[25;9Hla='ls -A[25;49H# all but . and ..[26;9Hl='ls -CF[26;49H#[14d[B[B[B[B[B[B[B[B[B[B[B[B[3;4Hlias less='less -r'[26X[3;49H# raw control characters[B# alias whence='type -a'[18X[4;49H# where, of a sort[B# alias grep='grep --color'[5;49H# show differences in colour[B[K[B# Some shortcuts for different directory listings[8;9Hls='ls -hF --color=tty'[8;49H# classify files in colour[9;9Hdir='ls --color=auto --format=vertical'[B# alias vdir='ls --color=auto --format=long'[B# alias ll='ls -l'[17X[11;49H# long list[12;9Hla='ls -A[12;49H# all but . and ..[13;9Hl='ls -CF[13;49H#[15d[K[Balias notepad++='"/cygdrive/c/Program Files (x86)/Notepad++/notepad++.exe"'[Balias cs3600='cd /cygdrive/c/Users/Katrina/Workspace/CS3600'[K[Balias solitaire='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/BigSolitairesPortable_1.4_$alias breakout='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/LBreakout2Portable_2.6.3_En$alias libreoffice='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/LibreOfficePortable_5.3.$alias tuxkart='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/SuperTuxKartPortable_0.9.2.p$alias supertux='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/SuperTuxPortable_0.5.1_Engl$alias touchtype='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/TypeFasterPortable_0.4.2_E$[K[B[K[B# Functions[K[14d[B[B[B[B[B[B[B[B[B[B[B[B[3dalias notepad++='"/cygdrive/c/Program Files (x86)/Notepad++/notepad++.exe"'[Balias cs3600='cd /cygdrive/c/Users/Katrina/Workspace/CS3600'[K[Balias solitaire='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/BigSolitairesPortable_1.4_$alias breakout='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/LBreakout2Portable_2.6.3_En$alias libreoffice='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/LibreOfficePortable_5.3.$alias tuxkart='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/SuperTuxKartPortable_0.9.2.p$alias supertux='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/SuperTuxPortable_0.5.1_Engl$alias touchtype='/cygdrive/c/Users/Katrina/Workspace/CS3600/portableapps/TypeFasterPortable_0.4.2_E$[K[B[K[B# Functions[K[B# #########[16dfunction windowstools()[K[B{[K[18;8H[1K echo "Tools for observing the state of the windows 
+[35m[Kalltextfiles[m[K[36m[K:[m[K           debug and release version as well as [01;31m[Kexport[m[K libraries for DLL
+[35m[Kalltextfiles[m[K[36m[K:[m[K      HDF5 tool [01;31m[Kexport[m[K library for DLL:
+[35m[Kalltextfiles[m[K[36m[K:[m[K               hdf5ddll.lib- the DLL [01;31m[Kexport[m[K library                  
+[35m[Kalltextfiles[m[K[36m[K:[m[K               hdf5dll.lib- the DLL [01;31m[Kexport[m[K library
+[35m[Kalltextfiles[m[K[36m[K:[m[K               libtestD.lib - the internal DLL [01;31m[Kexport[m[K library for test
+[35m[Kalltextfiles[m[K[36m[K:[m[K               libtestD.lib - the internal DLL [01;31m[Kexport[m[K library for test
+[35m[Kalltextfiles[m[K[36m[K:[m[K               toolslibD.lib- the internal DLL [01;31m[Kexport[m[K library for tools 
+[35m[Kalltextfiles[m[K[36m[K:[m[K               hdf5_cppddll.lib- the C++ API DLL [01;31m[Kexport[m[K library
+[35m[Kalltextfiles[m[K[36m[K:[m[K               hdf5_cppdll.lib- the C++ API DLL [01;31m[Kexport[m[K library
+[35m[Kalltextfiles[m[K[36m[K:[m[K       except now link the [01;31m[Kexport[m[K library that is created with the DLL.
+[35m[Kalltextfiles[m[K[36m[K:[m[K       The [01;31m[Kexport[m[K library is called hdf5dll.lib for HDF5 C libray,
+[35m[Kalltextfiles[m[K[36m[K:[m[K      2) add HDF5 DLL [01;31m[Kexport[m[K library into your project
+[35m[Kalltextfiles[m[K[36m[K:[m[K        for sh/ksh/zsh:    LZOP="-1v --name"; [01;31m[Kexport[m[K LZOP
+[35m[Kalltextfiles[m[K[36m[K:[m[K              UNZIP=-qq; [01;31m[Kexport[m[K UNZIP
+[35m[Kalltextfiles[m[K[36m[K:[m[K       United States [01;31m[Kexport[m[K restrictions, de-/encryption support might be dis-
+[35m[Kalltextfiles[m[K[36m[K:[m[K       abled in your compiled binary.  However, since spring 2000,  US  [01;31m[Kexport[m[K
+[35m[Kalltextfiles[m[K[36m[K:[m[K              ZIPINFO=-l; [01;31m[Kexport[m[K ZIPINFO
+Binary file chrome.exe matches
+[35m[Kweek03/1-20.txt[m[K[36m[K:[m[K# [01;31m[Kexport[m[K PS1='\! ->'
+[35m[Kweek03/1-20.txt[m[K[36m[K:[m[K49 ->[01;31m[Kexport[m[K PS1='\w ->'
+[35m[Kweek10/INSTALL_Windows.txt[m[K[36m[K:[m[K           debug and release version as well as [01;31m[Kexport[m[K libraries for DLL
+[35m[Kweek10/INSTALL_Windows.txt[m[K[36m[K:[m[K      HDF5 tool [01;31m[Kexport[m[K library for DLL:
+[35m[Kweek10/INSTALL_Windows.txt[m[K[36m[K:[m[K               hdf5ddll.lib- the DLL [01;31m[Kexport[m[K library                  
+[35m[Kweek10/INSTALL_Windows.txt[m[K[36m[K:[m[K               hdf5dll.lib- the DLL [01;31m[Kexport[m[K library
+[35m[Kweek10/INSTALL_Windows.txt[m[K[36m[K:[m[K               libtestD.lib - the internal DLL [01;31m[Kexport[m[K library for test
+[35m[Kweek10/INSTALL_Windows.txt[m[K[36m[K:[m[K               libtestD.lib - the internal DLL [01;31m[Kexport[m[K library for test
+[35m[Kweek10/INSTALL_Windows.txt[m[K[36m[K:[m[K               toolslibD.lib- the internal DLL [01;31m[Kexport[m[K library for tools 
+[35m[Kweek10/INSTALL_Windows.txt[m[K[36m[K:[m[K               hdf5_cppddll.lib- the C++ API DLL [01;31m[Kexport[m[K library
+[35m[Kweek10/INSTALL_Windows.txt[m[K[36m[K:[m[K               hdf5_cppdll.lib- the C++ API DLL [01;31m[Kexport[m[K library
+[35m[Kweek10/INSTALL_Windows.txt[m[K[36m[K:[m[K       except now link the [01;31m[Kexport[m[K library that is created with the DLL.
+[35m[Kweek10/INSTALL_Windows.txt[m[K[36m[K:[m[K       The [01;31m[Kexport[m[K library is called hdf5dll.lib for HDF5 C libray,
+[35m[Kweek10/INSTALL_Windows.txt[m[K[36m[K:[m[K      2) add HDF5 DLL [01;31m[Kexport[m[K library into your project
+[35m[Kweek10/lzop.txt[m[K[36m[K:[m[K        for sh/ksh/zsh:    LZOP="-1v --name"; [01;31m[Kexport[m[K LZOP
+[35m[Kweek10/unzip.txt[m[K[36m[K:[m[K              UNZIP=-qq; [01;31m[Kexport[m[K UNZIP
+[35m[Kweek10/unzip.txt[m[K[36m[K:[m[K       United States [01;31m[Kexport[m[K restrictions, de-/encryption support might be dis-
+[35m[Kweek10/unzip.txt[m[K[36m[K:[m[K       abled in your compiled binary.  However, since spring 2000,  US  [01;31m[Kexport[m[K
+[35m[Kweek10/zipinfo.txt[m[K[36m[K:[m[K              ZIPINFO=-l; [01;31m[Kexport[m[K ZIPINFO
+Binary file week10a/week03.tar matches
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# grep -r "export" *[1@c[1P[C[1@c
+[35m[K2-15.txt[m[K[36m[K:[m[K1
+[35m[K3-6script.txt[m[K[36m[K:[m[K18
+[35m[K3-8script.txt[m[K[36m[K:[m[K0
+[35m[K3-8script2.txt[m[K[36m[K:[m[K61
+[35m[KFirefox[m[K[36m[K:[m[K0
+[35m[KMathematica[m[K[36m[K:[m[K0
+[35m[KMatlab[m[K[36m[K:[m[K0
+[35m[Kalltextfiles[m[K[36m[K:[m[K17
+[35m[Kawmt.txt[m[K[36m[K:[m[K0
+[35m[Kawmt.txt.gz[m[K[36m[K:[m[K0
+[35m[Kbin/ndir[m[K[36m[K:[m[K0
+[35m[Kbin/nfiles[m[K[36m[K:[m[K0
+[35m[Kbin/nlines[m[K[36m[K:[m[K0
+[35m[Kbin/nprocesses[m[K[36m[K:[m[K0
+[35m[Kchrome.exe[m[K[36m[K:[m[K1
+[35m[Kcontents.txt[m[K[36m[K:[m[K0
+[35m[Kdir1/awmt.txt[m[K[36m[K:[m[K0
+[35m[Kexcel.exe[m[K[36m[K:[m[K0
+[35m[Kexecutables.txt[m[K[36m[K:[m[K0
+[35m[Kfirefox-link[m[K[36m[K:[m[K0
+[35m[Khello[m[K[36m[K:[m[K0
+[35m[Kmath-link[m[K[36m[K:[m[K0
+[35m[Kmatlab-link[m[K[36m[K:[m[K0
+[35m[Knewawmt.txt[m[K[36m[K:[m[K0
+[35m[Knewfilename[m[K[36m[K:[m[K0
+[35m[Kout.txt[m[K[36m[K:[m[K0
+[35m[Kreader.exe[m[K[36m[K:[m[K0
+[35m[Kregular-expressions.txt[m[K[36m[K:[m[K0
+[35m[Ktxtfiles/text1.txt[m[K[36m[K:[m[K0
+[35m[Ktxtfiles/text2.txt[m[K[36m[K:[m[K0
+[35m[Ktxtfiles/text3.txt[m[K[36m[K:[m[K0
+[35m[Ktxtfiles/text4.txt[m[K[36m[K:[m[K0
+[35m[Ktxtfiles/text5.txt[m[K[36m[K:[m[K0
+[35m[Ktxtfiles/text6.txt[m[K[36m[K:[m[K0
+[35m[Ktxtfiles/text7.txt[m[K[36m[K:[m[K0
+[35m[Ktxtfiles/text8.txt[m[K[36m[K:[m[K0
+[35m[Ktypescript[m[K[36m[K:[m[K0
+[35m[Kweek03/1-20.txt[m[K[36m[K:[m[K2
+[35m[Kweek03/5[m[K[36m[K:[m[K0
+[35m[Kweek03.tar.gz[m[K[36m[K:[m[K0
+[35m[Kweek07/one[m[K[36m[K:[m[K0
+[35m[Kweek07/two[m[K[36m[K:[m[K0
+[35m[Kweek10/7zC.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/7zFormat.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/allkeys.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/ArabicShaping.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/BidiMirroring.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/Blocks.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/CaseFolding.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/CHANGES.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/CompositionExclusions.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/copying.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/EastAsianWidth.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/extrafld.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/faq.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/funzip.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/HangulSyllableType.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/HISTORY.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/Index.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/INSTALL.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/INSTALL_Cygwin.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/INSTALL_Windows.txt[m[K[36m[K:[m[K12
+[35m[Kweek10/INSTALL_Windows_From_Command_Line.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/INSTALL_Windows_Short_VS6.0.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/Jamo.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/keys.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/License.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/LineBreak.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/lzma-file-format.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/lzma.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/lzop.txt[m[K[36m[K:[m[K1
+[35m[Kweek10/Methods.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/NameAliases.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/NamedSequences.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/NamedSqProv.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/NamesList.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/NormalizationCorrections.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/PropertyAliases.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/PropList.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/PropValueAliases.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/ReadMe.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/RELEASE.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/Scripts.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/SpecialCasing.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/StandardizedVariants.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/timezone.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/TODO.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/UnicodeData.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/unRarLicense.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/unzip.txt[m[K[36m[K:[m[K3
+[35m[Kweek10/unzipsfx.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/xz-file-format.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/zipgrep.txt[m[K[36m[K:[m[K0
+[35m[Kweek10/zipinfo.txt[m[K[36m[K:[m[K1
+[35m[Kweek10/ziplimit.txt[m[K[36m[K:[m[K0
+[35m[Kweek10a/newfile[m[K[36m[K:[m[K0
+[35m[Kweek10a/week03.tar[m[K[36m[K:[m[K2
+[35m[Kword.exe[m[K[36m[K:[m[K0
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# ls
+2-15.txt	Matlab	      contents.txt     math-link    regular-expressions.txt  week10
+3-6script.txt	alltextfiles  dir1	       matlab-link  txtfiles		     week10a
+3-8script.txt	awmt.txt      excel.exe        newawmt.txt  typescript		     word.exe
+3-8script2.txt	awmt.txt.gz   executables.txt  newfilename  week03
+Firefox		bin	      firefox-link     out.txt	    week03.tar.gz
+Mathematica	chrome.exe    hello	       reader.exe   week07
+]0;~
+[32mKatrina@AphroditesTears [33m~[0m
+# cd week10a
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# ls
+newfile  week03.tar
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# grep [K[K[K[K[Kmv ../regular-expressions.txt ./
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# ls
+newfile  regular-expressions.txt  week03.tar
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# grep "AWK" regular-expressions.txt 
+Regular expressions are so useful in computing that the various systems to specify regular expressions have evolved to provide both a basic and extended standard for the grammar and syntax; modern regular expressions heavily augment the standard. Regular expression processors are found in several search engines, search and replace dialogs of several word processors and text editors, and in the command lines of text processing utilities, such as sed and [01;31m[KAWK[m[K.
+Many programming languages provide regular expression capabilities, some built-in, for example Perl, Ruby, [01;31m[KAWK[m[K, and Tcl, and others via a standard library, for example .NET languages, Java, Python and C++ (since C++11). Most other languages offer regular expressions via a library.
+Many variations of these original forms of regular expressions were used in Unix[6] programs at Bell Labs in the 1970s, including vi, lex, sed, [01;31m[KAWK[m[K, and expr, and in other programs such as Emacs. Regular expressions were subsequently adopted by a wide range of programs, with these early forms standardized in the POSIX.2 standard in 1992.
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# grep "AWK" regular-expressions.txt [1@-[1@o[1@ 
+[01;31m[KAWK[m[K
+[01;31m[KAWK[m[K
+[01;31m[KAWK[m[K
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# grep -o "AWK" regular-expressions.txt [1P[1@0[C[1@ [1P[1P[1@o[C[1@ [1P[1@b
+[32m[K3059[m[K[36m[K:[m[K[01;31m[KAWK[m[K
+[32m[K3172[m[K[36m[K:[m[K[01;31m[KAWK[m[K
+[32m[K5772[m[K[36m[K:[m[K[01;31m[KAWK[m[K
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# #^ gives the es[Kxact byte [K(b) position in the text
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# wc regular-expressions.txt 
+  539  8323 54917 regular-expressions.txt
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# ps ax
+      PID    PPID    PGID     WINPID  TTY  UID    STIME COMMAND
+     7048       1    7048       7048  con    0 15:19:58 /usr/bin/bash
+I    1756    7048    1756        804  con    0 15:21:11 /usr/bin/script
+      984    1756    1756        984  con    0 15:21:11 /usr/bin/script
+     5648     984    5648       5860    0    0 15:21:11 /usr/bin/sh
+     2444    5648    2444       5736    0    0 15:32:48 /usr/bin/ps
+ERROR: Invalid argument/option - 'ax'.
+Type "TASKLIST /?" for usage.
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# pas -ax
+sh: pas: command not found
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# ps -ax
+      PID    PPID    PGID     WINPID  TTY  UID    STIME COMMAND
+     7048       1    7048       7048  con    0 15:19:58 /usr/bin/bash
+I    1756    7048    1756        804  con    0 15:21:11 /usr/bin/script
+      984    1756    1756        984  con    0 15:21:11 /usr/bin/script
+     5648     984    5648       5860    0    0 15:21:11 /usr/bin/sh
+     6156    5648    6156       4400    0    0 15:33:15 /usr/bin/ps
+ERROR: Invalid argument/option - '-ax'.
+Type "TASKLIST /?" for usage.
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# px [K[Ks ax
+      PID    PPID    PGID     WINPID  TTY  UID    STIME COMMAND
+     7048       1    7048       7048  con    0 15:19:58 /usr/bin/bash
+I    1756    7048    1756        804  con    0 15:21:11 /usr/bin/script
+      984    1756    1756        984  con    0 15:21:11 /usr/bin/script
+     5648     984    5648       5860    0    0 15:21:11 /usr/bin/sh
+     7596    5648    7596       7432    0    0 15:33:24 /usr/bin/ps
+ERROR: Invalid argument/option - 'ax'.
+Type "TASKLIST /?" for usage.
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# pas[K[K[Kalias ps=tasklist
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# ps -ax
+ERROR: Invalid argument/option - '-ax'.
+Type "TASKLIST /?" for usage.
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# ps[K[Kalias ps [K=ps
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# ls
+newfile  regular-expressions.txt  week03.tar
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# ps
+      PID    PPID    PGID     WINPID  TTY  UID    STIME COMMAND
+     7048       1    7048       7048  con    0 15:19:58 /usr/bin/bash
+I    1756    7048    1756        804  con    0 15:21:11 /usr/bin/script
+      984    1756    1756        984  con    0 15:21:11 /usr/bin/script
+     5648     984    5648       5860    0    0 15:21:11 /usr/bin/sh
+     5016    5648    5016        880    0    0 15:33:53 /usr/bin/ps
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# ps -ax
+ps: unknown option -- x
+Usage: ps [-aefls] [-u UID] [-p PID]
+Report process status
+
+ -a, --all       show processes of all users
+ -e, --everyone  show processes of all users
+ -f, --full      show process uids, ppids
+ -h, --help      output usage information and exit
+ -l, --long      show process uids, ppids, pgids, winpids
+ -p, --process   show information for specified PID
+ -s, --summary   show process summary
+ -u, --user      list processes owned by UID
+ -v, --version   output version information and exit
+ -W, --windows   show windows as well as cygwin processes
+With no options, ps outputs the long format by default
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# ps -a
+      PID    PPID    PGID     WINPID  TTY  UID    STIME COMMAND
+     7048       1    7048       7048  con    0 15:19:58 /usr/bin/bash
+I    1756    7048    1756        804  con    0 15:21:11 /usr/bin/script
+      984    1756    1756        984  con    0 15:21:11 /usr/bin/script
+     5648     984    5648       5860    0    0 15:21:11 /usr/bin/sh
+     2848    5648    2848       6864    0    0 15:34:13 /usr/bin/ps
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# ps ax
+      PID    PPID    PGID     WINPID  TTY  UID    STIME COMMAND
+     7048       1    7048       7048  con    0 15:19:58 /usr/bin/bash
+I    1756    7048    1756        804  con    0 15:21:11 /usr/bin/script
+      984    1756    1756        984  con    0 15:21:11 /usr/bin/script
+     5648     984    5648       5860    0    0 15:21:11 /usr/bin/sh
+     7460    5648    7460       6956    0    0 15:34:15 /usr/bin/ps
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# ps -x
+ps: unknown option -- x
+Usage: ps [-aefls] [-u UID] [-p PID]
+Report process status
+
+ -a, --all       show processes of all users
+ -e, --everyone  show processes of all users
+ -f, --full      show process uids, ppids
+ -h, --help      output usage information and exit
+ -l, --long      show process uids, ppids, pgids, winpids
+ -p, --process   show information for specified PID
+ -s, --summary   show process summary
+ -u, --user      list processes owned by UID
+ -v, --version   output version information and exit
+ -W, --windows   show windows as well as cygwin processes
+With no options, ps outputs the long format by default
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# ps [K[K[Kgrep [K[K[K[K[Kls al
+ls: cannot access al: No such file or directory
+]0;~/week10a
+[32mKatrina@AphroditesTears [33m~/week10a[0m
+# exit
+exit
+
+Script done on Wed Mar  8 15:34:56 2017
