@@ -1,5 +1,6 @@
 #include <iostream>
 #include <libusb.h>
+#include <cstdlib>
 
 using namespace std;
 
@@ -63,7 +64,7 @@ int main()
 
 	cout << "Detaching Kernel Drivers and claiming Interface." << endl;
 
-	int interfaceNum = castToInt(&(&(&config->interface[0])->altsetting[0])->bInterfaceNumber);
+	int interfaceNum = *(&(&(&config->interface[0])->altsetting[0])->bInterfaceNumber);
 	returnval = libusb_detach_kernel_driver(handle,interfaceNum);
 
 	if(returnval < 0)
@@ -80,8 +81,34 @@ int main()
 		return 1;
 	}
 
-	//while(true)
-	//{
+	libusb_device_descriptor desc;
+	returnval = libusb_get_device_descriptor(mouse, &desc);
+
+	if(returnval < 0)
+	{
+		cout << "Failed to get the device descriptor!";
+		return 1;
+	}
+
+	if(mouse == NULL)
+	{
+		cout << "Device is NULL." << endl;
+		return 1;
+	}
+
+
+	cout << "Device Protocol: " << desc.bDeviceProtocol << endl;
+	cout << "Report Length: " << desc.bLength << endl;
+	cout << "Descriptor Type: " << desc.bDescriptorType << endl;
+	cout << "Protocol: " 
+		<< config->interface->altsetting->bInterfaceProtocol <<endl;
+
+	while(true)
+	{
+		char str [4] = {0,0,0,0};
+
+		returnval = 
+	}
 		
 
 
@@ -127,18 +154,4 @@ void printdev(libusb_device *dev)
 	libusb_free_config_descriptor(config);
 
 	libusb_close(handle);
-}
-
-int castToInt(uint8_t toCast)
-{
-	if(toCast <= INT_MAX)
-	{
-		return static_cast<int>(toCast);
-	}
-	if(toCast >= INT_MIN)
-	{
-		return static_cast<int>(toCast-INT_MIN)+INT_MIN;
-	}
-
-	throw "Can't Cast.";
 }

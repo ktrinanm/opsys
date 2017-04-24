@@ -1,0 +1,84 @@
+Final: Mon. Apr. 24 3-4:50PM
+
+Comprehensive: Study Midterm
+
+New Terms:
+	inode
+	inode number
+	symbolic link
+	named pipe
+	char device
+	block device
+	commanands like xargs
+	shell variables like $? and $#
+	test
+	command substitution
+	filter
+	iptable 
+	ipchain
+	ssh
+	chroot-jail
+	NFS
+	kernel space
+	POST, BIOS, ROM
+	boot sequence
+	master boot record
+	dos2unix
+	.bashrc
+
+
+New Concept Questions: //Includes scripting
+	1. In a shell script, howdo we indicate the first, second, and
+		third command line arguments? How about all?
+	2. What is the advantage of a loadable kernel module?
+	3. What's an iptable and what's it good for?
+	4. What is NFS good for?
+	5. What's the purpose of the chroot command?
+	6. Describe what the following config files do:
+		fstable
+		group
+		hosts
+		passwd
+	7. Why do we always include the current directory in the PATH
+		variable and where should it be located?
+	8. 
+
+New Command and Scripting Questions:
+	1. Give the Unix command for locating all files of a certain ext. 
+		on the G: drive and copying them to C:\myfiles. How would
+		you count how many there are and list them?
+	2. Write a bash script that turns the result of a unix command into
+		html. How would you then launch a browser to view that html?
+	3. Know the command for setting file permissions.
+	4. Give the command that lists all the directories in the present
+		working directory. How would you modify it to list all 
+		character or block devices in /dev?
+	5. Give a command that saves an inventory of all files on your 
+		system.
+	6. Give a one-line command that locates all instances of a certain
+		string at a certain location.
+	7. Give a one-line command that parses all of the words in a text
+		file and the frequency of each.
+	8. Give a one-line command that prints a list of all the users in
+		the password file and nothing else.
+	9. Write a bash script that pritns the contents of the host file and
+		file system table.
+	10. Write a script that takes a pattern as imput and kills all 
+		processes that satisfy the pattern.
+	11. Explain what commands like the following do:
+		ls -al | gawk '$5 > 100 {print $8}'
+		tar cvfz 
+		tar tvf
+		ssh -X
+		ifconfig
+	12. Using awk, be able to look for a pattern and if it's found, 
+		execute some command.
+	13. Create symbolic links from one location to another.
+	14. Write a shell script that takes a path as input then creates an
+		inventory of all files from this starting point (-R) then
+		converts it to html and opens a browser to view it.
+	15. Write a script that will check for an app every 10 seconds and,
+		if it sees it running, will terminate it.
+	16. How would you add a given folder to you PATH variable and make 
+		the OS aware of it on startup?
+
